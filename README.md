@@ -13,3 +13,10 @@ set phrase (she is very beautiful, she is very beautifully) ...
 The core correcting system is based on the LM made from ChinaDaily/Reuters corpus, and the unique CLE confusion set.
 
 Nmgram probalibity checker, Tag probability checker.
+
+Checker framework from modified version of Peter Norvig's spelling corrector
+"""Spelling Corrector.
+
+Copyright 2007 Peter Norvig. 
+Open source code under MIT license: http://www.opensource.org/licenses/mit-license.php
+"""
