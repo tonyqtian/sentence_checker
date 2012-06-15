@@ -57,11 +57,11 @@ class SpellCorrect:
             # None word error correction, ignore capitalized words
             hypothesis = self.nonwordCorrection(errorSentence)
             
-            # Real word error correction, use confusion set
-            hypothesis = self.realwordCorrection(hypothesis)
-            
-            # Basic syntax error correction, use inflection set
-            hypothesis = self.syntaxCorrection(hypothesis)
+#            # Real word error correction, use confusion set
+#            hypothesis = self.realwordCorrection(hypothesis)
+#            
+#            # Basic syntax error correction, use inflection set
+#            hypothesis = self.syntaxCorrection(hypothesis)
             
             tmp = sentence.isCorrection(hypothesis)
             marked_err += tmp[0]
@@ -165,7 +165,7 @@ class SpellCorrect:
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-                minscore = self.languageModel.entropy(sentence) - math.log(4, 2)
+                minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
                 
                 sgtList = self.confusionSet.getList(word)
                 for alternative in sgtList:
@@ -197,13 +197,13 @@ class SpellCorrect:
             if not len(word):
                 continue
 
-            if self.self.inflectionSet.isHeadWord(word):
+            if self.inflectionSet.isHeadWord(word):
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
                 minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
                 
-                sgtList = self.confusionSet.getWordSet(word)
+                sgtList = self.inflectionSet.getWordSet(word)
                 for alternative in sgtList:
                     if alternative == word:
                         continue
@@ -261,7 +261,7 @@ def LM(corpus_name):
         
     estimator = lambda fdist, bins: LidstoneProbDist(fdist, 0.2) 
     #estimator = lambda fdist, bins: WittenBellProbDist(fdist, 0.2) 
-    lm = NgramModel(3, corpus, estimator)
+    lm = NgramModel(4, corpus, estimator)
     return lm
 
     
@@ -364,5 +364,5 @@ def main(reinitial):
     print "Finished"
 
 if __name__ == "__main__":
-    reinit = True
+    reinit = False
     main(reinit)
