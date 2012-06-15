@@ -32,7 +32,7 @@ class inflectionSet:
     def isHeadWord(self, head_word):
         return self.inflect.has_key(head_word)
         
-    def getWordList(self, head_word):
+    def getWordSet(self, head_word):
         try:
             return self.inflect[head_word]
         except KeyError:
@@ -43,7 +43,7 @@ def demo():
     
     test_word = 'lie'
     print "Check", test_word, ": ", myInflt.isHeadWord(test_word)
-    print "Check", test_word, ": ", myInflt.getWordList(test_word)
+    print "Check", test_word, ": ", myInflt.getWordSet(test_word)
     
 if __name__ == '__main__': 
     demo()

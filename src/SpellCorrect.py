@@ -23,12 +23,12 @@ class SpellCorrect:
     """Holds edit model, language model, corpus. trains"""
     
     
-    def __init__(self, lm, confSet, tagger, wordTag):
+    def __init__(self, lm, confSet, myInfltSet):
         """initializes the language model."""
         self.languageModel = lm
         self.confusionSet = confSet
-        self.tagger = tagger
-        self.wordTagModel = wordTag
+        self.inflectionSet = myInfltSet
+        
         self.dict = enchant.Dict('en')
         self.myDict = {}
         for word in names.words():
@@ -60,6 +60,9 @@ class SpellCorrect:
             # Real word error correction, use confusion set
             hypothesis = self.realwordCorrection(hypothesis)
             
+            # Basic syntax error correction, use inflection set
+            hypothesis = self.syntaxCorrection(hypothesis)
+            
             tmp = sentence.isCorrection(hypothesis)
             marked_err += tmp[0]
             marked_noerr += tmp[1]
@@ -68,7 +71,9 @@ class SpellCorrect:
             
             if (tmp[0] + tmp[3]) == len(hypothesis):
                 numCorrect += 1
-#            else:
+                print "Snt No. ", numTotal+1, " Correct!"
+            else:
+                print "Snt No. ", numTotal+1, " Incorrect..."
 #                correctSentence = sentence.getCorrectSentence()
 #                flag = 0
 #                for word in correctSentence:
@@ -82,12 +87,9 @@ class SpellCorrect:
 #                    print "Crrct Snt>>> ", Sentence(correctSentence)
 #                    print "Hypo Sent>>> ", Sentence(hypoCorrection)
 #                    print " "
-            correctSentence = sentence.getCorrectSentence()
-            hypoCorrection = sentence.getMyCorrection(hypothesis)
-            print "Snt No. ", numTotal+1, " Incorrect..."
-            print "Error Snt>>> ", Sentence(errorSentence)
-            print "Crrct Snt>>> ", Sentence(correctSentence)
-            print "Hypo Sent>>> ", Sentence(hypoCorrection)
+            print "Error Snt>>> ", Sentence(sentence.getErrorSentence())
+            print "Crrct Snt>>> ", Sentence(sentence.getCorrectSentence())
+            print "Hypo Sent>>> ", Sentence(sentence.getMyCorrection(hypothesis))
             print " "
             numTotal += 1
             
@@ -140,7 +142,7 @@ class SpellCorrect:
                     j *= 2
                     #j += 1
         
-                sentence[i] = word # restores sentence to original state before moving on
+                sentence[i] = argmax_w # restores sentence to original state before moving on
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
     
@@ -163,7 +165,7 @@ class SpellCorrect:
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-                minscore = self.languageModel.entropy(sentence) - math.log(16, 2)
+                minscore = self.languageModel.entropy(sentence) - math.log(4, 2)
                 
                 sgtList = self.confusionSet.getList(word)
                 for alternative in sgtList:
@@ -175,12 +177,12 @@ class SpellCorrect:
                         minscore = score
                         argmax_w = alternative
         
-                sentence[i] = word # restores sentence to original state before moving on
+                sentence[i] = argmax_w # restores sentence to original state before moving on
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
     
         
-    def syntaxCorrection(self, sentence, wild=False):
+    def syntaxCorrection(self, sentence):
         """Takes a list of words, returns a corrected list of words."""
         if len(sentence) == 0:
             return []
@@ -189,37 +191,24 @@ class SpellCorrect:
         minscore = float('-inf')
         argmax = list(sentence) # copy it
         
-        tagged_sent = self.tagger.tag(sentence)
-        
         # skip start and end tokens
         for i in range(1, len(sentence) - 1):
             word = sentence[i]
             if not len(word):
                 continue
 
-            if self.confusionSet.isDistinct(word):
+            if self.self.inflectionSet.isHeadWord(word):
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-                this_tag = tagged_sent[i][1]
-                pre_tag = tagged_sent[i-1][1]
-                next_tag = tagged_sent[i+1][1]
-                minscore = self.wordTagModel.entropy(tags = [pre_tag, this_tag]) \
-                            + self.wordTagModel.entropy(tagged_sent[i]) \
-                            + self.wordTagModel.entropy(tags = [this_tag, next_tag])
+                minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
                 
-                sgtList = self.confusionSet.getDistinctList(word)
+                sgtList = self.confusionSet.getWordSet(word)
                 for alternative in sgtList:
                     if alternative == word:
                         continue
                     sentence[i] = alternative
-                    tagged_alter = self.tagger.tag(sentence)
-                    this_tag = tagged_alter[i][1]
-                    pre_tag = tagged_alter[i-1][1]
-                    next_tag = tagged_alter[i+1][1]
-                    score = self.wordTagModel.entropy(tags = [pre_tag, this_tag]) \
-                                + self.wordTagModel.entropy(tagged_alter[i]) \
-                                + + self.wordTagModel.entropy(tags = [this_tag, next_tag])
+                    score = self.languageModel.entropy(sentence)
                     if score <= minscore:
                         minscore = score
                         argmax_w = alternative
@@ -272,7 +261,7 @@ def LM(corpus_name):
         
     estimator = lambda fdist, bins: LidstoneProbDist(fdist, 0.2) 
     #estimator = lambda fdist, bins: WittenBellProbDist(fdist, 0.2) 
-    lm = NgramModel(4, corpus, estimator)
+    lm = NgramModel(3, corpus, estimator)
     return lm
 
     
@@ -293,17 +282,25 @@ def main(reinitial):
         print "Load confusion set..."
         myConfSet = confusionSet()
         print "Dump confusion set..."
-        output1 = open('../data/myCondfSet.pkl', 'wb')
+        output1 = open('../data/myConfSet.pkl', 'wb')
         dump(myConfSet, output1, -1)
         output1.close()
         
-        from TaggerTest import Tagger
-        print "Load brown tagger..."
-        myTagger = Tagger()
-        print "Dump brown tagger..."
-        output2 = open('../data/myBrown_tagger.pkl', 'wb')
-        dump(myTagger, output2, -1)
+        from infltSet import inflectionSet
+        print "Load inflection set..."
+        myInfltSet = inflectionSet()
+        print "Dump inflection set..."
+        output2 = open('../data/myInflctSet.pkl', 'wb')
+        dump(myInfltSet, output2, -1)
         output2.close()
+        
+#        from TaggerTest import Tagger
+#        print "Load brown tagger..."
+#        myTagger = Tagger()
+#        print "Dump brown tagger..."
+#        output2 = open('../data/myBrown_tagger.pkl', 'wb')
+#        dump(myTagger, output2, -1)
+#        output2.close()
         
 #        from CustomLanguageModel import CustomLanguageModel
 #        print "Load custom language model..."
@@ -322,14 +319,19 @@ def main(reinitial):
         from cPickle import load
         
         print "Loading confusion set from pickle..."
-        input1 =  open('../data/myCondfSet.pkl', 'rb')
+        input1 =  open('../data/myConfSet.pkl', 'rb')
         myConfSet = load(input1)
         input1.close()
-        
-        print "Loading Brown tagger from pickle..."
-        input2 =  open('../data/myBrown_tagger.pkl', 'rb')
-        myTagger = load(input2)
+
+        print "Loading inflection set from pickle..."
+        input2 =  open('../data/myInflctSet.pkl', 'rb')
+        myInfltSet = load(input2)
         input2.close() 
+        
+#        print "Loading Brown tagger from pickle..."
+#        input2 =  open('../data/myBrown_tagger.pkl', 'rb')
+#        myTagger = load(input2)
+#        input2.close() 
 
 #        print "Loading Training from pickle..."
 #        input4 =  open('../data/myCustomLM.pkl', 'rb')
@@ -342,7 +344,6 @@ def main(reinitial):
 #    print "Loading WordTagModel..."
 #    from WordTagModel import WordTagModel
 #    myWordTag = WordTagModel()
-    myWordTag = []
 
 #    from pickle import dump
 #    output3 = open('../data/myBrown_wordTagModel.pkl', 'wb')
@@ -356,7 +357,7 @@ def main(reinitial):
 #    input3.close()
     
     print "Initializing the Checker..."
-    customSpell = SpellCorrect(customLM, myConfSet, myTagger, myWordTag)
+    customSpell = SpellCorrect(customLM, myConfSet, myInfltSet)
     print "Correcting Test Set and Evaluating..."
     customOutcome = customSpell.evaluate(devCorpus)
     print str(customOutcome)
