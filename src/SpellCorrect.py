@@ -133,7 +133,7 @@ class SpellCorrect:
                     if alternative == word:
                         continue
                     sentence[i] = alternative
-                    score = self.languageModel.entropy(sentence) + math.log(j)
+                    score = self.languageModel.entropy(sentence) + math.log(j,2)
                     if score <= minscore:
                         minscore = score
                         argmax_w = alternative
@@ -163,7 +163,7 @@ class SpellCorrect:
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-                minscore = self.languageModel.entropy(sentence)
+                minscore = self.languageModel.entropy(sentence) - math.log(16, 2)
                 
                 sgtList = self.confusionSet.getList(word)
                 for alternative in sgtList:
@@ -272,7 +272,7 @@ def LM(corpus_name):
         
     estimator = lambda fdist, bins: LidstoneProbDist(fdist, 0.2) 
     #estimator = lambda fdist, bins: WittenBellProbDist(fdist, 0.2) 
-    lm = NgramModel(3, corpus, estimator)
+    lm = NgramModel(4, corpus, estimator)
     return lm
 
     
