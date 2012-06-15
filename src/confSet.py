@@ -34,6 +34,15 @@ class confusionSet:
                 for i in range(1,wordLen -1):
                     self.overlap[word[0]].append(word[i])
                     
+    def inDict(self, word):
+        if self.distinct.has_key(word):
+            return True
+        elif self.match.has_key(word):
+            return True
+        elif self.overlap.has_key(word):
+            return True
+        else:
+            return False
     
     def isDistinct(self, word):
         if self.distinct.has_key(word):
@@ -52,6 +61,16 @@ class confusionSet:
             return True
         else:
             return False
+        
+    def getList(self, word):
+        if self.distinct.has_key(word):
+            return self.distinct[word]
+        elif self.match.has_key(word):
+            return self.match[word]
+        elif self.overlap.has_key(word):
+            return self.overlap[word]
+        else:
+            return []
         
     def getDistinctList(self, word):
         if self.distinct.has_key(word):

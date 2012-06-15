@@ -53,14 +53,13 @@ class SpellCorrect:
             if sentence.isEmpty():
                 continue
             errorSentence = sentence.getErrorSentence()
-            hypothesis = self.correctSentence(errorSentence)
-            #hypothesis = self.syntaxCorrection(errorSentence)
-            #hypothesis = self.syntaxCorrection(hypothesis)
             
-#            if sentence.isCorrection(hypothesis):
-#                numCorrect += 1
-#            numTotal += 1
-#        return SpellingResult(numCorrect, numTotal)
+            # None word error correction, ignore capitalized words
+            hypothesis = self.nonwordCorrection(errorSentence)
+            
+            # Real word error correction, use confusion set
+            hypothesis = self.realwordCorrection(hypothesis)
+            
             tmp = sentence.isCorrection(hypothesis)
             marked_err += tmp[0]
             marked_noerr += tmp[1]
@@ -94,7 +93,7 @@ class SpellCorrect:
             
         return SpellingResult(marked_err, marked_noerr, unmarked_err, unmarked_noerr, numCorrect, numTotal)
     
-    def correctSentence(self, sentence):
+    def nonwordCorrection(self, sentence):
         """Takes a list of words, returns a corrected list of words."""
         if len(sentence) == 0:
             return []
@@ -145,7 +144,42 @@ class SpellCorrect:
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
     
+    def realwordCorrection(self, sentence):
+        """Takes a list of words, returns a corrected list of words."""
+        if len(sentence) == 0:
+            return []
+        argmax_i = 0
+        argmax_w = sentence[0]
+        minscore = float('-inf')
+        argmax = list(sentence) # copy it
+        
+        # skip start and end tokens
+        for i in range(1, len(sentence) - 1):
+            word = sentence[i]
+            if not len(word):
+                continue
+
+            if self.confusionSet.inDict(word):
+                #print "Find word: ", word
+                argmax_i = i
+                argmax_w = word
+                minscore = self.languageModel.entropy(sentence)
+                
+                sgtList = self.confusionSet.getList(word)
+                for alternative in sgtList:
+                    if alternative == word:
+                        continue
+                    sentence[i] = alternative
+                    score = self.languageModel.entropy(sentence)
+                    if score <= minscore:
+                        minscore = score
+                        argmax_w = alternative
+        
+                sentence[i] = word # restores sentence to original state before moving on
+                argmax[argmax_i] = argmax_w # correct it
+        return argmax  
     
+        
     def syntaxCorrection(self, sentence, wild=False):
         """Takes a list of words, returns a corrected list of words."""
         if len(sentence) == 0:
@@ -246,9 +280,7 @@ def main(reinitial):
     """Trains all of the language models and tests them on the dev data. Change devPath if you
        wish to do things like test on the training data."""
     
-    print "Preparing corpus..."
-
-    
+    print "Preparing dev corpus..."
     #devPath = '../data/holbrook-tagged-dev.dat'
     #devPath = '../data/CLEC_tagged.dat'
     devPath = '../data/CLEC_handmade.dat'
@@ -280,10 +312,11 @@ def main(reinitial):
 #        output4 = open('../data/myCustomLM.pkl', 'wb')
 #        dump(customLM, output4, -1)
 #        output4.close()
-        #trainPath = '../data/holbrook-tagged-train.dat'
-        trainPath = '../data/CLEC_noerr.dat'
-        trainingCorpus = HolbrookCorpus(trainPath)        
-        customLM = NgramLM(trainingCorpus) 
+
+#        trainPath = '../data/holbrook-tagged-train.dat'
+#        trainPath = '../data/CLEC_noerr.dat'
+#        trainingCorpus = HolbrookCorpus(trainPath)        
+#        customLM = NgramLM(trainingCorpus) 
     
     if reinitial == False:
         from cPickle import load
@@ -304,7 +337,7 @@ def main(reinitial):
 #        input4.close()
     
     #customLM = NgramLM(trainingCorpus)
-    print "Training LM..."
+    print "Preparing training LM..."
     customLM = LM('reuters')
 #    print "Loading WordTagModel..."
 #    from WordTagModel import WordTagModel
@@ -330,5 +363,5 @@ def main(reinitial):
     print "Finished"
 
 if __name__ == "__main__":
-    reinit = False
+    reinit = True
     main(reinit)
