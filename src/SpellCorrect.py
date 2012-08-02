@@ -261,7 +261,7 @@ def LM(corpus_name):
         
     estimator = lambda fdist, bins: LidstoneProbDist(fdist, 0.2) 
     #estimator = lambda fdist, bins: WittenBellProbDist(fdist, 0.2) 
-    lm = NgramModel(4, corpus, estimator)
+    lm = NgramModel(4, corpus, estimator = estimator)
     return lm
 
     
