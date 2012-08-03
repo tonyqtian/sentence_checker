@@ -57,11 +57,11 @@ class SpellCorrect:
             # None word error correction, ignore capitalized words
             hypothesis = self.nonwordCorrection(errorSentence)
             
-#            # Real word error correction, use confusion set
+            # Real word error correction, use confusion set
 #            hypothesis = self.realwordCorrection(hypothesis)
-#            
-#            # Basic syntax error correction, use inflection set
-#            hypothesis = self.syntaxCorrection(hypothesis)
+            
+            # Basic syntax error correction, use inflection set
+            hypothesis = self.syntaxCorrection(hypothesis)
             
             tmp = sentence.isCorrection(hypothesis)
             marked_err += tmp[0]
@@ -197,13 +197,14 @@ class SpellCorrect:
             if not len(word):
                 continue
 
-            if self.inflectionSet.isHeadWord(word):
+            if self.inflectionSet.inDict(word):
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-                minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
+#                minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
+                minscore = self.languageModel.entropy(sentence) - math.log(1.4, 2)
                 
-                sgtList = self.inflectionSet.getWordSet(word)
+                sgtList = self.inflectionSet.getInfSet(word)
                 for alternative in sgtList:
                     if alternative == word:
                         continue
@@ -286,7 +287,7 @@ def main(reinitial):
         dump(myConfSet, output1, -1)
         output1.close()
         
-        from infltSet import inflectionSet
+        from inflectSet import inflectionSet
         print "Load inflection set..."
         myInfltSet = inflectionSet()
         print "Dump inflection set..."
@@ -364,5 +365,6 @@ def main(reinitial):
     print "Finished"
 
 if __name__ == "__main__":
+#    reinit = True
     reinit = False
     main(reinit)
