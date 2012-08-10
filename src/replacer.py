@@ -7,7 +7,7 @@ import re
 import enchant
 from nltk.metrics import edit_distance
 
-replacement_patterns = [(r'\[sn[\w]+,[ \w-]+\]', '')]
+replacement_patterns = [(r'\'', ' ')]
 
 class RegexpReplacer(object):
     def __init__(self, patterns = replacement_patterns):

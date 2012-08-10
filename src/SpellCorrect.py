@@ -26,6 +26,7 @@ class SpellCorrect:
     def __init__(self, lm, confSet, myInfltSet):
         """initializes the language model."""
         self.languageModel = lm
+        self.languageModelSQL = LM('web1t')
         self.confusionSet = confSet
         self.inflectionSet = myInfltSet
         
@@ -37,7 +38,7 @@ class SpellCorrect:
             self.myDict[word] = 2
     
     
-    def evaluate(self, corpus):  
+    def evaluate(self, corpus, discount_value):  
         """Tests this speller on a corpus, returns a SpellingResult"""
         numCorrect = 0
         numTotal = 0
@@ -61,7 +62,7 @@ class SpellCorrect:
 #            hypothesis = self.realwordCorrection(hypothesis)
             
             # Basic syntax error correction, use inflection set
-            hypothesis = self.syntaxCorrection(hypothesis)
+            hypothesis = self.syntaxCorrection(hypothesis, discount_value)
             
             tmp = sentence.isCorrection(hypothesis)
             marked_err += tmp[0]
@@ -182,7 +183,7 @@ class SpellCorrect:
         return argmax  
     
         
-    def syntaxCorrection(self, sentence):
+    def syntaxCorrection(self, sentence, discount_value):
         """Takes a list of words, returns a corrected list of words."""
         if len(sentence) == 0:
             return []
@@ -201,15 +202,15 @@ class SpellCorrect:
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-#                minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
-                minscore = self.languageModel.entropy(sentence) - math.log(1.4, 2)
+#                minscore = self.languageModelSQL.entropy(sentence)
+                minscore = self.languageModelSQL.entropy(sentence) - math.log(discount_value, 2)
                 
                 sgtList = self.inflectionSet.getInfSet(word)
                 for alternative in sgtList:
                     if alternative == word:
                         continue
                     sentence[i] = alternative
-                    score = self.languageModel.entropy(sentence)
+                    score = self.languageModelSQL.entropy(sentence)
                     if score <= minscore:
                         minscore = score
                         argmax_w = alternative
@@ -250,6 +251,9 @@ def NgramLM(corpus):
 
 
 def LM(corpus_name):
+    if corpus_name.lower() == 'web1t':
+        from ngramc import NgramcModel
+        return NgramcModel(5)
     from nltk.model import NgramModel
     from nltk.probability import LidstoneProbDist
     #from nltk.probability import WittenBellProbDist
@@ -341,6 +345,7 @@ def main(reinitial):
     
     #customLM = NgramLM(trainingCorpus)
     print "Preparing training LM..."
+#    customLM = LM('web1t')
     customLM = LM('reuters')
 #    print "Loading WordTagModel..."
 #    from WordTagModel import WordTagModel
@@ -356,12 +361,18 @@ def main(reinitial):
 #    input3 =  open('../data/myBrown_wordTagModel.pkl', 'rb')
 #    myWordTag = pickle.load(input3)
 #    input3.close()
-    
+    file_handle = open('../data/result_compare.txt', 'w')
     print "Initializing the Checker..."
     customSpell = SpellCorrect(customLM, myConfSet, myInfltSet)
-    print "Correcting Test Set and Evaluating..."
-    customOutcome = customSpell.evaluate(devCorpus)
-    print str(customOutcome)
+    discount_value = 1
+    for count in range(50):
+        print "Correcting Test Set and Evaluating..."
+        customOutcome = customSpell.evaluate(devCorpus, discount_value)
+        print str(customOutcome)
+        file_handle.write('\ndiscount: ' + str(discount_value) + ' \n')
+        file_handle.write(str(customOutcome))
+        discount_value = discount_value * 2
+    file_handle.close()
     print "Finished"
 
 if __name__ == "__main__":
