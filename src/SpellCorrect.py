@@ -203,7 +203,7 @@ class SpellCorrect:
                 argmax_i = i
                 argmax_w = word
 #                minscore = self.languageModelSQL.entropy(sentence)
-                minscore = self.languageModelSQL.entropy(sentence) - math.log(discount_value, 2)
+                minscore = self.languageModelSQL.entropy(sentence) - math.log(discount_value, 2) * len(sentence)
                 
                 sgtList = self.inflectionSet.getInfSet(word)
                 for alternative in sgtList:
@@ -361,18 +361,18 @@ def main(reinitial):
 #    input3 =  open('../data/myBrown_wordTagModel.pkl', 'rb')
 #    myWordTag = pickle.load(input3)
 #    input3.close()
-    file_handle = open('../data/result_compare.txt', 'w')
+#    file_handle = open('../data/result_compare.txt', 'w')
     print "Initializing the Checker..."
     customSpell = SpellCorrect(customLM, myConfSet, myInfltSet)
-    discount_value = 1
-    for count in range(50):
-        print "Correcting Test Set and Evaluating..."
-        customOutcome = customSpell.evaluate(devCorpus, discount_value)
-        print str(customOutcome)
-        file_handle.write('\ndiscount: ' + str(discount_value) + ' \n')
-        file_handle.write(str(customOutcome))
-        discount_value = discount_value * 2
-    file_handle.close()
+    discount_value = 64
+#    for count in range(50):
+    print "Correcting Test Set and Evaluating..."
+    customOutcome = customSpell.evaluate(devCorpus, discount_value)
+    print str(customOutcome)
+#    file_handle.write('\ndiscount: ' + str(discount_value) + ' \n')
+#    file_handle.write(str(customOutcome))
+#    discount_value = discount_value * 2
+#    file_handle.close()
     print "Finished"
 
 if __name__ == "__main__":

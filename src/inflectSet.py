@@ -15,7 +15,11 @@ class inflectionSet(object):
         Constructor
         '''
         inf_input =  open(filename)
-        
+        safe_input = open('../data/basic_words_list.txt')
+        self.safe_set = set([])
+        for wd in safe_input:
+            self.safe_set.add(wd)
+            
         self.inflectDict = {}
         self.invertIndex = {}
         for line in inf_input:
@@ -94,6 +98,10 @@ class inflectionSet(object):
                 return listSet
         else:
             return set([])
+    
+    def getInfSetSafe(self, word):
+        if word in self.safe_set:
+            return self.getInfSet(word)
         
 def demo():
     myInf = inflectionSet()
