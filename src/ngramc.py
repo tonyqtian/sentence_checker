@@ -183,9 +183,9 @@ class NgramcModel(object):
         else:
             cnt2 = 0
         
-        if cnt1 / (cnt2+1) > 3:
+        if cnt1 / (cnt2+1) > 10:
             return 1
-        elif cnt2 / (cnt1+1) > 3:
+        elif cnt2 / (cnt1+1) > 10:
             return 2
         else:
             return None

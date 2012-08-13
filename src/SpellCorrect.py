@@ -4,25 +4,22 @@ from HolbrookCorpus import HolbrookCorpus
 #from EditModel import EditModel
 from SpellingResult import SpellingResult
 #import types
-
-import math
+#import re, collections
 import enchant
 from nltk.corpus import gazetteers
 from nltk.corpus import names
 
 # Modified version of Peter Norvig's spelling corrector
-"""Spelling Corrector.
+"""
+Spelling Corrector.
 
 Copyright 2007 Peter Norvig. 
 Open source code under MIT license: http://www.opensource.org/licenses/mit-license.php
 """
 
-#import re, collections
-
 class SpellCorrect:
     """Holds edit model, language model, corpus. trains"""
-    
-    
+        
     def __init__(self, lm, confSet, myInfltSet):
         """initializes the language model."""
         self.languageModel = lm
