@@ -93,6 +93,103 @@ class NgramcModel(object):
 #            self._backoff = NgramcModel(n-1, train, estimator)
 
     # Katz Backoff probability
+    def getBetter(self, textList1, textList2):
+        result = self.compareSQL(textList1, textList2)
+        if result == None:
+            result1 = self.compareSQL(textList1[:-1], textList2[:-1])
+            result2 = self.compareSQL(textList1[1:], textList2[1:])
+            if result1 == None:
+                if result2 == None:
+                    result3 = self.compareSQL(textList1[1:-1], textList2[1:-1])
+                    if result3 == None:
+                        return 1 # return original result if not work
+                    else:
+                        return result3
+                else:
+                    return result2
+            else:
+                if result1 == result2:
+                    return result1
+                elif result2 == None:
+                    return result1
+                else:
+                    return 1 #ignore controversial result
+        else:
+            return result
+        
+    def compareSQL(self, textList1, textList2):
+        
+        new_text = []
+        for word in textList1:
+            if word.count('\'') > 0:
+                words = word.split('\'')
+                for w in words:
+                    new_text.append(w)
+            else:
+                new_text.append(word)
+        context = tuple(new_text)
+        context_lenth = len(context) 
+        if context_lenth == 0:
+            line = ''
+        elif context_lenth == 1:
+            line = context[0]
+        elif context_lenth >= 2:
+            line = context[0]
+            for each_word in context[1:]:
+                line = line + ' ' + each_word
+        line1 = line
+
+        new_text = []
+        for word in textList2:
+            if word.count('\'') > 0:
+                words = word.split('\'')
+                for w in words:
+                    new_text.append(w)
+            else:
+                new_text.append(word)
+        context = tuple(new_text)
+        context_lenth = len(context) 
+        if context_lenth == 0:
+            line = ''
+        elif context_lenth == 1:
+            line = context[0]
+        elif context_lenth >= 2:
+            line = context[0]
+            for each_word in context[1:]:
+                line = line + ' ' + each_word
+        line2 = line
+        
+        try:
+            #print self.slct % (line)
+            self.cursor.execute(self.slct % (line1))
+            data = self.cursor.fetchall()
+        except Exception, e:
+            print "Error happened when access gramc DB: ", e
+            return 1
+        if len(data):
+            cnt1 = data[0][0]
+        else:
+            cnt1 = 0
+            
+        try:
+            #print self.slct % (line)
+            self.cursor.execute(self.slct % (line2))
+            data = self.cursor.fetchall()
+        except Exception, e:
+            print "Error happened when access gramc DB: ", e
+            return 1
+        if len(data):
+            cnt2 = data[0][0]
+        else:
+            cnt2 = 0
+        
+        if cnt1 / (cnt2+1) > 3:
+            return 1
+        elif cnt2 / (cnt1+1) > 3:
+            return 2
+        else:
+            return None
+            
     def prob(self, word, context):
         """
         Evaluate the probability of this word in this context.
@@ -122,7 +219,7 @@ class NgramcModel(object):
         if len(data):
             cnt = data[0][0]
             #result = 0.0
-            result = cnt / self.cnt_sum[context_lenth]
+            result = cnt / self.cnt_sum[context_lenth+1]
             #print result
             if result == 0:
                 result = 1
@@ -195,7 +292,7 @@ class NgramcModel(object):
 #            return self._backoff._generate_one(context[1:])
 #        else:
 #            return '.'
-
+    
     def entropy(self, text):
         """
         Evaluate the total entropy of a text with respect to the model.
@@ -204,15 +301,6 @@ class NgramcModel(object):
 
 #        text = self.myReplacer.replace(text)
 #        text = self.tokenizer.tokenize(text)
-        e = 0.0
-        lenth = len(text)
-        if lenth == 0:
-            return 0
-        elif lenth < self._n:
-            current_n = lenth
-        else:
-            current_n = self._n
-        
         new_text = []
         for word in text:
             if word.count('\'') > 0:
@@ -221,9 +309,17 @@ class NgramcModel(object):
                     new_text.append(w)
             else:
                 new_text.append(word)
-#        print new_text
         text = new_text
         
+        e = 0.0
+        lenth = len(text)
+        if lenth == 0:
+            return 0
+        elif lenth < self._n:
+            current_n = lenth
+        else:
+            current_n = self._n
+                
         for i in range(current_n - 1, len(text)):
             context = tuple(text[(i - current_n + 1) : i])
             token = text[i]
@@ -244,36 +340,27 @@ def demo():
 #    from nltk.probability import LidstoneProbDist, WittenBellProbDist
 #    estimator = lambda fdist, bins: LidstoneProbDist(fdist, 0.2)
 #    estimator = lambda fdist, bins: WittenBellProbDist(fdist, 0.2)
+    from nltk.tokenize import RegexpTokenizer
+    tokenizer = RegexpTokenizer("[\w']+")
     lm = NgramcModel(5)
     print lm
+    
     sent = "Like a bridge over troubled water, I will lay it down."
     print sent
-    print "Entropy: ", lm.entropy(sent)
+    words = tokenizer.tokenize(sent)
+    print "Entropy: ", lm.entropy(words)
     
-    sent = "it looked quiet lovely. "
+    sent = "over twenty year and he"
     print sent
-    print "Entropy: ", lm.entropy(sent)
+    words = tokenizer.tokenize(sent)
+    print "Entropy: ", lm.entropy(words)
     
-    sent = "it looks quiet lovely. "
+    sent = "over twenty years and he"
     print sent
-    print "Entropy: ", lm.entropy(sent)
-    
-    sent = "he's speak German. "
-    print sent
-    print "Entropy: ", lm.entropy(sent)
-    
-    sent = "he speaks German. "
-    print sent
-    print "Entropy: ", lm.entropy(sent)    
+    words = tokenizer.tokenize(sent)
+    print "Entropy: ", lm.entropy(words)    
 
-    sent = "in the shop all seller are very friendly they always smile. "
-    print sent
-    print "Entropy: ", lm.entropy(sent)    
-
-    sent = "in the shop all sellers are very friendly they always smile. "
-    print sent
-    print "Entropy: ", lm.entropy(sent)    
-
+    print lm.getBetter(["men" ,"are" ,"imporant" ,"for" ,"the"], ["men" ,"are" ,"important" ,"for" ,"the"])
 #    text = lm.generate(100)
 #    import textwrap
 #    print '\n'.join(textwrap.wrap(' '.join(text)))

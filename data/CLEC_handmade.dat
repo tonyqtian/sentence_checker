@@ -1,4 +1,4 @@
-I took the broom <ERR targ=begin> begain </ERR> clean the floor.
+I took the broom <ERR targ=begin> begain </ERR> <ERR targ=cleaning> clean </ERR> the floor.
 But I very <ERR targ=happy> haapy </ERR> .
 It's the neighbors of ours.They played their <ERR targ=stereo> sereo </ERR> so loud that I <ERR targ=couldn't> can't </ERR> sleep.
 Some of <ERR targ=invaluable> invaluabel </ERR> trees will die.
@@ -18,7 +18,6 @@ He is taking milk, bread, fish, hot dogs, pock, soft drink, <ERR targ=beef> beff
 Hog Deer, its shape is very <ERR targ=clumsy> clemsy </ERR> .
 The shop <ERR targ=sells> sell </ERR> many <ERR targ=kinds> kind </ERR> of food, there are meal, vegetable and fruit.
 I like eat fruit in shop very much, because <ERR targ=> of </ERR> the fruit in the Jusco <ERR targ=is> are </ERR> very delicious.
-You can buy some thing from <ERR targ=Japan> lapan </ERR> for example: ball-pen, ruler, pencil-box, bag, some thing in the shop are very dear.
 If you have a child you can buy some <ERR targ=toys> toy </ERR> for him or <ERR targ=her> she </ERR> , some of the <ERR targ=toys> toy </ERR> are <ERR targ=expensive> pride </ERR> , they are bird, chicken, duck, bear, tiger, <ERR targ=elephant> elevhant </ERR> , cat, dog, mouse, sheep, fish, monkey and rabbit.
 Many people like reading books, so the shopping centre <ERR targ=has> have </ERR> all <ERR targ=kinds> kind </ERR> of books.
 <ERR targ=There> there </ERR> are many different <ERR targ=kinds> kind </ERR> of food, you can have some tea, coffee and milk to drink, and some eggs, sausages, beef, chicken, vegetable, noodles, dumpling and porridge.
@@ -35,12 +34,12 @@ There are many <ERR targ=> all </ERR> kinds of things.
 The <ERR targ=supermarket> supermaket </ERR> like the lager storehouse.
 <ERR targ=They> The </ERR> are very happy to answer you.
 If you <ERR targ=were> was </ERR> not <ERR targ=satisfied> satisfierd </ERR> with the supermarket.
-You can write <ERR targ=a> the </ERR> letter for this <ERR targ=supermarket's> supermaket's </ERR> seller.
+You can write <ERR targ=a> the </ERR> letter <ERR targ=to> for </ERR> this <ERR targ=supermarket's> supermaket's </ERR> seller.
 They are very <ERR targ=happy> harry </ERR> with your suggestion.
 How unsatisfactory the <ERR targ=supermarket> supermark </ERR> is!
 In the shop there <ERR targ=are> is </ERR> four <ERR targ=chairs> chair </ERR> and a frame, on the frame there are three kind of light .
-Summer people can eat delicious litchi and <ERR targ=longan> longun </ERR> .
-The fruit shop at the Hong Qi Road is very popular, <ERR targ=because> Because </ERR> it <ERR targ=gives> give </ERR> people supply convenient, the fruit shop business is very good.
+Summer people can eat delicious lit chi and <ERR targ=longan> longun </ERR> .
+The fruit shop at the Hong Qi Road is very popular, because it <ERR targ=gives> give </ERR> people supply convenient, the fruit shop business is very good.
 <ERR targ=Shopping> Shoopping </ERR> Paradise
 It was <ERR targ=built> builded </ERR> in 1995.You can <ERR targ=hardly> hardry </ERR> imagine how many stores and shops here.
 <ERR targ=When> when </ERR> you are shopping or window shopping here, you can really feel the meaning of " the <ERR targ=Customer> Customen </ERR> is the <ERR targ=God> Good </ERR> ! "
@@ -62,8 +61,6 @@ There are three watermelons five coconuts many oranges, pears, peaches, carambol
 It's on the counter of the <ERR targ=stationery's> staionery's </ERR> right hand side.
 The other <ERR targ=refrigerator> refrigerater </ERR> has many sausages and vegetables.
 Yesterday afternoon, I wanted to <ERR targ=buy> bought </ERR> trousers.
-" It <ERR targ=is> was </ERR> nice. But I <ERR targ=think> thought </ERR> that white one was nicer than this one. "
-"Oh, yes, it <ERR targ=is> was </ERR> very good. How much <ERR targ=is> was </ERR> it? "
 " Here <ERR targ=is> was </ERR> the money. "
 yesterday I was very <ERR targ=happy> happed </ERR> .
 There are seven <ERR targ=sellers> seller </ERR> in it.
@@ -79,7 +76,6 @@ She is a <ERR targ=knowledge> knowlige </ERR> of old city.
 She has a lot of a <ERR targ=places> place </ERR> of interest.I best like is Edu Qiu Feng.
 Then Chao Zhou's Han Jiang <ERR targ=had> has </ERR> a lot of <ERR targ=crocodiles> crocdiles </ERR> in this river.
 Han Yu <ERR targ=took> takes </ERR> the <ERR targ=crocodiles> crocdiles </ERR> away.
-Chai Zhou people <ERR targ=made> make </ERR> this a place of interest to Han Yu.
 This story <ERR targ=is> are </ERR> very good.
 I want to be a <ERR targ=brave> vrave </ERR> people like Han Yu.I love my hometown -- Chao Zhou.
 There are many <ERR targ=things> thing </ERR> in it.
@@ -109,8 +105,6 @@ I want to ask some questions <ERR targ=> in </ERR> " Can I help you? ", but I <E
 Beijing NO1, middle school <ERR targ=Grade> Great </ERR> three
 I <ERR targ=want> went </ERR> to ask you two problems, please help me.1, My teacher told us that " He is taller than I " or "He is taller than me".
 I <ERR targ=don't> done </ERR> know which <ERR targ=is> was </ERR> right, please answer me.2, Can you tell me the "further" and " farther" the <ERR targ=difference> different </ERR> , I <ERR arg=want> went </ERR> to know the answer too.
-<ERR targ=Thank> Think </ERR> you.
-NO1. <ERR targ=Middle> Midd </ERR> School, BeiJing
 But I heard <ERR targ=someone> someon </ERR> say " He is taller than me.
 The second question further and farther these two words' <ERR targ=meanings> means </ERR> and their <ERR targ=usage> useing </ERR> are the same or have something different.
 In the English lesson, my teacher said that the sentence " He is taller <ERR targ=than> tha </ERR> me " is right.
@@ -161,11 +155,10 @@ Suddenly, he heard somebody <ERR targ=crying> cried </ERR> , "Fire!"
 There are a lot of <ERR targ=markets> market </ERR> .
 In China, New year's day is one of the famous <ERR targ=festivals> festival </ERR> .
 It is held in <ERR targ=> the </ERR> all <ERR targ=parts> part </ERR> of China.
-People often make the food <ERR targ=Nian> "NIAn </ERR> Gao" in the festival.
 In these <ERR targ=days> day </ERR> , people often go to other people's home and go to the "Flower Street".One day, people were sleeping in bed.
 Xiao Ming <ERR targ=suddenly> suddly </ERR> heard some noise, and heard somebody <ERR targ=saying> said </ERR> , "Fire, Help!"
 At last, the house owner <ERR targ=thanked> thank </ERR> <ERR targ=> to </ERR> Xiao Ming and the fire fighters.
-He <ERR targ=looked> look </ERR> <ERR targ=> out </ERR> from the window, he saw his <ERR targ=neighbour's> eighbour's </ERR> home was on fire.
+He <ERR targ=looked> look </ERR> out <ERR targ=of> from </ERR> the window, he saw his <ERR targ=neighbour's> eighbour's </ERR> home was on fire.
 He <ERR targ=called> call </ERR> "119" to the operator and <ERR targ=said> say </ERR> where the fire is at once.
 Then leave his home, and water the fire with his <ERR targ=neighbour> eighbour </ERR> .
 When the firefighters <ERR targ=reached> reach </ERR> .
@@ -209,3 +202,676 @@ They cut down the trees and built some tall <ERR targ=buildings> building </ERR>
 In the party they will do their best to sing, <ERR targ=dance> dnce </ERR> or eat.
 And the soil can easily be <ERR targ=destroyed> destroied </ERR> the burning and by the cows.
 Uncle <ERR targ=> was </ERR> said he had been to Shanghai over twenty <ERR targ=years> year </ERR> , and he came back today, it was because of missing us very much, and he also wanted to see Gangzhou's change.
+There were 2 or 3 ugly suckers hanging around the local <ERR targ=park> bark </ERR>.
+I don't know what happened <ERR targ=next> nest </ERR>.
+He comes to us with that <ERR targ=story> sore </ERR> about every 2 weeks.
+I <ERR targ=think> thing </ERR> that it belonged to a rich man <ERR targ=who> how </ERR> used it <ERR targ=for> fore </ERR> an ashtray or <ERR targ=an> a </ERR> ink pot <ERR targ= for> fore</ERR> a pen and or a rich <ERR targ= lady> lade </ERR> and the pen is a <ERR targ=copy> cope </ERR> of another.
+The ink pots were <ERR targ=made> mad </ERR> of glass.
+The <ERR targ=base> baser </ERR> was <ERR targ=made> mad </ERR> of wood.
+It was <ERR targ=passed> pads </ERR> <ERR targ=down> done </ERR> from person to church and then it was given to the Islington library of education.
+It was given to art department and it was given to <ERR targ=our> are </ERR> class.
+I hope we can be <ERR targ=friends> friend </ERR> for as long as we live but when I first <ERR targ=met> meet </ERR> you I didn't like the way you looked.
+I hated the way your <ERR targ=clothes> cloths </ERR> looked the way you chewed <ERR targ=bubble> bulb </ERR> gum and popped it on the top of your mouth.
+Thanks for <ERR targ=sticking> sting </ERR> up for me in class but in a way I was still angry that you did but you put me in the position that I had to be your friend.
+When we went on the <ERR targ=subway> subway </ERR> train I was so excited and happy it like being set free from a cage.
+You showed me so many things I didn't know about new <ERR targ=York> yoke </ERR>.
+When you had dragged me out of that <ERR targ=crowd> crowed </ERR> and took me to your house I think my father was there and he saw me.
+I <ERR targ=hate> hat </ERR> him so much.
+When we go to your house I was so surprised to see that you <ERR targ=lived> lid </ERR> in a one room apartment.
+I think I did well because I got <ERR targ=off> of </ERR> to a good <ERR targ=start> stare </ERR> and I have almost finished my booklet and I have done a few pictures on the computer and now I am doing a cover.
+Explain the <ERR targ=following> fowling </ERR> terms. 
+Urban means <ERR targ=an> a </ERR> area like London or any city which has offices shops and houses also flats in this area.
+Rural means <ERR targ=an> a </ERR> area like a small village with a small shop a few <ERR targ=houses> house </ERR> maybe a church and some <ERR targ=farms> frames </ERR> in the surrounding area probably.
+Rural to urban migration means people from the country to the city sometimes because of a job or sometimes because the <ERR targ=better> beater </ERR> jobs can be got hold of than in the countryside. 
+Over-population means a city or country doesn't have the resources or not enough space to house <ERR targ=its> it's </ERR> growing population.
+<ERR targ=It's> Its </ERR> a language used all over the <ERR targ=world> wold </ERR>.
+This rich and complex language is <ERR targ=quite> quit </ERR> different from spoken language.
+For hearing people whose first language is English, <ERR targ=it's> its </ERR> not always easy to comprehend a visual language.
+Yet many hearing people have difficulty accepting such differences in BSL, and want to use <ERR targ=sign> sigh </ERR> in a way that closely reflects English, feeling dissatisfied <ERR targ=with> whit </ERR> what they consider to be inadequacies within the language.
+I think that we should give people jobs such as rubbish collectors and building jobs such <ERR targ=as> ad </ERR> putting up pumps and <ERR targ=places> place </ERR> to do the inoculation such as a hut or small <ERR targ=shack> shake </ERR>.
+We should put up small huts such as job centres and set up neighbourhood watches if people agree to co-operate <ERR targ=with> white </ERR> us.
+One Saturday I <ERR targ=thought> though </ERR> I would go to the Races at London. 
+One man had to go in Hospital because he broke <ERR targ=his> is </ERR> leg. 
+Another man hurt <ERR targ=his> is </ERR> arm in a sidecar race.
+I don't <ERR targ=think> thing </ERR> it was much.
+I <ERR targ=saw> sow </ERR> a sidecar turn right over.
+I don't <ERR targ=know> no </ERR> what happened to him he was <ERR targ=hurt> heart </ERR> quite bad.
+The motor bike caught fire and <ERR targ=blew> blow </ERR> up.
+The <ERR targ=petrol> petal </ERR> went all over the track but they soon put it out by sand.
+ <ERR targ=they're> There </ERR> off.
+ <ERR targ=he's> His </ERR> <ERR targ=won> one </ERR> by 3 yards and a Royal Enfield 2 and a Honda 3.
+When you go pinching <ERR targ=apples> apple </ERR> you do not want to take to many people or you will not get away so quick when there are a lot of people with you especially little boys they make too much noise.
+When you are by yourself and someone comes and you have to climb over the <ERR targ=barbed> barb </ERR> wire and get caught the man will probably catch you but if someone else is with you they can unhook you. 
+Some people when <ERR targ=they> the </ERR> catch you they might hit you and said he will hit you harder next time he catches you. 
+I never take a dark jacket or a red one because you will be recognised very <ERR targ=easily> easy </ERR> because red shows up very <ERR targ=easily> easy </ERR> .
+ <ERR targ=smoking> Smocking </ERR> in the house. 
+One night in bed I had a puff, while reading literature and, listening to hear if the stairs would <ERR targ=creak> creek </ERR> so I was not caught indiscrete. 
+Not a sound I could hear until the door was <ERR targ=opened> open </ERR> .
+But my <ERR targ=mum's> mums </ERR> got a bloody good <ERR targ=nose> Nos </ERR> .
+Bob decided to <ERR targ=do> to </ERR> it.
+On Sunday night Bob went to the market hill and <ERR targ=picked> pick </ERR> up the lorry . 
+He <ERR targ=knew> new </ERR> how to drive it because he had driven one before .
+James seemed <ERR targ=very> every </ERR> suspicious, thought Bob.
+He <ERR targ=climbed> climb </ERR> in the cab, and sat and thought to himself, I wonder what to do, <ERR targ=should> shod </ERR> I tell the police or <ERR targ=should> shod </ERR> I keep quiet .
+He decided to tell the police so he <ERR targ=carried> cared </ERR> on to a little village near Clare he saw a police car coming down the road.
+The policeman wound down the window "You have not seen a man with a load of whiskey on <ERR targ=an> a </ERR> Austin Ten tonner have you."
+Bob said, " I am glad you <ERR targ=stopped> stop </ERR> because I am driving the lorry. 
+I <ERR targ=stopped> stop </ERR> here because I was going to tell the police "
+One day Tom an old <ERR targ=tramp> tamp </ERR> was walking up a hill, it was getting dark and it was very cold.
+It must have been freezing <ERR targ=hard> had </ERR> for there was icicles hanging <ERR targ=from> for </ERR> gutter of house , the snow on ground was crisp as he walked through the village.
+Tom saw a light coming <ERR targ=from> for </ERR> a farmhouse it did not look far.
+He could see a <ERR targ=barn> bran </ERR> .
+He thought he had better go before the farmer got but he did not go empty <ERR targ=handed> hang </ERR> . 
+He took two of the farmers <ERR targ=rabbits> rabbit </ERR> and <ERR targ=some> sum </ERR> potatoes in a bag.
+The cat skilfully creeps up behind a sack and all of a sudden his muscles are <ERR targ=tense> tens </ERR> .
+He <ERR targ=springs> spring </ERR> and a little squeak from the mouse I <ERR targ=heard> herd </ERR> as the <ERR targ=cat's> cats </ERR> claws sank deep into the mouse.
+The cat quickly ate it and then curled up on a sack to <ERR targ=sleep> slip </ERR> .
+This is the tractor <ERR targ=which> witch </ERR> I drive at weekends. 
+It is a low <ERR targ=geared> gird </ERR> tractor it has three forward gears and 1 reverse .
+It has <ERR targ=four> for </ERR> cylinders and a hydraulic lift.
+The manifold <ERR targ=has> as </ERR> burnt out so smoke and flames and sparks fly out of the bottom of it.
+Fred is away <ERR targ=from> form </ERR> the 5-5-89 and this leaves us <ERR targ=very> vary </ERR> exposed.
+At our recent meeting you stated that a rewrite of the monitor package was being <ERR targ=planned> planed </ERR> .
+I have spoken to customer support on this <ERR targ=but> be </ERR> they could not shed any light .
+I look forward to a speedy <ERR targ=reply> replay </ERR> as this has been raised as an important matter.
+There is a problem with the program whereby <ERR targ=it> is </ERR> can lock up the handler.
+Unfortunately <ERR targ=they> there </ERR> will not commit development resources to resolve this.
+Since it is not a supported product there is <ERR targ=no> not </ERR> guarantee that it will be available in the future .
+We do not have a version <ERR targ=which> witch </ERR> is compatible .
+I suggest that it is not shipped and that a plan is <ERR targ=drawn> draw </ERR> up.
+They are used to manage transfers <ERR targ=through> though </ERR> the PQR.
+Can we connect personal <ERR targ=computers> computes </ERR> to the LAN, preferably without the use of gadgets?
+I have noticed <ERR targ=that> the </ERR> there is a difference to be agreed but unfortunately he has already suggested that a file is written to ask people for <ERR targ=their> there </ERR> name and purpose when logging in.
+This information could be <ERR targ=printed> printer </ERR> out and a similar system used for the minutes. 
+No action has been taken on dumps <ERR targ=which> witch </ERR> are wrong but if they <ERR targ=wish> which </ERR> to change the approach , we will need more complicated plans for such occurrences .
+<ERR targ=from> Form </ERR> this reason, a new one, with lower performance , was used.
+This will supplied but it <ERR targ=does> dose </ERR> not give technical reasons as they are based on the patches <ERR targ=needed> need </ERR> by the software.
+The configuration should be copied with the old one running and <ERR targ=continued> continue </ERR> until all the old cabling is done.
+I list my perception of <ERR targ=their> there </ERR> status.
+<ERR targ=does> Dose </ERR> the length set in the field include this?
+There <ERR targ=seems> seams </ERR> to be some confusion .
+With regard to deleting parts, could you <ERR targ=advise> advice </ERR> me of the exact nature of the problem and I will investigate it immediately .
+ Throughout this time if the problem recurs , it should be carried out if possible and should also be <ERR targ=enabled> enable </ERR> .
+I am a student <ERR targ=at> a </ERR> High School.
+I work as a software systems <ERR targ=tester> tested </ERR> <ERR targ=for> fro </ERR> Packard Bell.
+I test the integration of hardware <ERR targ=and> an </ERR> software to see if it is a viable product.
+I write poetry and short <ERR targ=stories> story </ERR> and I hope to get in novels some day.
+My spelling <ERR targ=sucks> suck </ERR> and I wish I could make it better.
+I <ERR targ=met> ma </ERR> a person named Scott.
+I believe you need to make variations on your audio <ERR targ=compressions> comprehensions </ERR> .
+I <ERR targ=found> fund </ERR> out that I have a half sister <ERR targ=who> how </ERR> I know little about except that she has two children and <ERR targ=likes> like </ERR> outdoor activities.
+I have written <ERR targ=term> team </ERR> papers and <ERR targ=an> a </ERR> article that was <ERR targ=published> publish </ERR> .
+But the sound quality was static at best and was at <ERR targ=times> time </ERR> hard to hear.
+Well I am a fashion designer but only because I work well with my hands and I enjoy making <ERR targ=things> thing </ERR> that make women better maybe just me.
+But <ERR targ=it's> its </ERR> ok I am <ERR targ=very> verey </ERR> good at what I do.
+I reverse <ERR targ=letters> letter </ERR> .
+I would be <ERR targ=slow> sow </ERR> slower on a typewriter <ERR targ=than> tan </ERR> a word processor because I <ERR targ=would> wold </ERR> have to erase my mistakes.
+I can't spell worth a <ERR targ=damn> dam </ERR> but I sometimes do better just trying to write it out rather than to sound it out.
+Good Luck <ERR targ=with> wit </ERR> the experiment and your career.
+I am <ERR targ=a> as </ERR> student studying a Combined Studies degree.
+I have <ERR targ=met> meet </ERR> <ERR targ=no-one> no one </ERR> of interest in the last few weeks because I have been working too hard at my work.
+My job is to make sure all of the work is done <ERR targ=right> write </ERR> and shipped out on time.
+Also I am to order all parts and <ERR targ=supplies> supply </ERR> needed to run the plant.
+For my spelling I wish I could spell better it would make <ERR targ=life> lift </ERR> a bit easier .
+Spelling <ERR targ=is> in </ERR> very also very hard.
+If you have any help <ERR targ=far> fare </ERR> as spelling and grammar please let me know.
+I love working on the computers and communicating with people around the world therefore spelling <ERR targ=is> in </ERR> a must.
+I go to comprehensive school and have been going <ERR targ=there> their </ERR> for 3 years.
+I <ERR targ=feel> fell </ERR> my spelling is pretty quite poor and the spell checker <ERR targ=has> as </ERR> only made it worse.
+I go to school , it is <ERR targ=boring> boning </ERR> .
+Not <ERR targ=much> mush </ERR> , no comment .
+The experiment was good and I <ERR targ=think> thank </ERR> this will help lots of people .
+This involved <ERR targ=planning> planing </ERR> and installing a basic lighting rig and operating lights for the performance which was <ERR targ=videoed> voided </ERR> .
+ <ERR targ=experience> Expedience </ERR> of ms word, Excel & power point.
+Now go to the macros button as shown <ERR targ=below> bellow </ERR> .
+After you have chosen record macro <ERR targ=choose> chose </ERR> whether you want to save it to a keyboard function or a toolbar as shown <ERR targ=below> bellow </ERR> .
+If you have chosen keyboard <ERR targ=choose> chose </ERR> which key you wish to assign it to.
+Now choose toolbars new to create a new tool bar to assign your macro to as shown <ERR targ=below> bellow </ERR> .
+Underneath is the number 36519; <ERR targ=which> witch </ERR> represents Christmas day, 1999, <ERR targ=followed> flowed </ERR> by the <ERR targ=difference> deference </ERR> between them.
+If you want the abbreviated <ERR targ=form> from </ERR> , sat, use "ddd".
+The only <ERR targ=weaknesses> weakness </ERR> that I think I had were the <ERR targ=material> martial </ERR> on each slide could have been a bit better and I could have improved the length of the presentation.
+Other than these <ERR targ=two> to </ERR> things after looking at the surveys it seems that everything else is ok.
+I think my strengths were my logo which I <ERR targ=personally> personnel </ERR> designed and the overall quality I think was good.
+This booklet was written as <ERR targ=an> a </ERR> introduction of how to use power point to create a presentation.
+Because of Late there has been a large influx of viruses on the system within two <ERR targ=months> mouths </ERR> to my knowledge.
+I know also that there have been a few more <ERR targ=viruses> virus </ERR> discovered myself but I cannot account for them because I don't have any documentation on them.
+Secondly I think we should <ERR targ=either> ether </ERR> invest in a CD Rewriter or a zip drive in the college.
+I think we should wait for a few months before we consider the installation of this operating system because <ERR targ=at> a </ERR> present I think there are too many bugs.
+That there should be at least <ERR targ=one> on </ERR> or two sets of speakers to a computer room because it would be very <ERR targ=useful> usefully </ERR> to be able to hear what wav and other sound formats files sound like before we use them.
+At <ERR targ=present> presently </ERR> we have to <ERR targ=either> ether </ERR> carry our own speakers or set of headphones with us.
+The code of practice is in <ERR targ=two> to </ERR> parts.
+Part one is <ERR targ=titled> tilted </ERR> the code of practice and is the standard code of practice and can be <ERR targ=regarded> regard </ERR> as a <ERR targ=comprehensive> comprise </ERR> catalog of things for all good business to follow.
+Part 2 is <ERR targ=titled> tilted </ERR> the management standard and is a standard specification for an information security management system.
+I conclude that the freedom of information act has its <ERR targ=benefits> befits </ERR> but also has its downside <ERR targ=too> to </ERR> .
+Yes their income should be greater than <ERR targ=their> there </ERR> expenditure.
+This comes out as 12% of <ERR targ=their> there </ERR> total income.
+The collation of the information was <ERR targ=really> relay </ERR> <ERR targ=quite> quit </ERR> easy to do.
+I had very little knowledge as to what a macro was at the time but learnt <ERR targ=how> hoe </ERR> to use one very quickly.
+<ERR targ=It's> Its </ERR> always the same dream.
+<ERR targ=I'm> Imp </ERR> in a room, a room with no windows, no doors.
+Just before <ERR targ=they're> there </ERR> about to crush me I wake up.
+Well I think <ERR targ=it's> its </ERR> that <ERR targ=you're> your </ERR> just worried about something. 
+I know what <ERR targ=you're> your </ERR> looking for and why <ERR targ=you're> your </ERR> looking for it and why you have the same dream every night.
+<ERR targ=I'll> Ill </ERR> meet you there at 9.00.
+He sat next to me, put his hand on my leg and said hi love what you doing <ERR targ=here> hear </ERR> ?
+FutureScape will not allow any of the following to be <ERR targ=added> add </ERR> to the story.
+If any submission <ERR targ=is> are </ERR> longer than this the submission is likely to be <ERR targ=edited> edit </ERR> to fit that 1000 word bracket.
+Click <ERR targ=here> hear </ERR> to return to the forms page.
+This site is <ERR targ=an> a </ERR> online book based around a short story.
+The poem begins with an informal <ERR targ=introduction> introductory </ERR> placing the piece in stalinist Russia.
+The author had spent two years in a prison and was asked by a fellow inmate <ERR targ=whether> weather </ERR> she could describe it.
+It is in many <ERR targ=ways> way </ERR> typical in its tone <ERR targ=to> of </ERR> other contemporary modern poetry.
+There is also a more serious <ERR targ=question> questions </ERR> of how our memories are shaped and <ERR targ=nurtured> nurtures </ERR> or distorted.
+This animal analogy of people <ERR targ=in> an </ERR> the mass crops up also in Bely and Elliot.
+This <ERR targ=suggests> suggest </ERR> a common <ERR targ=theme> them </ERR> of the poetry we have covered. 
+Hence <ERR targ=there> their </ERR> is a defence mechanism where experiences are lost or enter the unconscious.
+He asks <ERR targ=whether> weather </ERR> Benjamin sees Baudelaire as producing or parrying shock.
+However other disciplines like geography will be able to master <ERR targ=an> a </ERR> explanation, but this is not within the realm of artistic presentation.
+The northerly edges of the country <ERR targ=are> a </ERR> scraped by storms and gales for the majority of the year. 
+He could then spur the home guard on the cliffs <ERR targ=from> form </ERR> John'o Groats to Lands End into vigilant observation.
+Someone returning ten or twenty miles home <ERR targ=from> form </ERR> work in the city centre would prefer not to travel back into London, too, often to glean entertainment.
+Between five and seven o'clock in the evening it <ERR targ=can> cab </ERR> be assumed that most <ERR targ=viewers> viewer </ERR> will be embroiled in cooking and eating rituals, hence the programme content is sanitised.
+Simon May a prevalent theme tune writer recently commented in a radio interview that most signature <ERR targ=tunes> tune </ERR> are signifying because the first seven notes are designed to draw attention and remind potential viewers about the house.
+However these plausible findings on the nature <ERR targ=of> if </ERR> the audience did little to deter the noisy but powerful minority of viewers and listeners who formed themselves into an association under the lead of Mary Whitehouse.
+Such action by a paper that regularly prints <ERR targ=bare> bear </ERR> busts and bottoms appears somewhat ironic.
+There is now the assumption that the viewers are of <ERR targ=an> a </ERR> impressionable age and are not free to discern <ERR targ=whether> weather </ERR> they wish to be present for a particular programme, unlike their adult counterparts.
+However space does not exist for <ERR targ=an> a </ERR> extensive survey of all the contrasts.
+These features, crudely put, are; domains of reception and narrational form which shape the experiences we have <ERR targ=from> form </ERR> Television and Cinema.
+This collectively is evident when <ERR targ=there> their </ERR> is laughter amongst the audience that is directed at the film.
+In the movie theatre the lights are dimmed and the screen forms a monolithic light source, the <ERR targ=altar> alter </ERR> of voyeurism.
+They <ERR targ=may> nay </ERR> hear a particular sound that stimulates them , for example; the theme of their favourite programme, laughter, gunshot.
+This is type of behaviour was, obviously, less prevalent before remote controls <ERR targ=were> where </ERR> commonplace.
+The elements of competition between various broadcasters also create <ERR targ=an> a </ERR> environment that is geared to catching a viewer - like a fish.
+Short programme length, and interlinking advertisement features for products and forthcoming programmes contribute to what Raymond Williams <ERR targ=calls> call </ERR> the flow.
+In television general shots are still necessary, but with a serial the references to a setting can be <ERR targ=pared> paired </ERR> down.
+Television is almost paranoid in that it might <ERR targ=lose> loose </ERR> viewers that it must keep moving, even though the story that is being represented is long and drawn out.
+ Incidentally , the actual story of the series <ERR targ=makes> make </ERR> some interesting observations on the artist, producer relationship.
+This format is not new, <ERR targ=and> an </ERR> originally occurred in magazines in the 19c where serialisation the novels <ERR targ=inevitably> inevitable </ERR> led to the climax which hooked readers/viewers into procuring the next instalment.
+However there are also programmes like Barry Norman's Film 96, which is recorded in a studio that dubiously <ERR targ=emulates> emanates </ERR> the cinematic interior.
+It is constructed like a magazine but does have some width in <ERR targ=its> it's </ERR> coverage, probably due to a few remaining Reithians within the BBC.
+ <ERR targ=These> Theses </ERR> <ERR targ=types> type </ERR> of films remind me partly of television in how there is the assumption that the audience needs massive stimulation and cannot wait for subtle nuance.
+In an <ERR targ=attempt> attempts </ERR> to gain a greater understanding of how the above writers have explored such themes it would be of some relevance to have some historical perspective on the what appeared to be going on.
+The British sought to expand its <ERR targ=economy> economic </ERR> such as trading and manufacturing further afield in an attempt to gain more markets, cheaper labour and raw materials.
+The country possessed a capable naval and military force as well as advanced industrial homebase which arose <ERR targ=from> form </ERR> the industrial revolution.
+In Heart of Darkness we are given a <ERR targ=balanced> balance </ERR> representation of the empire builders and the native africans. 
+This did not effect his <ERR targ=views> vies </ERR> <ERR targ=too> to </ERR> much , he continued to support greek faction in Greece to remove the Turkish invaders.
+These sores <ERR targ=led> lead </ERR> him to enjoy debauchery and low fidelity.
+But Camille also has his, that of <ERR targ=an> a </ERR> imagined double that arises at end of the text. 
+Dorian is sucked psychologically away <ERR targ=from> form </ERR> his innocent beauty and charm.
+Dorian has learnt <ERR targ=too> to </ERR> much from his mentor Lord Henry about hedonistic lifestyles.
+When the two meet Teleny asks Camille <ERR targ=whether> weather </ERR> he is "superstitious", and <ERR targ=whether> weather </ERR> he believed in "the transmission of thought, of sensations?"
+Raskoloniknov our central character murders an old lady who used to <ERR targ=pawn> porn </ERR> items for him.
+The story ends somewhat slushily as they head <ERR targ=off> of </ERR> looking toward the hard future together.
+As we are now are aware, critical debates are an ocean which <ERR targ=one> on </ERR> can circle unwittingly .
+However this idea of the film being an unworthy medium does seem questionable in the face of more contemporary film, which tends to be more <ERR targ=loose> looser </ERR> than the films he would have lived through . 
+Kafka's tale appears more literary and inclosed.
+This is where we the reader <ERR targ=gain> gains </ERR> Gregor's viewpoint on what is happening to him and what is happening around him. 
+In the film there <ERR targ=are> is </ERR> more of entertainment/ commercial factors affecting its production, which reduces subtle intonation.
+Unlike in Metamorphosis, the circumstances of mutation are fully explained, <ERR targ=there> their </ERR> is cause and effect.
+Gregor takes weeks before he <ERR targ=builds> build </ERR> up enough confidence to face his family regularly, and this is only when it is dark.
+Both insects have suffered a <ERR targ=change> changes </ERR> in power within the world they inhabit.
+Seth, in contrast has changed from the timid scientist to the acrobatic and demanding insect who will readily <ERR targ=practise> practice </ERR> violence.
+We also rise above him when he dies to tidily round <ERR targ=off> of </ERR> the tale.
+Hence when outsider <ERR targ=visits> visit </ERR> a new and often isolated area - for example Mediterranean mountains - in which the aura of murder will seemingly serve as an omen to death.
+However his antagonist supplies him with the chilling words; "In me did thou exist-and, in my death, see by this image, which is mine own, how utterly have <ERR targ=thou> though </ERR> murdered thyself". 
+Nevertheless this style of doubling is relatively straightforward in the machinations tend not to transgress <ERR targ=too> to </ERR> far into the supernatural.
+The <ERR targ=border> boarder </ERR> between the sea and land, the clifftop, also serves as the jagged and irregular divide between life/ death and also the civilised and the untamed.
+Without these classical divisions, it would be hard to imagine Gothic as it is, for would <ERR targ=lose> loose </ERR> the contrast, energy and above all the prolonged deaths we enjoy as the "Hypocrite reader".
+If the opportunity should arise, grasp the poem and float <ERR targ=off> o </ERR> into the world of Byrons which is as equally legendary as the man himself .
+This theme of a reveller takes on an animal theme when he lies <ERR targ=basking> baking </ERR> in the sun, and is likened to a fly.
+Byron also <ERR targ=takes> take </ERR> the opportunity to give him a sense of delicacy.
+The poem continues in <ERR targ=this> is </ERR> direction, thus aiding Harolde's reasons for pilgrimage .
+Such absurdity can seen the first Alice when the Queen, King and Executioner are arguing <ERR targ=whether> weather </ERR> the disappearing Cheshire cat can have <ERR targ=its> it's </ERR> head cut off. 
+Although we should not <ERR targ=lose> loose </ERR> sight of the point that Lewis Carroll has intentionally produced meaningless words like; Boojum or Snark.
+The chapters "Humpty Dumpty" and "It's My Own Invention" in Through The Looking Glass <ERR targ=throw> throws </ERR> up many questions about language and how it is used particularly the intertwined areas of meaning and naming.
+This type of question boils language down <ERR targ=too> to </ERR> far, and in the process <ERR targ=loses> looses </ERR> sight of the subtle relationship between a user who conforms to practices and rules of language, whilst also communicating thought.
+When considering these "games" our thoughts should not stray <ERR targ=too> to </ERR> far away from Alices reactions, for she is the only recognisable representative from our reality.
+She will need these more urgently in her contests with the Red Queen, Tweedldum and Tweedledee and (especially) Humpty-Dumpty in through the looking glass; and then strangely with the white <ERR targ=knight> night </ERR> .
+There is another way of looking at the books structure; which <ERR targ=is> are </ERR> not totally unlike the Socratic dialogues.
+Although we must not <ERR targ=lose> loose </ERR> sight that this is still a children's book and not a philosophical investigation.
+By means of answering such a criticism we need to understand that <ERR targ=there> their </ERR> is a motive born into instruction.
+He is trying to outline how <ERR targ=there> their </ERR> are many ways in which language can be understood, some have their merits within context, only problems arise when they make overarching or universal claims to the nature of language.
+In <ERR targ=an> a </ERR> experimental context this idea bears some relevance; one views the data/findings with an aim to supporting or negating a hypothesis.
+For he makes much effort to make sure <ERR targ=there> the </ERR> is no firm ground or standpoint in which we view everything else.
+As we have previously seen, Wittgenstein is content not to <ERR targ=conform> confirm </ERR> to the traditional philosophical methods of acquiring and building knowledge.
+Within the first stanza the poet has subverted what we take for granted, in manner which suggests the poem should include a question mark within <ERR targ=its> it's </ERR> title.
+Each decoration to the man <ERR targ=bears> bares </ERR> no meaning to the other except that it united near or in this man.
+However, the British <ERR targ=legacy> legacies </ERR> lingers on in Bombay's comfortable suburbs, where Rover cars mingle with roses in the garden.
+With this being post-modern style of novel <ERR targ=there> their </ERR> is a challenge upon the notion of progress, although Rushdie wants it, he is obliged to acknowledge the reality which considers itself to be going forward is actually taking two steps backwards.
+These two novels share much, both are set in developing countries and involve <ERR targ=a> are </ERR> large amount of magical realism within their content.
+It also comes into being that Saleem is unsure himself <ERR targ=whether> weather </ERR> India is him or he is India.
+ <ERR targ=from> Form </ERR> this we can gather that the idea of fixed identity is a thing of the past.
+The narrator is present <ERR targ=from> form </ERR> the beginning obviously> obviuously but he does not describe his birth until the chapter of tick-tock, the penultimate chapter before book two.
+His dad's <ERR targ=reactions> reaction </ERR> to his birth are mixed, because he likes attention . 
+The way in which the novel charts his path <ERR targ=from> form </ERR> beginning to end is somewhat looping and spiralling , the narrator seems more preoccupied with digression and detail rather than solely arriving at point-B.
+The religious cultures of these aforementioned countries <ERR targ=are> is </ERR> contrasted, and often interfered with imperial fingers.
+In <ERR targ=an> a </ERR> interview Rushdie was prompted on this.
+Some revolutions have ended up in tyranny whilst others have not, it depends on how you view the outcome and <ERR targ=whether> weather </ERR> social circumstances prevailing constitute what is generally taken to be a tyranny.
+After the French revolution in 1776 there was some debate on <ERR targ=whether> weather </ERR> it was actually a beneficial event , an English politician by the name of Edmund Burke saw that the enlightenment project as a conspiracy to undermine Christianity.
+Modern times <ERR targ=have> has </ERR> merely enabled them to collate more efficiently, because of the more widespread use of transport and telecommunication.
+The death of the social and the apparent decline in civilisation in the light that society is unable to <ERR targ=affect> effect </ERR> history.
+They argue that there is such a mass of experience now that it is be hard to distinguish what is relevant to our <ERR targ=enquiries> enquires </ERR> .
+What this leaves is an immense pile of memories, fortunately they have categories or <ERR targ=groupings> grouping </ERR> in which they could be assigned, making it a little easier find what we wish to find from the past.
+Although sometimes there <ERR targ=are> is </ERR> conflicting opinions on what the territory should include.
+In art a particular symbol may be employed on flags or posters to represent the nation symbolically such an example could be the shamrock on <ERR targ=the> they </ERR> Irish flag, or the Maple leaf on the Canadian flag.
+Literature <ERR targ=poses> posses </ERR> more problems in representing a country as there is often not a generally agreed text or poem that has been generally recognised although the words of an anthem can <ERR targ=be> bee </ERR> seen to suffice.
+America and England amongst <ERR targ=others> other </ERR> have endorsed this by providing economic assistance.
+However there are other areas in the world in which there <ERR targ=have> has </ERR> not been such significant changes which still provide contrast and cause for concern. 
+The aim of most <ERR targ=nationalists> nationalist </ERR> would be to draw together the nation to make it a competitive force amongst surrounding nations. 
+This can be described as a geopolitical conflict, where both <ERR targ=sides> side </ERR> will employ a rhetoric and aesthetisize their politics to suit the situation.
+If these ideas are to be left unfettered by a theory which lacks some element of morality it <ERR targ=suggests> suggest </ERR> that these conflicts could continue for some time.
+He presumes that he will be immortal as his soul has been purified through the <ERR targ=practice> practise </ERR> of philosophy and reason, rather than being impure through being a slave to bodily pleasure.
+It is said by Socrates that the soul is "ever present it is born <ERR targ=from> form </ERR> the dead ,a soul must exist if it is to come back " .
+If the soul is immortal in the sense of Socrates persuasion how does the soul regain or recover from this passing through death into life without <ERR targ=losing> loosing </ERR> something along the way?
+This is combated by Socrates who questions <ERR targ=whether> weather </ERR> the soul actually does produce any harmony, later introducing his final argument for immortality by carefully arguing that the soul does not admit death because the soul is part of the higher unchanging forms and that death can not be admitted because it is opposite to the life of the soul.
+Socrates arguments appear convincing at the level of language and reason , but they can be seen as misleading as they have little concrete factual evidence to back them up, although it needs to <ERR targ=borne> born </ERR> in mind that the search for the truth need not arrive wholly from an empirical position or the introspective position.
+Freud sees that perversion as something that <ERR targ=is> this </ERR> linked to childhood exploration of sexuality.
+This can be <ERR targ=seen> seem </ERR> as one Freud definition of sexuality.
+The notion of dream distortion describes how there is a latent content of dreams, hidden, whilst <ERR targ=there> their </ERR> is also a manifest content , apparent .
+Freud did not have this can be seen to make his studies weaker in impact as <ERR targ=his> hi </ERR> investigation was based on evidence that was not comprehensive.
+In relation to his investigation of human sexuality this could mean that he may have missed examining certain individuals that could have had an important bearing <ERR targ=on> to </ERR> his work.
+There <ERR targ=have> has </ERR> not been cases of far flung societies untouched by "civilisation' where there has not been any spoken language.
+As Chomsky has famously <ERR targ=pointed> points </ERR> out, there are a finite amount of words available but a virtually infinite amount of combinations.
+In the book The Country <ERR targ=and> an </ERR> the City these and other issues are explored using literary extracts and criticism.
+The first book reveals how various writers <ERR targ=from> form </ERR> the sixteenth century onwards have represented the city/country and how they have interpreted events in their own particular perspective.
+Such exercise by the author <ERR targ=makes> make </ERR> us the reader question the nature and shape of literature.
+Cinema has <ERR targ=been> be </ERR> used in Manuel Puig's Kiss of the Spider woman.
+In this excerpt Chielo turns <ERR targ=from> form </ERR> housewife to high priestess of the village, she calls and talks to the god through her own language.
+There are also Shakespearian references in particular to Hamlet, where Nora and Dora procrastinate on <ERR targ=whether> weather </ERR> to deliver a parcel to 2 b or not 2 b.
+I have intention of focusing predominantly upon T.S Elliot's poem and <ERR targ=drawing> draw </ERR> upon Barnes's work when the occasion arises. 
+These two authors are <ERR targ=from> form </ERR> America, although they moved to Europe in early part of the century.
+<ERR targ=their> There </ERR> writing, as far as I am aware, has always been associated with Modernism.
+However I <ERR targ=have> gave </ERR> no idea what it represents other than the classical languages in which many of our cultural myths have been founded upon.
+Once upon a time <ERR targ=there> they </ERR> was a kid that was named Sam.
+He was a tiger and he <ERR targ=scared> shard </ERR> the people and it was a lot of fun to do.
+He <ERR targ=dumped> duped </ERR> all of this candy out his bags of candy. 
+Yes you can use <ERR targ=our> are </ERR> phone. 
+Can I stay the night <ERR targ=too> to </ERR> .
+My mother <ERR targ=wants> want </ERR> to <ERR targ=talk> take </ERR> to you.
+I do not care if he <ERR targ=stays> stay </ERR> the night but he has has to <ERR targ=come> came </ERR> home at 12:00 in the afternoon so he can have lunch with you <ERR targ=too> to </ERR> .
+Tigers eat <ERR targ=deer> dear </ERR> and buffalo.
+<ERR targ=the> They </ERR> cubs stay with their mother for 2-3 years.
+<ERR targ=once> Ones </ERR> upon a time three three kids named Buzz, Amanda, Curtis and they all was go to school every day and they have not <ERR targ=missed> moss </ERR> one day.
+I haven't <ERR targ=done> do </ERR> any in a long time, and I found it to be very stressful.
+I am interested in what the support <ERR targ=meetings> meeting </ERR> that you go to are like.
+How well have these voice recognition software products <ERR targ=worked> work </ERR> for you?
+They don't <ERR targ=want> what </ERR> to <ERR targ=know> now </ERR> about it or how it affects me.
+ <ERR targ=It's> Its </ERR> hard to convince someone that <ERR targ=you're> your </ERR> smart when you can't spell well.
+I am interested to know what occupation <ERR targ=you're> your </ERR> in, if any.
+What occupations <ERR targ=suit> suite </ERR> dyslexics?
+Me, I'm a quality Manager and I hate it because there's too much paperwork and I <ERR targ=lose> loose </ERR> stuff.
+I find that busy, <ERR targ=noisy> nosey </ERR> <ERR targ=environments> environment </ERR> distract me to the point that I can't function.
+I can only take so <ERR targ=much> mush </ERR> in then I need to do something else.
+I am not <ERR targ=too> to </ERR> bad with <ERR targ=losing> loosing </ERR> stuff.
+ <ERR targ=you're> Your </ERR> right about the working in office thing.
+I'm <ERR targ=an> a </ERR> assistant to a director of facilities department.
+I feel I should get a job with my <ERR targ=hands> hand </ERR> .
+ <ERR targ=I'm> I </ERR> sick of running from it.
+I had a <ERR targ=quiet> quit </ERR> holiday, but I am going <ERR targ=through> though </ERR> a rough time right now because I'm having a hard time finding a job that I can do.
+Also I was trying to take an evening class at the local college but the <ERR targ=bursary> brassiere </ERR> that I needed to pay for it didn't come <ERR targ=through> though </ERR> .
+ <ERR targ=where> Were </ERR> can you find these "special" agencies ?
+ <ERR targ=It's> Its </ERR> a lot of work.
+It turns out that the employment agency that I used in the past knew about this other <ERR targ=organization> organizations </ERR> and for some reason never told me about it.
+I am a little annoyed that they didn't <ERR targ=tell> telling </ERR> me about it.
+Look up <ERR targ=their> there </ERR> web page.
+I hope to do some job shadows soon that will help me decide what career I want to go into, <ERR targ=either> ether </ERR> civil engineering or chemistry.
+I hope that any parents or <ERR targ=students> student </ERR> who read this and are having doubts, and self-esteem problems remember that <ERR targ=through> trough </ERR> hard work we as Dyslexics can excel in adversity!
+I'm a 35 year old computer <ERR targ=programmer> program </ERR> who's dyslexic.
+I'm glad <ERR targ=to> too </ERR> hear you are doing <ERR targ=well> will </ERR> in school.
+I currently read at about 135 words per <ERR targ=minute> minuet </ERR> .
+The average <ERR targ=college> collage </ERR> student reads at about 200 to 300 words per <ERR targ=minute> minuet </ERR> .
+It has a hundred different shades of gray and dozens of different areas which are <ERR targ=affected> effected </ERR> .
+The reasons for poor spelling for this group are different <ERR targ=than> then </ERR> for everyone else, and it probably will become a lifelong challenge .
+This a very typical story and <ERR targ=shows> show </ERR> that it is the education system that is the problem!
+We can <ERR targ=diagnose> diagnosis </ERR> it but can do little that is truly successful in dealing with it. 
+How does dyslexia <ERR targ=affect> effect </ERR> your family's wellbeing?
+How does it <ERR targ=affect> effect </ERR> your siblings and parents?
+I know that <ERR targ=you> your </ERR> are a very thoughtful and loving parent from your letter. 
+Your love and <ERR targ=belief> believe </ERR> daughter will make all the difference.
+For me this is the only theory that could explain why I <ERR targ=thought> though </ERR> way I did and the connection between ADD and dyslexia.
+It also has helped me <ERR targ=unbelievably> unbelievable </ERR> in spelling.
+I also have very vivid <ERR targ=memories> memorise </ERR> of being told to "try harder" and "if <ERR targ=you> your </ERR> slow down you will make less stupid mistakes.
+The results for me have been staggering, with <ERR targ=so> some </ERR> many things being different.
+I should go <ERR targ=now> know </ERR> .
+Now <ERR targ=let's> lets </ERR> be fair!
+If you had most of your mental ability tied-up with the useless ability <ERR targ=to> too </ERR> spell perfectly and know everything about grammar what would you do?
+Can somebody give me some <ERR targ=advice> advise </ERR> please.
+I have been very sarcastically told off for using the wrong <ERR targ=font> fount </ERR> on an Email.
+As a mum of a dyslexic son and <ERR targ=possibly> possible </ERR> have dyslexic tendencies myself I feel a little bit annoyed .
+They don't <ERR targ=know> no </ERR> about the dyslexia.
+I feel <ERR targ=though> through </ERR> that a line set up for hobby reasons seems to be <ERR targ=taken> take </ERR> very seriously. 
+I'll try it, but keep it in my <ERR targ=drawer> draw </ERR> .
+I would love to chat with anyone in a similar position for ideas on this coming <ERR targ=from> form </ERR> a dyslexic point of view.
+I can relate to every e-mail that I <ERR targ=read> red </ERR> .
+My biggest problem that troubles me, is my inability to fit in <ERR targ=or> our </ERR> be comfortable around people.
+I <ERR targ=need> ned </ERR> new information on how to deal <ERR targ=with> wit </ERR> this problem.
+I was reading the messages and came across one <ERR targ=from> form </ERR> a mother.
+If he would like to attend <ERR targ=college> collage </ERR> , mabye he could go to a community <ERR targ=college> collage </ERR> in your town.
+A little support <ERR targ=from> form </ERR> the school is all he needs.
+I would like it if someone could please tell me some of <ERR targ=their> there </ERR> stories.
+If you're dyslexic you see things in another <ERR targ=perspective> prospective </ERR> .
+If I was not dyslexic, <ERR targ=then> than </ERR> I wasn't myself anymore.
+It's a bit hard for <ERR targ=me> my </ERR> to type.
+When we returned to the U.S. my teachers didn't <ERR targ=quite> quit </ERR> <ERR targ=know> now </ERR> what to do.
+A lot of people don't understand what <ERR targ=you're> your </ERR> going through.
+ <ERR targ=all> Al </ERR> of a sudden he found me very interesting.
+I too went straight to <ERR targ=college> collage </ERR> thinking it would be different.
+If your son is mad keen to go to <ERR targ=college> collage </ERR> then see if you can get him any resources he feels he needs.
+Is he sure he wants to go straight <ERR targ=on to> onto </ERR> <ERR targ=college> collage </ERR> ?
+ <ERR targ=It's> Its </ERR> either submit as is or <ERR targ=lose> loose </ERR> the lot.
+ <ERR targ=It's> Its </ERR> quite cheap and even if it turns out dull in the middle the introduction is guaranteed to have some good bits.
+ Teachers didn't understand <ERR targ=where> were </ERR> I was coming from, but now I am studying media in <ERR targ=college> collage </ERR> and enjoying it very much.
+I <ERR targ=immersed> emerged </ERR> myself into drawing and painting.
+When I should shake and sweat when a teacher called on me to read <ERR targ=aloud> allowed </ERR> .
+I do not have anyone to talk to about dyslexia and how it has <ERR targ=affected> effected </ERR> their lives
+I think being <ERR targ=dyslexic> dyslexia </ERR> has helped me become a better artist.
+Is there any connection between those <ERR targ=two> to </ERR> things?
+If <ERR targ=you're> your </ERR> dyslexic can you become a teacher and actually teach?
+I <ERR targ=can't> cant </ERR> cope with all the zeros.
+I <ERR targ=am> an </ERR> unable to put into words just what the problem with the dates is, so I <ERR targ=can't> cant </ERR> seem to get anyone to sort it out for me.
+I <ERR targ=can't> cant </ERR> seem to make out much sense of the new dates .
+I just need some practical <ERR targ=advice> advise </ERR> .
+I <ERR targ=dropped> drop </ERR> out of school just a month to go.
+I <ERR targ=know> now </ERR> how dumb but I did <ERR targ=know> now </ERR> I have to get my GED and I need lots of help.
+ <ERR targ=They're> There </ERR> letting me take all the time that I need and I get a special test for the GED test but I know that <ERR targ=it's> its </ERR> going to be hard.
+For example, am I a person who is an overachiever , even without experience , someone who always has the advantage, or am I <ERR targ=an> a </ERR> underachiever, a person who is less capable?
+The only thing that I can offer in <ERR targ=advice> advise </ERR> is, find a retired teacher, who taught reading and spelling the old way, <ERR targ=by> buy </ERR> the use of phonics.
+I am <ERR targ=dyslexic> dyslexia </ERR> .
+Does anyone <ERR targ=know> now </ERR> how to <ERR targ=use> us </ERR> the spellcheck ?
+The test <ERR targ=is> are </ERR> too long for me and I get bored doing it.
+Maybe if someone with the know-how could set up a Chat room <ERR targ=site> sight </ERR> I think it would be well used.
+Good <ERR targ=advice> advise </ERR> for anyone including those with dyslexia.
+I am finding that not processing information accurately interferes with communication which is the heart of all <ERR targ=relationships> relationship </ERR> .
+People around you tend to see you as illiterate, but don't say anything <ERR targ=to> too </ERR> you.
+ Anybody want a chat about <ERR targ=their> there </ERR> <ERR targ=rough> ruff </ERR> time (a moan or cry)?
+The report said I have a very high verbal IQ (one <ERR targ=test> lest </ERR> was 153), and a very low performance IQ of 77.
+I just feel really down, my job is so hurtful to me and I can't <ERR targ=get> bet </ERR> the confidence to look for another.
+Does everyone feel this weird and bad when they are <ERR targ=first> fist </ERR> diagnosed?
+I <ERR targ=lose> loose </ERR> <ERR targ=bits> bit </ERR> of paper all the time and can't <ERR targ=even> ever </ERR> remember if I should know where they are.
+I am basically a happy, popular person who is considered professional and capable by my <ERR targ=peers> piers </ERR> and colleagues .
+I used to start debates on my subjects with other students deliberately to pick <ERR targ=their> there </ERR> brains.
+It just makes me equal to my <ERR targ=non> none </ERR> dyslexic peers.
+I am feeling a little better <ERR targ=now> know </ERR> but still a little sick because I have so much reading homework to do by tomorrow .
+Then you can <ERR targ=use> us </ERR> the things you are good at, the ways you learn best, to take in the info.
+When I first <ERR targ=found> fount </ERR> out I was angry and upset, but not for long.
+When I <ERR targ=found> fount </ERR> out I am dyslexic was when I finally stopped being scared.
+They suggested I buy him <ERR targ=a> and </ERR> hand held spell checker which he will be allowed to <ERR targ=use> us </ERR> on all his papers except for spelling test.
+I <ERR targ=wish> which </ERR> everyone all the luck in the world with your children.
+Anyway so I was <ERR targ=studying> studding </ERR> with my cousin who is the same age as I am and I said well I guess I will see you in class during the test.
+I have told a lot of my friends but I feel that sometimes they think I use it as an excuse as they have known <ERR targ=me> my </ERR> so long and I do get average grades.
+I have always been aware of seeing things others <ERR targ=can't> cant </ERR> see.
+Persistence is the key, if you cannot read a word miss it out, on the rare occasion that <ERR targ=it's> its </ERR> a key word (the sentence does not make sense without it) then ask someone.
+A couple of decades ago a Yugoslavian guy called Wolf changed <ERR targ=their> there </ERR> language so there <ERR targ=were> was </ERR> no special cases and everything was phonetic.
+Consequently <ERR targ=it's> its </ERR> a doddle to read and spell, can we not do this?
+My job is at stake and I need some support and <ERR targ=advice> advise </ERR> .
+This adjustment takes time and goes <ERR targ=through> trough </ERR> several stages.
+I now have the address and am off to <ERR targ=their> there </ERR> website.
+I <ERR targ=feel> fell </ERR> like putting a message in a bottle.
+I'm French and <ERR targ=live> leave </ERR> in Italy.
+I can teach them my way of reading music but I have not a clue <ERR targ=where> were </ERR> to begin .
+I want to establish myself in the dyslexic <ERR targ=world> word </ERR> .
+Is it worth the <ERR targ=thrill> trill </ERR> .
+A part of me can't help but think that they are right and I must deserve it <ERR targ=because> cause </ERR> it would not have happened if I did not deserve it.
+Because I am different a lot of kids think I am weird so I get a lot of teasing but I am pretty <ERR targ=used> use </ERR> to that.
+This information is of great importance to me <ERR targ=and> an </ERR> my studies, the information will of course be confidential and will not be publicly published.
+I am <ERR targ=his> has </ERR> wife.
+ <ERR targ=it's> It </ERR> easy to use, but you need a technical kind of person to work with you till you get used to it.
+My niece is 11 <ERR targ=years> year </ERR> old and she <ERR targ=can't> cant </ERR> read or spell.
+She has difficulties with maths <ERR targ=too> to </ERR> .
+However the department of employment to consider dyslexia to be a disability so far as <ERR targ=their> there </ERR> local offices are concerned.
+ <ERR targ=their> There </ERR> long term memory and reasoning abilities are not affected.
+Highlight key words and ideas then it is easier to scan the <ERR targ=text> test </ERR> for the information you want.
+ <ERR targ=does> Dose </ERR> it work for math or number sequencing too?
+They are really expensive about 400.00 a <ERR targ=piece> peace </ERR> but they are really good.
+Has anyone managed to get a <ERR targ=cheap> cheep </ERR> adult dyslexia test?
+I'd like to know for sure just how <ERR targ=severe> sever </ERR> my dyslexia is and what I can do about it but I've been out of school for 20 years.
+Lisa wrote back and told me about <ERR targ=where> were </ERR> I might get some quality answers to questions regarding my difficulties, so I thought I would share this information with people with similar problems as Access to work does not seem to be well advertised. 
+I am not sure how these test results would work in trying to get accommodations for <ERR targ=college> collage </ERR> and the like but here again this assessment may be the ticket to get schools or universities to do further testing at no cost to you. 
+The maturity/intelligence portion of the test for kids seemed a little weak but they seemed to gain some interesting clues from my answers to questions so <ERR targ=they> the </ERR> may gain more information from a drawing made by a child than I would guess.
+My answers <ERR targ=have> has </ERR> been answered all the thanks to my brother and mom, for encouraging me.
+Does the "Gift" get <ERR targ=worse> worst </ERR> as you get older, i feel it has. 
+ <ERR targ=her> He </ERR> life dream was to play the piano professionally, or at least to continue her piano studies while working as a profesional. 
+I'm 19 years of age and just recently been diagnosed as <ERR targ=being> been </ERR> <ERR targ=dyslexic> dyslexia </ERR> .
+Would you mind if i <ERR targ=joined> jointed </ERR> in on monday? 
+I will leave my message for now but i was going to say <ERR targ=it> i </ERR> would be nice to have less formally arranged chat, and just be able to drop in. 
+I have also <ERR targ=tried> tired </ERR> using sandpaper and reading numbers and letters by touch. 
+I am looking for <ERR targ=colleges> collages </ERR> that have programs geared right for students with dyslexia and LD or is a school specially designed for students with dyslexia and LD.
+If someone could give me some names or point me in the right direction that would <ERR targ=be> me </ERR> great. 
+I encouraged to hear that <ERR targ=you're> your </ERR> in college. 
+ <ERR targ=Any> Ant </ERR> suggestions out there. 
+You can get a tutor or you can <ERR targ=get> but </ERR> a kit that will teach you how to teach him.
+Are <ERR targ=there> their </ERR> voice activated machines? 
+It would not protect your legal <ERR targ=rights> writes </ERR> . 
+I <ERR targ=too> to </ERR> am fighting with my school system as they don't even recognize the term dyslexia . 
+I know <ERR targ=there> their </ERR> are other programs out <ERR targ=there> their </ERR> that are much more money. 
+I mean to say, that not only dyslexic people have those <ERR targ=feelings> feeling </ERR> , but everybody. 
+Only we have different and more <ERR targ=areas> arias </ERR> <ERR targ=where> were </ERR> we notice it.
+I <ERR targ=feel> fell </ERR> like I'm never in the middle.
+Sometimes I get fed up and wish i could <ERR targ=just> jest </ERR> be average all the way around ! 
+ <ERR targ=Then> Than </ERR> we can not respond <ERR targ=to> at </ERR> each other like we do now!
+I don't <ERR targ=know> now </ERR> any people who are in the middle.
+Three years of Spanish and <ERR targ=one> on </ERR> year of Latin and every week flunked a spelling test. 
+ <ERR targ=It> I </ERR> freaked me out so much cheating.
+ It made a such a huge <ERR targ=difference> different </ERR> in my life, more than just how i viewed learning but also how i felt about who I was.
+That was my major in <ERR targ=college> collage </ERR> .
+There was a great quote in one of my textbooks about spelling, talking about how society places <ERR targ=too> to </ERR> much emphasis on it; and it said "in what other area of life <ERR targ=do> to </ERR> we expect 100% perfection?" 
+If you want to reach the level and become a teacher or social worker <ERR targ=then> than </ERR> keep at it and don't let people discourage you! 
+As I got older <ERR targ=and> an </ERR> higher in my education, my grades got better. 
+Don't feel <ERR targ=too> to </ERR> strange.
+ <ERR targ=you're> Your </ERR> not alone. 
+Also because when <ERR targ=you're> your </ERR> interested in something then it helps learning <ERR targ=because> cause </ERR> <ERR targ=you're> your </ERR> familiar with it and you have the motivation.
+I've already <ERR targ=given> gave </ERR> lessons to a class for children with dyslexia at a school(I was <ERR targ=a> an </ERR> trainee). 
+After that I could choose if I wanted to study at <ERR targ=a> an </ERR> higher level. 
+There is <ERR targ=where> were </ERR> I am now. 
+It doesn't <ERR targ=make> my </ERR> any sense . 
+I had english class right after french class, <ERR targ=one> on </ERR> other phrase i remember very <ERR targ=well> will </ERR> is: "je ne veu pas allez a anglais"(sp???)="i don't want to go to english." 
+Too often truly gifted dyslexic <ERR targ=students> student </ERR> are overlooked because of <ERR targ=their> there </ERR> difficulties in other areas.
+But I <ERR targ=knew> know </ERR> it would never happen so I didn't join the military. 
+Here in australia the diagnosis is the most important <ERR targ=thing> think </ERR> because without the professionals saying it is dyslexia no one is willing to give help and the schools don't listen either.
+As <ERR targ=for> of </ERR> the expense I think it is <ERR targ=outrageous> outrages </ERR> as it doesn't make them available to the poorer person.
+That doesn't mean it's always hard, but it can also be a <ERR targ=relief> relieve </ERR> to finally explain why you are different.
+What do you think of 'us' while you don't know if <ERR targ=you're> your </ERR> one of 'us'? 
+Other documentation I have read about learning disabilities reasons that the creative ability is caused by a tendency see and process information in <ERR targ=pictures> picture </ERR> , rather than words.
+ I'm not much of a computer person and i <ERR targ=can't> cant </ERR> spell very well so please <ERR targ=bear> bare </ERR> with me.
+I am wondering if <ERR targ=there> their </ERR> <ERR targ=are> is </ERR> any people from australia that can give me some <ERR targ=advice> advise </ERR> and help.
+By regulation the <ERR targ=principal> principle </ERR> is required to suspend him for 10 days and recommend expulsion. 
+The hearing is being rushed because the <ERR targ=principal> principle </ERR> is going out of town.
+As you know the <ERR targ=current> currant </ERR> chat software isn't that good, so that is why I'm looking for alternatives.
+If anyone knows of good fast web chat software that we can <ERR targ=use> uses </ERR> like the <ERR targ=current> currant </ERR> chat room i would be happy to hear from you. 
+After several tests and many conversations, it seems ICQ is the <ERR targ=best> bets </ERR> tool <ERR targ=for> to </ERR> talking with folk on the net, both voice and text. 
+ <ERR targ=at> As </ERR> one time I went out with somebody. 
+I'm to the point now that I've <ERR targ=stopped> stop </ERR> counting days. 
+But that's ok because before I <ERR targ=didn't> dint </ERR> even know what leters to use.
+Until I took the Davis program and started reading about dyslexia, I thought that being able to see and think in <ERR targ=pictures> picture </ERR> was no big deal and anybody could do it.
+They either say I don't get it and walk away or what do you mean? and start to ask more <ERR targ=questions> question </ERR> . 
+They didn't have it so I <ERR targ=ordered> order </ERR> it.
+It will be here in two days any ideas <ERR targ=where> were </ERR> to put it. 
+What I'll do is <ERR targ=sit> set </ERR> down and picture the warehouse in my mind and move things around. 
+I must say, it isn't because you are dyslexic, that you <ERR targ=can't> cant </ERR> live a good life. 
+Never despair , <ERR targ=because> Cause </ERR> we <ERR targ=dyslexics> dyslexic </ERR> stand together. 
+If this was a sport we would start with the MAXIMUM <ERR targ=allowed> aloud </ERR> by law.
+After we were given a map of the school: the special education department was the only instruction department <ERR targ=not> no </ERR> labeled.
+The Dept. of Rehab. is going to pay for the whole thing next semester, but the school needs me to <ERR targ=start> star </ERR> this semester to get the hours I need. 
+Rather, I debate things in a vigorous and forthright manner, perhaps people aren't <ERR targ=used> use </ERR> to this kind of approach.
+At primary school I was involved any sport going, as well as end of year school productions, started a passion for cooking, and had the <ERR targ=privilege> privileged </ERR> of welcoming our (New Zealand) Governor General to our school one year.
+ <ERR targ=it> It's </ERR> seems that some people dislike the fact that I strongly disagree with their ideas, what do they know?
+I have just completed an in-depth report for SPELD NZ, on how it can achieve <ERR targ=its> it's </ERR> strategic goals.
+With any luck <ERR targ=there> their </ERR> is the possibility that SPELD will act on some of the suggestions.
+Many people go to the media claiming cures, in an attempt to get free publicity for their products, with a desire not to inform the public but to increase sales to <ERR targ=desperate> disparate </ERR> parents who are prepared to do anything for their children at any price.
+Despite the best efforts of a Spellchecker and me rereading the essay several times, there would always some spelling <ERR targ=mistakes> mistake </ERR> not picked up.
+In my experience markers are after concise and well <ERR targ=thought out> throughout </ERR> answers not another War and Peace novel.
+The main thing is to make your attempt closely resemble the <ERR targ=actual> actually </ERR> spelling of the word.
+If this was done properly many dyslexics would actually have a head start over their peers, that lack the problem solving abilities that many dyslexics have.
+It is easy to remember the destructive ( some would say forthright!) comments but take heart there are people out <ERR targ=there> their </ERR> who understand what you are saying.
+For <ERR targ=years> year </ERR> people have said Dyslexia needs more research but you try getting assessed on the NHS and you will be told something like "we don't test because it is an educational problem" or "you need a fund holding GP" so which is it?
+It is well <ERR targ=known> know </ERR> if dyslexics are taught in a multi-sensory way we can learn just as good as the next person but it is the Teaching methods used by the education system that causes us to have a problem with learning.
+To cure dyslexia you would have to rewire the brain which would mean the <ERR targ=loss> lose </ERR> of the gift as the gift is in the way our brains are wired.
+I have not read it yet but it really makes me angry that they can't <ERR targ=accept> except </ERR> us dyslexics for what we are different.
+As a parent you are naturally looking for any way to help your child this leaves you as easy <ERR targ=prey> pray </ERR> for quick fixes and so called cures. 
+ <ERR targ=well> Will </ERR> as an Adult Dyslexic and A Parent of 4 dyslexic children I can tell you <ERR targ=there> their </ERR> are none. 
+So unless it <ERR targ=involves> evolves </ERR> teaching be very careful of what is being offered.
+Teach me how to use it because if you cure it I will <ERR targ=lose> loose </ERR> the gift as well.
+Above all of that Dr. Levinson is a gentle caring person who <ERR targ=used> use </ERR> to work for the Board of Education here in the US. 
+An internet search should <ERR targ=get> gets </ERR> other information, however.
+Today I was informed that an influential person in my area had told a few teachers that there is no reason to believe that dyslexia <ERR targ=exists> exist </ERR> .
+ <ERR targ=it's> Its </ERR> that simple. 
+Incidently, I would love to hear from anybody who strongly <ERR targ=feels> feel </ERR> they have invented a new concept or device that has never been produced before.
+ <ERR targ=even> Oven </ERR> though my job requires that I do other things, I have decided to make <ERR targ=dyslexia> dyslexic </ERR> a special interest for me.
+I wonder what others, both <ERR targ=professionals> professions </ERR> and dyslexics, expereinces are like.
+Use of Dictaphone to record information then played back and marked or <ERR targ=later> latter </ERR> transcribed. 
+Some <ERR targ=suggestions> suggestion </ERR> for you.
+Take frequent breaks when doing literacy activities as the dyslexic child uses 4 to 5 times more cognitive energy and after <ERR targ=maybe> may </ERR> 15 to 20 minutes can be overtired, oppositional because of the tiredness and seem unmotivated, "lazy," and not working hard enough.
+Over the long haul, this can dramatically affect the <ERR targ=child's> child </ERR> language development, the ability to improve spelling and the ability to express him/her self more exactly in written language.
+Ensure that there is <ERR targ=an> a </ERR> extra good channel for communication between the teacher and the parents, and the child .
+When there is dyslexic child in a class, it <ERR targ=is> it </ERR> most helpful when the teacher establishes a more frequent than usual and a better than usual meaningful interaction with the parents.
+All the other students plan <ERR targ=their> there </ERR> projects, story board them etc.
+As I said before, there is no evidence on Bill Gates that I have <ERR targ=heard> herd </ERR> of, and never <ERR targ=heard> herd </ERR> it speculated about dyslexia, if he is anything he is more likely to be AS.
+I have <ERR targ=heard> herd </ERR> it often that Patton (lust for Glory) <ERR targ=was> were </ERR> dyslexic, but if he <ERR targ=was> were </ERR> anything like the character portrayed in the film, he <ERR targ=was> were </ERR> totally bonkers as well.
+Hard to say what variant of dyslexia I have, suffice it to say that I have <ERR targ=severe> sever </ERR> short term working memory problems, coupled with the fact that I do not think in, therefore do not immediately comprehend the auditory mode.
+I have <ERR targ=heard> herd </ERR> of brushing for sensory integration disorder, but that is something else. 
+I wish to God these crazies would stop exercising <ERR targ=their> there </ERR> silly theories on us.
+To me all this quackery is like saying to a black person that they should undergo treatment that would make <ERR targ=their> there </ERR> skin white, as a cure for the racism they suffer.
+I have included a veiled threat that I believe they are in event responsible to pay me the fees by way of compensation for failing to diagnose me as dyslexic when it was <ERR targ=their> there </ERR> responsibility. 
+Imaginary conversation with a <ERR targ=non> none </ERR> believer.
+Only through embarrassing them into reassessing <ERR targ=their> there </ERR> stance, or enabling them to see the symptoms first hand, will you be able to influence <ERR targ=their> there </ERR> prejudice.
+The purpose is currently research, however, it is <ERR targ=hoped> hope </ERR> that the data will later be used commercially.
+I have recently been made aware of the fact, that awarding bodies of special arrangements in examinations are being advised that, assessment of support needs should not be <ERR targ=focused> focussed </ERR> on specific learning difficulties, but on simply difficulties.
+I've seen several examples of simply less able students being told they are dyslexic, when in fact they show few or no signs considering the <ERR targ=different> difference </ERR> method of diagnosis.
+I am hoping i <ERR targ=won't> wont </ERR> get down graded too much.
+The greatest thing you can give your son is the knowledge that he is not dumb or lazy, the knowledge that he will need to find, what works for him, is valuable on the way to becoming someone who is on top of a problem, rather than some <ERR targ=whose> who's </ERR> problem is <ERR targ=on> no </ERR> top of them.
+This is <ERR targ=a> an </ERR> <ERR targ=new> knew </ERR> discovery and one worth noting.
+I'm really glad there <ERR targ=are> is </ERR> message boards like this.
+I have a web site on famous dyslexics and a link to <ERR targ=their> there </ERR> .
+Her class was working on a project about dyslexics, this is what she said about <ERR targ=their> there </ERR> findings for Bush.
+I have written several times to leave <ERR targ=this> his </ERR> mailbase and each time it has not worked.
+Therefore the gift side is able to continue to function <ERR targ=with> will </ERR> all its blessings.
+However I have noticed that a lot of dyslexics get agro/negative at anybody who suggests that it could be <ERR targ=cured> cure </ERR> . 
+I think it is important to keep an open mind about help, and investigate who has developed it and <ERR targ=their> there </ERR> "world view" i.e. are <ERR targ=they> the </ERR> dyslexic, are they someone from an ivory tower who has not personal experience but a set of numbers? 
+The other people cause themselves to be failures in life because <ERR targ=they> the </ERR> focus on <ERR targ=their> there </ERR> problem.
+I have observed both <ERR targ=types> type </ERR> of people in the dyslexic community, and have come to the conclusion that the 2nd type wouldn't truly take the offer of "cure/help" because it would take <ERR targ=their> there </ERR> problem away.
+They just can't see how the Davis, (or any other <ERR targ=too> to </ERR> far out of the system) would work. 
+Because it is <ERR targ=too> to </ERR> far outside the box, <ERR targ=too> to </ERR> far outside the norm people <ERR targ=generally> general </ERR> can't accept it. 
+This is why it took 50 yrs of doctors to wash <ERR targ=their> there </ERR> hands between patients!
+Things that are just <ERR targ=too> to </ERR> far outside the normal take time to be accepted into the society culture. 
+The real test is <ERR targ=whether> weather </ERR> dedicated people are willing to fight it out for 10+ years being active in promotion, and research to back up their views.
+My thoughts, in a <ERR targ=fill> full </ERR> in the blanks style.
+However some people do not understand that <ERR targ=there> their </ERR> are talents associated with dyslexic and offer cures, without focusing on the strengths as well.
+I remember doing spelling ones at school, however I am looking for something more broad, that covers <ERR targ=comprehension> compression </ERR> etc.
+I <ERR targ=purchased> purchase </ERR> this for my son recently who took it to his school Northease Manor, a specialised school for Dyslexia in East Sussex and they have shown some interest.
+I would be interested in the version for smaller text for myself as I am <ERR targ=increasingly> increasing </ERR> aware of my own dyslexia.
+He has a style of governing that could be described <ERR targ=as> at </ERR> intuitive.
+Students use <ERR targ=their> there </ERR> identification number on the sticker and <ERR targ=it's> its </ERR> marked to our dyslexia guidelines. 
+ <ERR targ=it's> Its </ERR> not <ERR targ=two> too </ERR> bites at the cherry!
+Is the argument we/the school system don't have any other methods of examination possible / developed <ERR targ=a> at </ERR> valid one?
+This would be a basic requirement for <ERR targ=an> a </ERR> average society.
+Don't think that is <ERR targ=an> a </ERR> unfair demand to put down.
+It is one occasion time where one is expected to deliver under time now and also <ERR targ=a> an </ERR> very unnatural environment. 
+Nobody <ERR targ=is> are </ERR> currently locked in any room with only their pen and calculator ?
+I would also like to find out more about dyslexia and how it <ERR targ=affects> effects </ERR> people.
+It would be really nice if you could find some time to fill in my <ERR targ=questionnaire> questioner </ERR> please.
+Do you think that you should be kept in at <ERR targ=break> brake </ERR> time to complete unfinished work ? 
+She had thought that it was just a problem with being old and not having been brought up with PCs but she has discovered <ERR targ=that> hat </ERR> her 'A' level students are printing out <ERR targ=their> there </ERR> computer based texts as they find it much easier to learn from paper.
+Money is an issue so recommendations of adequate but <ERR targ=cheap> cheep </ERR> would be as useful as "this is marvelous but it costs a fortune".
+They often leave a lot to be desired re readability and presentation lots of text turn off but most books appear to be of this <ERR targ=vein> vain </ERR> .
+Did you find out <ERR targ=where> were </ERR> the examples came from.
+Royal Oak is a centre that used to be based on the lake, i think it is still <ERR targ=there> their </ERR> .
+There are those who miss <ERR targ=out> our </ERR> because they unsubscribe due to too much mail.
+It is all too <ERR targ=frequently> frequent </ERR> misused as a term to describe human beings.
+You must be aware that life <ERR targ=is> if </ERR> not like that. 
+Most dyslexics who have a reading problem experience a surge of improvement in their <ERR targ=teens> teems </ERR> although the rate of reading never quite reaches that of the non-dyslexic.
+I have been following the thrust and parry with great interest so hope that my request is not <ERR targ=too> to </ERR> <ERR targ=minor> miner </ERR> . 
+I have tried the publisher with not <ERR targ=too> to </ERR> much success.
+I was very <ERR targ=interested> interest </ERR> on reading <ERR targ=your> you </ERR> e-mail.
+My daughter is 14 <ERR targ=been> be </ERR> <ERR targ=statmented> statement </ERR> since 1997.
+Went to a <ERR targ=special> specials </ERR> school for 12 months then was <ERR targ=put> but </ERR> back in mainstream school. 
+In <ERR targ=special> specials </ERR> school her reading went up 17 months and spelling 10 months. 
+After being in mainstream for 3 years her <ERR targ=spelling> spell </ERR> has gone up 6 month. 
+It took 6 months of <ERR targ=delays> belays </ERR> having asked to go back in <ERR targ=special> specials </ERR> school again.
+I got two 15 minutes twice a week I was told on Fridays as this was would meet her <ERR targ=needs> needed </ERR> .
+It will <ERR targ=take> tack </ERR> two weeks to get the new statement and then I was have to go to special <ERR targ=needs> needed </ERR> <ERR targ=tribunal> tribal </ERR> .
+Adopting the social model of disability we <ERR targ=ought> aught </ERR> to do something about it, but the task is just a bit on the big side and I'm already booked this week....
+She has <ERR targ=now> no </ERR> been informed that her son will see <ERR targ=an> and </ERR> Educational psychologist in a week.
+I wonder if I can once again ask for some <ERR targ=advice> advise </ERR> .
+I totally agree that the double consonant rule is not always followed (as in the 'finish' example <ERR targ=cited> sited </ERR> ).
+It does help them to create unknown spellings in a manner <ERR targ=that> than </ERR> the reader can understand.
+I am glad to see research quoted in this <ERR targ=list> lists </ERR> that suggests that all Italians, dyslexics included, have an easier time <ERR targ=learning> earning </ERR> to read.
+The advice I would give is to have a look at the College's prospectus and also ask the college for a copy of <ERR targ=their> there </ERR> Disability Statement.
+However if <ERR targ=they> there </ERR> are not willing to give support, and don't have anything in writing, I would find out whether there is somewhere else to study the course.
+I have <ERR targ=noticed> notice </ERR> some of you have been talking about coloured overlays.
+If any one on the mailing list <ERR targ=has> have </ERR> had an overlay assessment previously and did not think it made a difference, I strongly recommend you get in touch again.
+Unfortunately everyone is different and <ERR targ=has> have </ERR> different colours that help them to read.
+I would appreciate it, if people would not send <ERR targ=their> there </ERR> colours with <ERR targ=their> there </ERR> e-mails as colours such as purple/pink make my eyes hurt.
+But <ERR targ=now> know </ERR> I'm learning it is just a gift that i need to explore and cherish. 
+Most of life i kept <ERR targ=it> is </ERR> secret because i was ashamed and i didn't know what was wrong with me.
+I failed <ERR targ=first> fist </ERR> grade and in second grade they put me in LD classes. 
+I still <ERR targ=didn't> dint </ERR> know what was wrong with me. 
+No-one really <ERR targ=knew> new </ERR> how bad my writing was. 
+At this i <ERR targ=started> stared </ERR> looking for answers. 
+He graduated <ERR targ=from> form </ERR> Harved business school. 
+He told me that it <ERR targ=taught> taut </ERR> him to be a problem solver.
+I read it cover to cover the <ERR targ=first> fist </ERR> day. 
+This <ERR targ=gave> cave </ERR> me insight to my life.
+At age 27 i went back college the 4th time with the idea to improve what i was good at so went to art school A.I.P <ERR targ=and> an </ERR> <ERR targ=achieved> ached </ERR> a double major degree in computer animation-multimedia.
+Ron davis book <ERR targ=helped> help </ERR> to understand me and to develop the talents that i have.
+One of them is writing children's <ERR targ=stories> stores </ERR> . 
+At age 32 i have started my own multimedia company for interactive children's stories and will <ERR targ=spend> spent </ERR> the rest of my life writing and illustrating them. 
+I feel that we should work together instead of labelling one <ERR targ=another> anther </ERR> .
+I have never made fun of someone because they <ERR targ=can't> cant </ERR> draw or sculpt but not being able to write is made to be to shameful. 
+I took the Davis program five <ERR targ=months> mouths </ERR> ago.
+Once again as I started to <ERR targ=read> reed </ERR> them I couldn't help but grin and say to myself I know that's right.
+The <ERR targ=tests> test </ERR> have to be scrolled through and I don't have them in my hand so this is hard.
+We need a hard copy to really do well and because of this I <ERR targ=can't> cant </ERR> make the test places understand this.
+The far reaching impact of your accomplishments will help <ERR targ=thousands> thousand </ERR> of students oppressed by these state mandate tests. 
+I didn't <ERR targ=fare> fair </ERR> so well on the test but I think I know why.
+Can anybody help me to <ERR targ=find> fine </ERR> the good parts about being dxslexic? 
+I am out of work at the moment and wonder if <ERR targ=there's> theirs </ERR> help for people who have Dyslexia to get back in to work.
+ <ERR targ=it's> It </ERR> difficult <ERR targ=there> their </ERR> does not seem to be any Help for us <ERR targ=dyslexic> dyslexia </ERR> adults.
+It makes me <ERR targ=feel> feels </ERR> like I can not contribute to the world of work.
+We are <ERR targ=hoping> hope </ERR> to work to together to provide a forum for other <ERR targ=adults> adult </ERR> in our situation. 
+I'm doing a project about how the dyslexia can affect to the children in the school, because this problem can be <ERR targ=confused> confuse </ERR> with others.
+When did you discover your child <ERR targ=had> have </ERR> this "problem"? 
+Did you discover his/her problem yourself or was his/her teacher who <ERR targ=told> tell </ERR> you about your child was too"slow" for his/her age?
+I would really like to get to know people on <ERR targ=here> her </ERR> better, make some friends. 
+I <ERR targ=feel> fell </ERR> so uncomfortable whenever I am around people.
+I like being by myself in the short term but having no friends is making me so angry and just I don't know <ERR targ=it's> its </ERR> like I feel so withdrawn.
+I am <ERR targ=starting> staring </ERR> to worry about all of these standardized tests coming up.
+When I have been paying attention to words for a <ERR targ=while> wile </ERR> and I look up I am so dizzy for a <ERR targ=while> wile </ERR> .
+Sometimes my eyes just hurt <ERR targ=from> form </ERR> reading but it <ERR targ=is> it </ERR> not a vision problem because I always get 20/20 on vision tests.
+The other <ERR targ=thing> think </ERR> I have noticed about my eyes is like when I have been studying for a <ERR targ=while> wile </ERR> or something my eyes become really sensitive to light.
+Some of them have special <ERR targ=exemptions> exceptions </ERR> from those <ERR targ=tests> test </ERR> . 
+Even if <ERR targ=you're> your </ERR> not exempted from taking the ACT or SAT they still might have special things they could do to help you out in some way.
+If anyone has <ERR targ=any> an </ERR> information, I'd greatly appreciate it if you would either email me or post a response.
+I just thought I'd let you know that although what you described doesn't necessarily mean <ERR targ=you're> your </ERR> dyslexic <ERR targ=it's> its </ERR> worth looking into further. 
+Talk about <ERR targ=guinea> genie </ERR> pig! 
+I can't help but <ERR targ=notice> notes </ERR> how much the adults worry about college. 
+I'm at college just now on one <ERR targ=of> off </ERR> the computers and i was told at the age <ERR targ=of> off </ERR> 7 that i would never <ERR targ=be> bee </ERR> able to read. 
+I'm a very <ERR targ=severe> sever </ERR> dyslexic but very determined. 
+All i have to say for all the <ERR targ=mums> mum </ERR> and <ERR targ=dads> dad </ERR> out there is don't baby <ERR targ=your> u </ERR> child.
+If <ERR targ=you> u </ERR> <ERR targ=spend> speed </ERR> all <ERR targ=your> u </ERR> time protecting them they will only see themselves hopeless. 
+Most <ERR targ=dyslexics> dyslexic </ERR> have low self esteem any way but i'm 17 and have no problems. 
+I can cook, read, handle any type <ERR targ=of> off </ERR> animal , clean, and much more.
+It makes me so much happier with myself being able to do everything <ERR targ=by> bye </ERR> myself and i have been doing since 7. 
+I also feel parents spend <ERR targ=too> to </ERR> much time making excuses for the kids.
+I hope this information <ERR targ=helps> help </ERR> anyone <ERR targ=trying> try </ERR> to bring up a dyslexic child.
+I feel I could go on and on about the way I think being dyslexic affects me socially but will stop <ERR targ=here> hear </ERR> . 
+Florescent lights in most classrooms most likely <ERR targ=wreak> wreck </ERR> havoc on students.
+I haven't read a book <ERR targ=since> sense </ERR> i was 13.
+It's just <ERR targ=too> to </ERR> hard to comprehend so give up.
+Sure could <ERR targ=use> us </ERR> some help to know what to do to help myself read and understand what i am reading better. 
+Thanks you <ERR targ=for> fro </ERR> a <ERR targ=response> responds </ERR> .
+When i read i <ERR targ=can't> cant </ERR> understand what's on the page, and i find it very hard to cope with.
+I also have very bad spelling, and people always pick up on that which <ERR targ=does> dose </ERR> upset me, but they don't understand. 
+I was <ERR targ=bored> board </ERR> and daydreamed a lot of the time in school. 
+I just learn differently <ERR targ=than> that </ERR> others.
+As with most dyslexics, they are <ERR targ=their> there </ERR> own best teachers.
+I suppose this is the only real good, to come from the <ERR targ=awkward> award </ERR> beginnings of childhood .
+Few great <ERR targ=minds> mines </ERR> have slipped through the cracks over the past centuries.
+I am going to <ERR targ=apologise> apologies </ERR> straight away for my spelling, just as it is out of habit .
+Also I will <ERR targ=probably> probable </ERR> go on a bit.
+I am angry that my parents had to pay for <ERR targ=their> there </ERR> three children to have private tuition.
+My mum thinks it was <ERR targ=probably> probable </ERR> what I needed at the time. 
+I have so much I want to say, <ERR targ=loads> load </ERR> and <ERR targ=loads> load </ERR> of it, but what I want to say the most is that after all of that I will get there I know I will.
+But what makes me so sad and what is making me cry at this very moment is the fact that every day I hear of someone else who is going <ERR targ=through> thought </ERR> it.
+The fact that in the vast majority of <ERR targ=schools> school </ERR> they are ignoring it.
+Because it makes <ERR targ=their> there </ERR> lives simpler. 
+Nothing has changed, <ERR targ=their> there </ERR> attitude has not changed. 

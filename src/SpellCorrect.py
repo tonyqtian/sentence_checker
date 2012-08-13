@@ -38,7 +38,7 @@ class SpellCorrect:
             self.myDict[word] = 2
     
     
-    def evaluate(self, corpus, discount_value):  
+    def evaluate(self, corpus):  
         """Tests this speller on a corpus, returns a SpellingResult"""
         numCorrect = 0
         numTotal = 0
@@ -59,10 +59,10 @@ class SpellCorrect:
             hypothesis = self.nonwordCorrection(errorSentence)
             
             # Real word error correction, use confusion set
-#            hypothesis = self.realwordCorrection(hypothesis)
+            hypothesis = self.realwordCorrection(hypothesis)
             
             # Basic syntax error correction, use inflection set
-            hypothesis = self.syntaxCorrection(hypothesis, discount_value)
+            hypothesis = self.syntaxCorrection(hypothesis)
             
             tmp = sentence.isCorrection(hypothesis)
             marked_err += tmp[0]
@@ -102,11 +102,13 @@ class SpellCorrect:
             return []
         argmax_i = 0
         argmax_w = sentence[0]
-        minscore = float('-inf')
+#        minscore = float('-inf')
         argmax = list(sentence) # copy it
-        
+        sent_lenth = len(sentence)
+        window_size = 2
+                
         # skip start and end tokens
-        for i in range(1, len(sentence) - 1):
+        for i in range(1, sent_lenth - 1):
             word = sentence[i]
             if not len(word):
                 continue
@@ -128,21 +130,27 @@ class SpellCorrect:
             if flag == 1:                   
                 argmax_i = i
                 argmax_w = word
-                minscore = self.languageModel.entropy(sentence)
+#                minscore = self.languageModel.entropy(sentence)
+                sent_chop_org = sentence[max(1,i-window_size):min(i+window_size,sent_lenth-2)]
                 
                 sgtList = self.dict.suggest(word)
-                j = 1  #add punishment to edit distance
+#                j = 1  #add punishment to edit distance
                 for alternative in sgtList:
                     if alternative == word:
                         continue
                     sentence[i] = alternative
-                    score = self.languageModel.entropy(sentence) + math.log(j,2)
-                    if score <= minscore:
-                        minscore = score
+#                    score = self.languageModel.entropy(sentence) + math.log(j,2)
+#                    if score <= minscore:
+#                        minscore = score
+#                        argmax_w = alternative
+#                    j *= 2
+#                    #j += 1
+                    sent_chop_new = sentence[max(1,i-window_size):min(i+window_size,sent_lenth-2)]
+                    result = self.languageModelSQL.getBetter(sent_chop_org, sent_chop_new)
+                    if result == 2:
                         argmax_w = alternative
-                    j *= 2
-                    #j += 1
-        
+                        sent_chop_org = sent_chop_new
+                                
                 sentence[i] = argmax_w # restores sentence to original state before moving on
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
@@ -153,11 +161,13 @@ class SpellCorrect:
             return []
         argmax_i = 0
         argmax_w = sentence[0]
-        minscore = float('-inf')
         argmax = list(sentence) # copy it
-        
+        sent_lenth = len(sentence)
+        window_size = 2
+                
         # skip start and end tokens
-        for i in range(1, len(sentence) - 1):
+        for i in range(1, sent_lenth - 1):
+#            i = sent_lenth - 1 - j
             word = sentence[i]
             if not len(word):
                 continue
@@ -166,56 +176,60 @@ class SpellCorrect:
                 #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-                minscore = self.languageModel.entropy(sentence) - math.log(2, 2)
+                sent_chop_org = sentence[max(1,i-window_size):min(i+window_size,sent_lenth-2)]
                 
                 sgtList = self.confusionSet.getList(word)
                 for alternative in sgtList:
                     if alternative == word:
                         continue
                     sentence[i] = alternative
-                    score = self.languageModel.entropy(sentence)
-                    if score <= minscore:
-                        minscore = score
+                    sent_chop_new = sentence[max(1,i-window_size):min(i+window_size,sent_lenth-2)]
+                    result = self.languageModelSQL.getBetter(sent_chop_org, sent_chop_new)
+                    if result == 2:
                         argmax_w = alternative
+                        sent_chop_org = sent_chop_new
         
                 sentence[i] = argmax_w # restores sentence to original state before moving on
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
     
         
-    def syntaxCorrection(self, sentence, discount_value):
+    def syntaxCorrection(self, sentence):
         """Takes a list of words, returns a corrected list of words."""
         if len(sentence) == 0:
             return []
         argmax_i = 0
         argmax_w = sentence[0]
-        minscore = float('-inf')
         argmax = list(sentence) # copy it
+        sent_lenth = len(sentence)
+        window_size = 2
         
-        # skip start and end tokens
-        for i in range(1, len(sentence) - 1):
+        # skip start and end tokens (in range len(sentence)-1 is not included)
+        for i in range(1, sent_lenth - 1):
+#            i = sent_lenth - 1 - j
             word = sentence[i]
             if not len(word):
                 continue
 
             if self.inflectionSet.inDict(word):
-                #print "Find word: ", word
                 argmax_i = i
                 argmax_w = word
-#                minscore = self.languageModelSQL.entropy(sentence)
-                minscore = self.languageModelSQL.entropy(sentence) - math.log(discount_value, 2) * len(sentence)
+                sent_chop_org = sentence[max(1,i-window_size):min(i+window_size,sent_lenth-2)]
                 
+#                sgtList = self.inflectionSet.getInf(word)
                 sgtList = self.inflectionSet.getInfSet(word)
                 for alternative in sgtList:
                     if alternative == word:
                         continue
                     sentence[i] = alternative
-                    score = self.languageModelSQL.entropy(sentence)
-                    if score <= minscore:
-                        minscore = score
+                    sent_chop_new = sentence[max(1,i-window_size):min(i+window_size,sent_lenth-2)]
+                    result = self.languageModelSQL.getBetter(sent_chop_org, sent_chop_new)
+                    if result == 2:
                         argmax_w = alternative
-        
-                sentence[i] = word # restores sentence to original state before moving on
+                        sent_chop_org = sent_chop_new
+                    
+#                sentence[i] = word # restores sentence to original state before moving on
+                sentence[i] = argmax_w # stores sentence to best hypothesis before moving on
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
             
@@ -281,23 +295,27 @@ def main(reinitial):
     devCorpus = HolbrookCorpus(devPath)
 
     if reinitial == True:
-        from cPickle import dump     
+#        from cPickle import dump     
         
         from confSet import confusionSet
         print "Load confusion set..."
         myConfSet = confusionSet()
-        print "Dump confusion set..."
-        output1 = open('../data/myConfSet.pkl', 'wb')
-        dump(myConfSet, output1, -1)
-        output1.close()
+#        print "Dump confusion set..."
+#        output1 = open('../data/myConfSet.pkl', 'wb')
+#        dump(myConfSet, output1, -1)
+#        output1.close()
         
-        from inflectSet import inflectionSet
-        print "Load inflection set..."
-        myInfltSet = inflectionSet()
-        print "Dump inflection set..."
-        output2 = open('../data/myInflctSet.pkl', 'wb')
-        dump(myInfltSet, output2, -1)
-        output2.close()
+#        from inflectSet import inflectionSet
+#        print "Load inflection set..."
+#        myInfltSet = inflectionSet()
+#        print "Dump inflection set..."
+#        output2 = open('../data/myInflctSet.pkl', 'wb')
+#        dump(myInfltSet, output2, -1)
+#        output2.close()
+        
+        from inflectBasicSet import inflectionBasicSet
+        print "Load inflection basic set..."
+        myInfltSet = inflectionBasicSet()
         
 #        from TaggerTest import Tagger
 #        print "Load brown tagger..."
@@ -345,8 +363,8 @@ def main(reinitial):
     
     #customLM = NgramLM(trainingCorpus)
     print "Preparing training LM..."
-#    customLM = LM('web1t')
-    customLM = LM('reuters')
+    customLM = LM('web1t')
+#    customLM = LM('reuters')
 #    print "Loading WordTagModel..."
 #    from WordTagModel import WordTagModel
 #    myWordTag = WordTagModel()
@@ -361,21 +379,15 @@ def main(reinitial):
 #    input3 =  open('../data/myBrown_wordTagModel.pkl', 'rb')
 #    myWordTag = pickle.load(input3)
 #    input3.close()
-#    file_handle = open('../data/result_compare.txt', 'w')
+
     print "Initializing the Checker..."
     customSpell = SpellCorrect(customLM, myConfSet, myInfltSet)
-    discount_value = 64
-#    for count in range(50):
     print "Correcting Test Set and Evaluating..."
-    customOutcome = customSpell.evaluate(devCorpus, discount_value)
+    customOutcome = customSpell.evaluate(devCorpus)
     print str(customOutcome)
-#    file_handle.write('\ndiscount: ' + str(discount_value) + ' \n')
-#    file_handle.write(str(customOutcome))
-#    discount_value = discount_value * 2
-#    file_handle.close()
     print "Finished"
 
 if __name__ == "__main__":
-#    reinit = True
-    reinit = False
+    reinit = True
+#    reinit = False
     main(reinit)

@@ -14,18 +14,18 @@ class inflectionSet(object):
         '''
         Constructor
         '''
-        inf_input =  open(filename)
-        safe_input = open('../data/basic_words_list.txt')
+        inf_input =  open(filename, 'r')
+        safe_input = open('../data/basic_words_list.txt', 'r')
         self.safe_set = set([])
         for wd in safe_input:
+            wd = wd.strip()
             self.safe_set.add(wd)
             
         self.inflectDict = {}
         self.invertIndex = {}
         for line in inf_input:
             word = line.split('\t')
-            wordLen = len(word)
-            if wordLen == 2:
+            if len(word) == 2:
                 former, later = word
                 headWord, dummy = former.split('/')
                 tailWord, dummy = later.split('/')
@@ -71,7 +71,13 @@ class inflectionSet(object):
             return True
         else:
             return False
-    
+        
+    def inDictSafe(self, word):
+        if word in self.safe_set:
+            return True
+        else:
+            return False
+        
     def getHead(self, word):
         if self.inflectDict.has_key(word):
             return word
@@ -98,14 +104,24 @@ class inflectionSet(object):
                 return listSet
         else:
             return set([])
-    
-    def getInfSetSafe(self, word):
-        if word in self.safe_set:
-            return self.getInfSet(word)
         
 def demo():
     myInf = inflectionSet()
     
+#    safe_input = open('../data/basic_words_list.txt', 'r')
+#    output = open('../data/basic_inflection_list.txt', 'w')
+#    for wd in safe_input:
+#        wd = wd.strip()
+#        inf_list = myInf.getInfSet(wd)
+#        if len(inf_list):
+#            line = wd + '\t'
+#            for w in inf_list:
+#                if not w == wd:
+#                    line = line + w + ','
+#            line = line.strip(',')
+#            line = line + '\n'
+#            output.write(line) 
+       
     testWord = 'thieves'
     print "Check inDict: ", myInf.inDict(testWord)
     print "Check getHead: ", myInf.getHead(testWord)
