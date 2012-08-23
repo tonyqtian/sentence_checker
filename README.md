@@ -20,3 +20,10 @@ Checker framework from modified version of Peter Norvig's spelling corrector
 Copyright 2007 Peter Norvig. 
 Open source code under MIT license: http://www.opensource.org/licenses/mit-license.php
 """
+
+Usage:
+  Prerequisition:
+    Install Python , NumPy, NLTK, PyYAML, PyEnchant
+    Install NLTK corpora: gazetteers, names, (reuters: Not needed now)
+  Run:
+  	run SpellCorrect.py to check the result

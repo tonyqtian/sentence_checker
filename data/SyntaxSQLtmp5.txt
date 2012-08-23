@@ -1,0 +1,1066 @@
+Preparing dev corpus...
+Load confusion set...
+Dump confusion set...
+Load inflection set...
+Dump inflection set...
+Preparing training LM...
+Initializing the Checker...
+Correcting Test Set and Evaluating...
+Snt No.  1  Correct!
+Error Snt>>>  <s> I took the broom begain clean the floor . </s>
+Crrct Snt>>>  --- - ---- --- ----- begin ----- --- ----- - ----
+Hypo Sent>>>  --- - ---- --- ----- begin ----- --- ----- - ----
+ 
+Snt No.  2  Correct!
+Error Snt>>>  <s> but I very haapy . </s>
+Crrct Snt>>>  --- --- - ---- happy - ----
+Hypo Sent>>>  --- --- - ---- happy - ----
+ 
+Snt No.  3  Incorrect...
+Error Snt>>>  <s> it's the neighbors of ours . they played their sereo so loud that I can't sleep . </s>
+Crrct Snt>>>  --- ---- --- --------- -- ---- - ---- ------ ----- stereo -- ---- ---- - couldn't ----- - ----
+Hypo Sent>>>  --- ---- --- neighbours -- ---- - ---- ------ ----- sere -- ---- ---- - -------- ----- - ----
+ 
+Snt No.  4  Correct!
+Error Snt>>>  <s> some of invaluabel trees will die . </s>
+Crrct Snt>>>  --- ---- -- invaluable ----- ---- --- - ----
+Hypo Sent>>>  --- ---- -- invaluable ----- ---- --- - ----
+ 
+Snt No.  5  Correct!
+Error Snt>>>  <s> everything is as well as usuall . </s>
+Crrct Snt>>>  --- ---------- -- -- ---- -- usual - ----
+Hypo Sent>>>  --- ---------- -- -- ---- -- usual - ----
+ 
+Snt No.  6  Correct!
+Error Snt>>>  <s> the new Yuan Ming palace is a race imitation of an ancient tourism attruction . </s>
+Crrct Snt>>>  --- --- --- ---- ---- ------ -- - ---- --------- -- -- ------- ------- attraction - ----
+Hypo Sent>>>  --- --- --- ---- ---- ------ -- - ---- --------- -- -- ------- ------- attraction - ----
+ 
+Snt No.  7  Correct!
+Error Snt>>>  <s> it's a reproducation of the original imperical Yuan Ming palace in Beijing . </s>
+Crrct Snt>>>  --- ---- - reproduction -- --- -------- empirical ---- ---- ------ -- ------- - ----
+Hypo Sent>>>  --- ---- - reproduction -- --- -------- empirical ---- ---- ------ -- ------- - ----
+ 
+Snt No.  8  Correct!
+Error Snt>>>  <s> but we had a probrum we couldn't set fire so everyone's face was turning black we looked each other and could not help to laugh . </s>
+Crrct Snt>>>  --- --- -- --- - problem -- -------- --- ---- -- ---------- ---- --- ------- ----- -- ------ ---- ----- --- ----- --- ---- -- ----- - ----
+Hypo Sent>>>  --- --- -- --- - problem -- -------- --- ---- -- ---------- ---- --- ------- ----- -- ------ ---- ----- --- ----- --- ---- -- ----- - ----
+ 
+Snt No.  9  Incorrect...
+Error Snt>>>  <s> the food were very delicious . </s>
+Crrct Snt>>>  --- --- ---- was ---- --------- - ----
+Hypo Sent>>>  --- --- ---- is ---- --------- - ----
+ 
+Snt No.  10  Incorrect...
+Error Snt>>>  <s> it looked quict lovely . </s>
+Crrct Snt>>>  --- -- ------ quiet ------ - ----
+Hypo Sent>>>  --- -- ------ quit ------ - ----
+ 
+Snt No.  11  Incorrect...
+Error Snt>>>  <s> it was very fun . on that day we were all very happy and had a good time . </s>
+Crrct Snt>>>  --- -- --- ---- funny - -- ---- --- -- ---- --- ---- ----- --- --- - ---- ---- - ----
+Hypo Sent>>>  --- -- --- ---- ----- - -- ---- --- -- ---- --- ---- ----- --- --- - ---- ---- - ----
+ 
+Snt No.  12  Correct!
+Error Snt>>>  <s> she tell me an interesting story about her . </s>
+Crrct Snt>>>  --- --- told -- -- ----------- ----- ----- --- - ----
+Hypo Sent>>>  --- --- told -- -- ----------- ----- ----- --- - ----
+ 
+Snt No.  13  Incorrect...
+Error Snt>>>  <s> she doesn't know London well and she lost her way . </s>
+Crrct Snt>>>  --- --- didn't ---- ------ ---- --- --- ---- --- --- - ----
+Hypo Sent>>>  --- --- ------ ---- ------ ---- --- --- ---- --- --- - ----
+ 
+Snt No.  14  Incorrect...
+Error Snt>>>  <s> he speak German . </s>
+Crrct Snt>>>  --- -- speaks ------ - ----
+Hypo Sent>>>  --- -- spoke ------ - ----
+ 
+Snt No.  15  Incorrect...
+Error Snt>>>  <s> then he put his hand his hand into his pocket and took out a book and found a sentence slowly I am sorry I don't speak English . </s>
+Crrct Snt>>>  --- ---- -- --- --- ---- in his ---- ---- --- ------ --- ---- --- - ---- --- ----- - -------- ------ - -- ----- - ----- ----- ------- - ----
+Hypo Sent>>>  --- ---- -- --- --- ---- ------ ---- ---- --- ------ --- ---- --- - ---- --- ----- - -------- ------ - -- ----- - ----- ----- ------- - ----
+ 
+Snt No.  16  Incorrect...
+Error Snt>>>  <s> one of day there is an old man going to the Jusco . </s>
+Crrct Snt>>>  --- ---  --- ----- -- -- --- --- ----- -- --- ----- - ----
+Hypo Sent>>>  --- ---  --- ----- -- -- --- --- ----- -- --- ----- - ----
+ 
+Snt No.  17  Incorrect...
+Error Snt>>>  <s> he is taking milk bread fish hot dogs pock soft drink beff noodles and rice then He is going to the cash desk . </s>
+Crrct Snt>>>  --- -- -- ------ ---- ----- ---- --- ---- ---- ---- ----- beef ------- --- ---- ---- he -- ----- -- --- ---- ---- - ----
+Hypo Sent>>>  --- -- -- ------ ---- ----- ---- --- ---- ---- ---- ----- Jeff ------- --- ---- ---- -- -- ----- -- --- ---- ---- - ----
+ 
+Snt No.  18  Correct!
+Error Snt>>>  <s> hog deer its shape is very clemsy . </s>
+Crrct Snt>>>  --- --- ---- --- ----- -- ---- clumsy - ----
+Hypo Sent>>>  --- --- ---- --- ----- -- ---- clumsy - ----
+ 
+Snt No.  19  Incorrect...
+Error Snt>>>  <s> the shop sell many kind of food there are meal vegetable and fruit . </s>
+Crrct Snt>>>  --- --- ---- sells ---- kinds -- ---- ----- --- ---- --------- --- ----- - ----
+Hypo Sent>>>  --- --- shops ----- ---- kinds -- ---- ----- --- ---- --------- --- ----- - ----
+ 
+Snt No.  20  Incorrect...
+Error Snt>>>  <s> I like eat fruit in shop very much because of the fruit in the Jusco are very delicious . </s>
+Crrct Snt>>>  --- - ---- --- ----- -- ---- ---- ---- -------  --- ----- -- --- ----- is ---- --------- - ----
+Hypo Sent>>>  --- - ---- --- ----- -- ---- ---- ---- -------  --- ----- -- --- ----- -- ---- --------- - ----
+ 
+Snt No.  21  Incorrect...
+Error Snt>>>  <s> you can buy some thing from lapan for example ball-pen ruler pencil-box bag some thing in the shop are very dear . </s>
+Crrct Snt>>>  --- --- --- --- ---- ----- ---- Japan --- ------- -------- ----- ---------- --- ---- ----- -- --- ---- --- ---- ---- - ----
+Hypo Sent>>>  --- --- --- --- ---- things ---- Japan --- ------- ball-bearing ----- pencil --- ---- ----- -- --- ---- --- ---- ---- - ----
+ 
+Snt No.  22  Incorrect...
+Error Snt>>>  <s> if you have a child you can buy some toy for him or she some of the toy are pride they are bird chicken duck bear tiger elevhant cat dog mouse sheep fish monkey and rabbit . </s>
+Crrct Snt>>>  --- -- --- ---- - ----- --- --- --- ---- toys --- --- -- her ---- -- --- toys --- expensive ---- --- ---- ------- ---- ---- ----- elephant --- --- ----- ----- ---- ------ --- ------ - ----
+Hypo Sent>>>  --- -- --- ---- - ----- --- --- --- ---- toys --- --- -- --- ---- -- --- toys --- --------- ---- --- ---- ------- ---- ---- ----- elephant --- --- ----- ----- ---- ------ --- ------ - ----
+ 
+Snt No.  23  Incorrect...
+Error Snt>>>  <s> many people like reading books so the shopping centre have all kind of books . </s>
+Crrct Snt>>>  --- ---- ------ ---- ------- ----- -- --- -------- ------ has --- kinds -- ----- - ----
+Hypo Sent>>>  --- ---- ------ ---- ------- ----- -- --- -------- ------ --- --- kinds -- ----- - ----
+ 
+Snt No.  24  Incorrect...
+Error Snt>>>  <s> there are many different kind of food you can have some tea coffee and milk to drink and some eggs sausages beef chicken vegetable noodles dumpling and porridge . </s>
+Crrct Snt>>>  --- There --- ---- --------- kinds -- ---- --- --- ---- ---- --- ------ --- ---- -- ----- --- ---- ---- -------- ---- ------- --------- ------- -------- --- -------- - ----
+Hypo Sent>>>  --- ----- --- ---- --------- kinds -- ---- --- --- ---- ---- --- ------ --- ---- -- ----- --- ---- ---- -------- ---- ------- --------- ------- -------- --- -------- - ----
+ 
+Snt No.  25  Incorrect...
+Error Snt>>>  <s> if you have any matter they will be gald to help . </s>
+Crrct Snt>>>  --- -- --- ---- --- matters ---- ---- -- glad -- ---- - ----
+Hypo Sent>>>  --- -- --- ---- --- ------- ---- ---- -- glad -- ---- - ----
+ 
+Snt No.  26  Incorrect...
+Error Snt>>>  <s> the shopping centre paty an in porpant part in socialist construction . </s>
+Crrct Snt>>>  --- --- -------- ------ pay -- important ---- -- --------- ------------ - ----
+Hypo Sent>>>  --- --- -------- ------ pay -- incorporate ---- -- --------- ------------ - ----
+ 
+Snt No.  27  Correct!
+Error Snt>>>  <s> because I was not used to the new environment . my holdays begin . </s>
+Crrct Snt>>>  --- ------- - --- --- ---- -- --- --- ----------- - -- holidays ----- - ----
+Hypo Sent>>>  --- ------- - --- --- ---- -- --- --- ----------- - -- holidays ----- - ----
+ 
+Snt No.  28  Incorrect...
+Error Snt>>>  <s> in the holdays I will to do my part-time job -- be a car washman to wash cars in Zhong Shan . </s>
+Crrct Snt>>>  --- -- --- holidays - ---- -- -- -- --------- --- -- -- - --- ------- -- ---- ---- -- ----- ---- - ----
+Hypo Sent>>>  --- -- --- holidays - ---- -- -- -- --------- --- -- -- - --- wash man -- ---- ---- -- ----- ---- - ----
+ 
+Snt No.  29  Incorrect...
+Error Snt>>>  <s> after one year I will go to Australia to be with with you . </s>
+Crrct Snt>>>  --- ----- --- ---- - ---- -- -- --------- -- -- ----  --- - ----
+Hypo Sent>>>  --- ----- --- ---- - ---- -- -- --------- -- -- ----  --- - ----
+ 
+Snt No.  30  Incorrect...
+Error Snt>>>  <s> Form your nephew lam . </s>
+Crrct Snt>>>  --- From ---- ------ --- - ----
+Hypo Sent>>>  --- ---- ---- ------ --- - ----
+ 
+Snt No.  31  Correct!
+Error Snt>>>  <s> if you have no idea where the supermarket is or where the best supermaket is ? </s>
+Crrct Snt>>>  --- -- --- ---- -- ---- ----- --- ----------- -- -- ----- --- ---- supermarket -- - ----
+Hypo Sent>>>  --- -- --- ---- -- ---- ----- --- ----------- -- -- ----- --- ---- supermarket -- - ----
+ 
+Snt No.  32  Incorrect...
+Error Snt>>>  <s> it sell thing different in all parts of the country and then it sells like the wholesale market . </s>
+Crrct Snt>>>  --- -- sells ----- --------- -- --- ----- -- --- ------- --- ---- -- ----- ---- --- --------- ------ - ----
+Hypo Sent>>>  --- -- ----- ----- --------- -- --- ----- -- --- ------- --- ---- -- ----- ---- --- --------- ------ - ----
+ 
+Snt No.  33  Incorrect...
+Error Snt>>>  <s> it live between the Huanshi road and Guanghua road . </s>
+Crrct Snt>>>  --- -- lies ------- --- ------- ---- --- -------- ---- - ----
+Hypo Sent>>>  --- -- lives ------- --- ------- ---- --- -------- ---- - ----
+ 
+Snt No.  34  Incorrect...
+Error Snt>>>  <s> there are many all kinds of things . </s>
+Crrct Snt>>>  --- ----- --- ----  ----- -- ------ - ----
+Hypo Sent>>>  --- ----- --- ----  ----- -- ------ - ----
+ 
+Snt No.  35  Correct!
+Error Snt>>>  <s> the supermaket like the lager storehouse . </s>
+Crrct Snt>>>  --- --- supermarket ---- --- ----- ---------- - ----
+Hypo Sent>>>  --- --- supermarket ---- --- ----- ---------- - ----
+ 
+Snt No.  36  Incorrect...
+Error Snt>>>  <s> The are very happy to answer you . </s>
+Crrct Snt>>>  --- They --- ---- ----- -- ------ --- - ----
+Hypo Sent>>>  --- ---- --- ---- ----- -- ------ --- - ----
+ 
+Snt No.  37  Incorrect...
+Error Snt>>>  <s> if you was not satisfierd with the supermarket . </s>
+Crrct Snt>>>  --- -- --- were --- satisfied ---- --- ----------- - ----
+Hypo Sent>>>  --- -- --- are --- satisfied ---- --- ----------- - ----
+ 
+Snt No.  38  Incorrect...
+Error Snt>>>  <s> you can write the letter for this supermaket's seller . </s>
+Crrct Snt>>>  --- --- --- ----- a ------ --- ---- supermarket's ------ - ----
+Hypo Sent>>>  --- --- --- ----- - ------ --- ---- supermarket's ------ - ----
+ 
+Snt No.  39  Incorrect...
+Error Snt>>>  <s> they are very harry with your suggestion . </s>
+Crrct Snt>>>  --- ---- --- ---- happy ---- ---- ---------- - ----
+Hypo Sent>>>  --- ---- --- ---- ----- ---- ---- ---------- - ----
+ 
+Snt No.  40  Incorrect...
+Error Snt>>>  <s> how unsatisfactory the supermark is . </s>
+Crrct Snt>>>  --- --- -------------- --- supermarket -- - ----
+Hypo Sent>>>  --- --- -------------- --- super mark -- - ----
+ 
+Snt No.  41  Incorrect...
+Error Snt>>>  <s> in the shop there is four chair and a frame on the frame there are three kind of light . </s>
+Crrct Snt>>>  --- -- --- ---- ----- are ---- chairs --- - ----- -- --- ----- ----- --- ----- ---- -- ----- - ----
+Hypo Sent>>>  --- -- --- ---- ----- --- ---- ------ --- - ----- -- --- ----- ----- --- ----- kinds -- ----- - ----
+ 
+Snt No.  42  Incorrect...
+Error Snt>>>  <s> summer people can eat delicious litchi and longun . </s>
+Crrct Snt>>>  --- ------ ------ --- --- --------- ------ --- longan - ----
+Hypo Sent>>>  --- ------ ------ --- --- --------- lit chi --- longing - ----
+ 
+Snt No.  43  Incorrect...
+Error Snt>>>  <s> the fruit shop at the Hong Qi road is very popular Because it give people supply convenient the fruit shop business is very good . </s>
+Crrct Snt>>>  --- --- ----- ---- -- --- ---- -- ---- -- ---- ------- because -- gives ------ ------ ---------- --- ----- ---- -------- -- ---- ---- - ----
+Hypo Sent>>>  --- --- ----- ---- -- --- ---- -- ---- -- ---- ------- ------- -- gives ------ ------ ---------- --- ----- ---- -------- -- ---- ---- - ----
+ 
+Snt No.  44  Incorrect...
+Error Snt>>>  <s> Shoopping paradise </s>
+Crrct Snt>>>  --- Shopping -------- ----
+Hypo Sent>>>  --- -------- -------- ----
+ 
+Snt No.  45  Incorrect...
+Error Snt>>>  <s> it was builded in 1995 . you can hardry imagine how many stores and shops here . </s>
+Crrct Snt>>>  --- -- --- built -- ---- - --- --- hardly ------- --- ---- ------ --- ----- ---- - ----
+Hypo Sent>>>  --- -- --- builder -- ---- - --- --- hardy ------- --- ---- ------ --- ----- ---- - ----
+ 
+Snt No.  46  Incorrect...
+Error Snt>>>  <s> when you are shopping or window shopping here you can really feel the meaning of the Customen is the Good . </s>
+Crrct Snt>>>  --- When --- --- -------- -- ------ -------- ---- --- --- ------ ---- --- ------- -- --- Customer -- --- God - ----
+Hypo Sent>>>  --- ---- --- --- -------- -- ------ -------- ---- --- --- ------ ---- --- ------- -- --- -------- -- --- --- - ----
+ 
+Snt No.  47  Correct!
+Error Snt>>>  <s> in the Tianhe public not only have market but all so have restaurantes . </s>
+Crrct Snt>>>  --- -- --- ------ ------ --- ---- ---- ------ --- --- -- ---- restaurants - ----
+Hypo Sent>>>  --- -- --- ------ ------ --- ---- ---- ------ --- --- -- ---- restaurants - ----
+ 
+Snt No.  48  Incorrect...
+Error Snt>>>  <s> a variety of high-quality goods from all over the world are on display for you to shoose fomr . </s>
+Crrct Snt>>>  --- - ------- -- ------------ ----- ---- --- ---- --- ----- --- -- ------- --- --- -- choose from - ----
+Hypo Sent>>>  --- - ------- -- ------------ ----- ---- --- ---- --- ----- --- -- ------- --- --- -- shoos form - ----
+ 
+Snt No.  49  Incorrect...
+Error Snt>>>  <s> you just go to there . I have builded magnificant . </s>
+Crrct Snt>>>  --- --- ---- --  ----- - - ---- built magnificent - ----
+Hypo Sent>>>  --- --- ---- --  ----- - - ---- builder magnificent - ----
+ 
+Snt No.  50  Correct!
+Error Snt>>>  <s> because fruites smell filled there and many good desserts is there I think everybody will love the place . </s>
+Crrct Snt>>>  --- ------- fruits ----- ------ ----- --- ---- ---- -------- -- ----- - ----- --------- ---- ---- --- ----- - ----
+Hypo Sent>>>  --- ------- fruits ----- ------ ----- --- ---- ---- -------- -- ----- - ----- --------- ---- ---- --- ----- - ----
+ 
+Snt No.  51  Incorrect...
+Error Snt>>>  <s> because in there have many choices to people . </s>
+Crrct Snt>>>  --- -------  ----- ---- ---- ------- for ------ - ----
+Hypo Sent>>>  --- -------  ----- ---- ---- ------- --- ------ - ----
+ 
+Snt No.  52  Incorrect...
+Error Snt>>>  <s> the Chinese new year is the happiest and mort enjoyable time of the year for chinese families . </s>
+Crrct Snt>>>  --- --- ------- --- ---- -- --- -------- --- most --------- ---- -- --- ---- --- Chinese -------- - ----
+Hypo Sent>>>  --- --- ------- --- ---- -- --- -------- --- ---- --------- ---- -- --- ---- --- ------- -------- - ----
+ 
+Snt No.  53  Incorrect...
+Error Snt>>>  <s> this vacation our family are going to Thailand Singaport Malaysia Hong Kong . </s>
+Crrct Snt>>>  --- ---- -------- --- ------ --- ----- -- -------- Singapore -------- ---- ---- - ----
+Hypo Sent>>>  --- ---- -------- --- ------ --- ----- -- -------- --------- -------- ---- ---- - ----
+ 
+Snt No.  54  Incorrect...
+Error Snt>>>  <s> on the first day of the new year everyone chinese is encouraged to wear red clothes in Malaysia . </s>
+Crrct Snt>>>  --- -- --- ----- --- -- --- --- ---- every Chinese -- ---------- -- ---- --- ------- -- -------- - ----
+Hypo Sent>>>  --- -- --- ----- --- -- --- --- ---- ----- ------- -- ---------- -- ---- --- ------- -- -------- - ----
+ 
+Snt No.  55  Incorrect...
+Error Snt>>>  <s> now I'm live in the Malaysia the highest's mountain peak -- the Genting highlands . </s>
+Crrct Snt>>>  --- --- --- ---- -- --- -------- --- highest -------- ---- -- --- ------- --------- - ----
+Hypo Sent>>>  --- --- --- ---- -- --- -------- --- highlight's -------- ---- -- --- ------- --------- - ----
+ 
+Snt No.  56  Correct!
+Error Snt>>>  <s> there are two room in a shop . the one on the left is in front of my home . </s>
+Crrct Snt>>>  --- ----- --- --- rooms -- - ---- - --- --- -- --- ---- -- -- ----- -- -- ---- - ----
+Hypo Sent>>>  --- ----- --- --- rooms -- - ---- - --- --- -- --- ---- -- -- ----- -- -- ---- - ----
+ 
+Snt No.  57  Correct!
+Error Snt>>>  <s> it has two door and a very small window . </s>
+Crrct Snt>>>  --- -- --- --- doors --- - ---- ----- ------ - ----
+Hypo Sent>>>  --- -- --- --- doors --- - ---- ----- ------ - ----
+ 
+Snt No.  58  Incorrect...
+Error Snt>>>  <s> there are pens pencils crayone pastels brush pens and corection fluids erasers pen kives glues pins and the other things . </s>
+Crrct Snt>>>  --- ----- --- ---- ------- crayon ------- ----- ---- --- correction ------ ------- --- knives ----- ---- --- --- ----- ------ - ----
+Hypo Sent>>>  --- ----- --- ---- ------- crayon ------- ----- ---- --- correction ------ ------- --- chives ----- ---- --- --- ----- ------ - ----
+ 
+Snt No.  59  Incorrect...
+Error Snt>>>  <s> the another one is sell frait . </s>
+Crrct Snt>>>  --- --- ------- --- -- ---- fruit - ----
+Hypo Sent>>>  --- --- ------- --- -- ---- fait - ----
+ 
+Snt No.  60  Correct!
+Error Snt>>>  <s> it's on the counter of staionery's left hand side . </s>
+Crrct Snt>>>  --- ---- -- --- ------- -- stationery's ---- ---- ---- - ----
+Hypo Sent>>>  --- ---- -- --- ------- -- stationery's ---- ---- ---- - ----
+ 
+Snt No.  61  Incorrect...
+Error Snt>>>  <s> there are three watermelons five coconuts many oranges pears peaches carambolas cherrys and apples in it . </s>
+Crrct Snt>>>  --- ----- --- ----- ----------- ---- -------- ---- ------- ----- ------- ---------- cherry --- ------ -- -- - ----
+Hypo Sent>>>  --- ----- --- ----- ----------- ---- -------- ---- ------- ----- ------- caramels cherry --- ------ -- -- - ----
+ 
+Snt No.  62  Correct!
+Error Snt>>>  <s> it's on the counter of the staionery's right hand side . </s>
+Crrct Snt>>>  --- ---- -- --- ------- -- --- stationery's ----- ---- ---- - ----
+Hypo Sent>>>  --- ---- -- --- ------- -- --- stationery's ----- ---- ---- - ----
+ 
+Snt No.  63  Incorrect...
+Error Snt>>>  <s> the other refrigerater has many sausages and vegetables . </s>
+Crrct Snt>>>  --- --- ----- refrigerator --- ---- -------- --- ---------- - ----
+Hypo Sent>>>  --- --- ----- refrigerate --- ---- -------- --- ---------- - ----
+ 
+Snt No.  64  Incorrect...
+Error Snt>>>  <s> yesterday afternoon I wanted to bought trousers . </s>
+Crrct Snt>>>  --- --------- --------- - ------ -- buy -------- - ----
+Hypo Sent>>>  --- --------- --------- - ------ -- --- -------- - ----
+ 
+Snt No.  65  Incorrect...
+Error Snt>>>  <s> it was nice . but I thought that white one was nicer than this one . </s>
+Crrct Snt>>>  --- -- is ---- - --- - think ---- ----- --- --- ----- ---- ---- --- - ----
+Hypo Sent>>>  --- -- -- ---- - --- - ----- ---- ----- --- --- ----- ---- ---- --- - ----
+ 
+Snt No.  66  Incorrect...
+Error Snt>>>  <s> oh yes it was very good . how much was it ? </s>
+Crrct Snt>>>  --- -- --- -- is ---- ---- - --- ---- is -- - ----
+Hypo Sent>>>  --- -- --- -- -- ---- ---- - --- ---- is -- - ----
+ 
+Snt No.  67  Correct!
+Error Snt>>>  <s> here was the money . </s>
+Crrct Snt>>>  --- ---- is --- ----- - ----
+Hypo Sent>>>  --- ---- is --- ----- - ----
+ 
+Snt No.  68  Incorrect...
+Error Snt>>>  <s> yesterday I was very happed . </s>
+Crrct Snt>>>  --- --------- - --- ---- happy - ----
+Hypo Sent>>>  --- --------- - --- ---- chapped - ----
+ 
+Snt No.  69  Incorrect...
+Error Snt>>>  <s> there are seven seller in it . </s>
+Crrct Snt>>>  --- ----- --- ----- sellers -- -- - ----
+Hypo Sent>>>  --- ----- --- ----- ------- -- -- - ----
+ 
+Snt No.  70  Incorrect...
+Error Snt>>>  <s> in the shop all seller are very friendly they always smile befour you and say can I help you ? </s>
+Crrct Snt>>>  --- -- --- ---- --- sellers --- ---- -------- ---- ------ ----- before --- --- --- --- - ---- --- - ----
+Hypo Sent>>>  --- -- --- ---- --- ------- --- ---- -------- ---- ------ ----- befoul --- --- --- --- - ---- --- - ----
+ 
+Snt No.  71  Correct!
+Error Snt>>>  <s> there are apples oranges bananes pears . </s>
+Crrct Snt>>>  --- ----- --- ------ ------- bananas ----- - ----
+Hypo Sent>>>  --- ----- --- ------ ------- bananas ----- - ----
+ 
+Snt No.  72  Incorrect...
+Error Snt>>>  <s> so it aways give the buyers a good time . </s>
+Crrct Snt>>>  --- -- -- always gives --- ------ - ---- ---- - ----
+Hypo Sent>>>  --- -- -- ways ----- --- ------ - ---- ---- - ----
+ 
+Snt No.  73  Correct!
+Error Snt>>>  <s> inside the shop there are all kind of goods . </s>
+Crrct Snt>>>  --- ------ --- ---- ----- --- --- kinds -- ----- - ----
+Hypo Sent>>>  --- ------ --- ---- ----- --- --- kinds -- ----- - ----
+ 
+Snt No.  74  Correct!
+Error Snt>>>  <s> in the new year many people went shopping in the shop . </s>
+Crrct Snt>>>  --- -- --- --- ---- ---- ------ go -------- -- --- ---- - ----
+Hypo Sent>>>  --- -- --- --- ---- ---- ------ go -------- -- --- ---- - ----
+ 
+Snt No.  75  Incorrect...
+Error Snt>>>  <s> in the shop there are many food an black currant d fruit . </s>
+Crrct Snt>>>  --- -- --- ---- ----- --- much ---- -- ----- ------- - ----- - ----
+Hypo Sent>>>  --- -- --- ---- ----- --- ---- ---- -- ----- ------- - ----- - ----
+ 
+Snt No.  76  Incorrect...
+Error Snt>>>  <s> they are beautiful skirt shirt coat pen pencil pencile - box ruler rubber and book . </s>
+Crrct Snt>>>  --- ---- --- --------- ----- ----- ---- --- ------ pencil - --- ----- ------ --- ---- - ----
+Hypo Sent>>>  --- ---- --- --------- ----- ----- ---- --- ------ penile - --- ----- ------ --- ---- - ----
+ 
+Snt No.  77  Incorrect...
+Error Snt>>>  <s> they bought many thinks for me . </s>
+Crrct Snt>>>  --- ---- ------ ---- things --- -- - ----
+Hypo Sent>>>  --- ---- ------ ---- ------ --- -- - ----
+ 
+Snt No.  78  Correct!
+Error Snt>>>  <s> she is a knowlige of old city . </s>
+Crrct Snt>>>  --- --- -- - knowledge -- --- ---- - ----
+Hypo Sent>>>  --- --- -- - knowledge -- --- ---- - ----
+ 
+Snt No.  79  Incorrect...
+Error Snt>>>  <s> she has a lot of a place of interest . I best like is Edu Qiu Feng . </s>
+Crrct Snt>>>  --- --- --- - --- -- - places -- -------- - - ---- ---- -- --- --- ---- - ----
+Hypo Sent>>>  --- --- --- - --- -- - ------ -- -------- - - ---- ---- -- --- --- ---- - ----
+ 
+Snt No.  80  Incorrect...
+Error Snt>>>  <s> then Chao Zhou's Han Jiang has a lot of crocdiles in this river . </s>
+Crrct Snt>>>  --- ---- ---- ------ --- ----- had - --- -- crocodiles -- ---- ----- - ----
+Hypo Sent>>>  --- ---- ---- ------ --- ----- --- - --- -- crocodiles -- ---- ----- - ----
+ 
+Snt No.  81  Incorrect...
+Error Snt>>>  <s> Han Yu takes the crocdiles away . </s>
+Crrct Snt>>>  --- --- -- took --- crocodiles ---- - ----
+Hypo Sent>>>  --- --- -- ---- --- crocodiles ---- - ----
+ 
+Snt No.  82  Incorrect...
+Error Snt>>>  <s> Chai Zhou people make this a place of interest to Han Yu . </s>
+Crrct Snt>>>  --- ---- ---- ------ made ---- - ----- -- -------- -- --- -- - ----
+Hypo Sent>>>  --- ---- ---- ------ ---- ---- - ----- -- -------- -- --- -- - ----
+ 
+Snt No.  83  Incorrect...
+Error Snt>>>  <s> this story are very good . </s>
+Crrct Snt>>>  --- ---- ----- is ---- ---- - ----
+Hypo Sent>>>  --- ---- ----- -- ---- ---- - ----
+ 
+Snt No.  84  Incorrect...
+Error Snt>>>  <s> I want to be a vrave people like Han Yu . I love my hometown -- Chao Zhou . </s>
+Crrct Snt>>>  --- - ---- -- -- - brave ------ ---- --- -- - - ---- -- -------- -- ---- ---- - ----
+Hypo Sent>>>  --- - ---- -- -- - rave ------ ---- --- -- - - ---- -- -------- -- ---- ---- - ----
+ 
+Snt No.  85  Correct!
+Error Snt>>>  <s> there are many thing in it . </s>
+Crrct Snt>>>  --- ----- --- ---- things -- -- - ----
+Hypo Sent>>>  --- ----- --- ---- things -- -- - ----
+ 
+Snt No.  86  Incorrect...
+Error Snt>>>  <s> after that I and my morther go home and have lunch . </s>
+Crrct Snt>>>  --- ----- ---- - with -- mother -- ---- --- ---- ----- - ----
+Hypo Sent>>>  --- ----- ---- - ---- -- mother went ---- --- ---- ----- - ----
+ 
+Snt No.  87  Incorrect...
+Error Snt>>>  <s> you can go buy it the shop sell school things like pencil ruler pen paper bag if you come in the shop you want buy some things of you school things . </s>
+Crrct Snt>>>  --- --- --- -- --- -- --- ---- sells ------ ------ ---- ------ ----- --- ----- --- -- --- ---- -- --- ---- --- ---- --- ---- ------ -- your ------ ------ - ----
+Hypo Sent>>>  --- --- --- -- --- -- --- ---- ----- ------ ------ ---- ------ ----- --- ----- --- -- --- ---- -- --- ---- --- ---- --- ---- ------ -- ---- ------ ------ - ----
+ 
+Snt No.  88  Incorrect...
+Error Snt>>>  <s> the seller are very friendly . </s>
+Crrct Snt>>>  --- --- ------ is ---- -------- - ----
+Hypo Sent>>>  --- --- ------ -- ---- -------- - ----
+ 
+Snt No.  89  Incorrect...
+Error Snt>>>  <s> the shop is not not big but it is very convenient to customers . </s>
+Crrct Snt>>>  --- --- ---- -- ---  --- --- -- -- ---- ---------- -- --------- - ----
+Hypo Sent>>>  --- --- ---- -- ---  --- --- -- -- ---- ---------- -- --------- - ----
+ 
+Snt No.  90  Incorrect...
+Error Snt>>>  <s> there are four seller in it . </s>
+Crrct Snt>>>  --- ----- --- ---- sellers -- -- - ----
+Hypo Sent>>>  --- ----- --- ---- ------- -- -- - ----
+ 
+Snt No.  91  Incorrect...
+Error Snt>>>  <s> there are a lot of fruits in it apples pears oranges bananas and strawberrys . look at these apples . </s>
+Crrct Snt>>>  --- ----- --- - --- -- fruit -- -- ------ ----- ------- ------- --- strawberry - ---- -- ----- ------ - ----
+Hypo Sent>>>  --- ----- --- - --- -- ----- -- -- ------ ----- ------- ------- --- strawberry - ---- -- ----- ------ - ----
+ 
+Snt No.  92  Incorrect...
+Error Snt>>>  <s> do you like eating strawberrys ? </s>
+Crrct Snt>>>  --- -- --- ---- ------ strawberry - ----
+Hypo Sent>>>  --- -- --- ---- ------ strawberries s ----
+ 
+Snt No.  93  Correct!
+Error Snt>>>  <s> there are so many boxes of strawberrys in the fruit shop . </s>
+Crrct Snt>>>  --- ----- --- -- ---- ----- -- strawberry -- --- ----- ---- - ----
+Hypo Sent>>>  --- ----- --- -- ---- ----- -- strawberry -- --- ----- ---- - ----
+ 
+Snt No.  94  Incorrect...
+Error Snt>>>  <s> they are the most delicious of all fruits but they are very dear . </s>
+Crrct Snt>>>  --- ---- --- --- ---- --------- -- --- fruit --- ---- --- ---- ---- - ----
+Hypo Sent>>>  --- ---- --- --- ---- --------- -- --- ----- --- ---- --- ---- ---- - ----
+ 
+Snt No.  95  Incorrect...
+Error Snt>>>  <s> my parents often say eat fruit is very good for health so I often go to the shop buy many fruits . </s>
+Crrct Snt>>>  --- -- ------- ----- --- --- ----- -- ---- ---- --- ------ -- - ----- -- -- --- ---- --- much fruit - ----
+Hypo Sent>>>  --- -- ------- ----- --- --- ----- -- ---- ---- --- ------ -- - ----- -- -- --- ---- --- ---- ----- - ----
+ 
+Snt No.  96  Incorrect...
+Error Snt>>>  <s> it's Sunday morning my father says oh you get up very late but it does matter today is Sunday . </s>
+Crrct Snt>>>  --- ---- ------ ------- -- ------ ---- -- --- --- -- ---- ---- --- -- doesn't ------ ----- -- ------ - ----
+Hypo Sent>>>  --- ---- ------ ------- -- ------ ---- -- --- --- -- ---- ---- --- -- ------- ------ ----- -- ------ - ----
+ 
+Snt No.  97  Incorrect...
+Error Snt>>>  <s> when the customers comes they will say welcome to our shop . </s>
+Crrct Snt>>>  --- ---- --- --------- come ---- ---- --- ------- -- --- ---- - ----
+Hypo Sent>>>  --- ---- --- --------- ---- ---- ---- --- ------- -- --- ---- - ----
+ 
+Snt No.  98  Incorrect...
+Error Snt>>>  <s> if you don't belive you can trial come here and buy some nice and big fruit . </s>
+Crrct Snt>>>  --- -- --- ----- believe --- --- ----- ---- ---- --- --- ---- ---- --- --- ----- - ----
+Hypo Sent>>>  --- -- --- ----- ------- --- --- ----- ---- ---- --- --- ---- ---- --- --- ----- - ----
+ 
+Snt No.  99  Incorrect...
+Error Snt>>>  <s> there are different kints of books in the big book-case on two sides -- like children's book history-book novel students' book story-book and weekly . . . </s>
+Crrct Snt>>>  --- ----- --- --------- kinds -- ----- -- --- --- --------- -- --- ----- -- ---- ---------- ---- ------------ ----- --------- ---- ---------- --- ------ - - - ----
+Hypo Sent>>>  --- ----- --- --------- knits -- ----- -- --- --- bookcase -- --- ----- -- ---- ---------- ---- history's ----- student's ---- storybook --- ------ - - - ----
+ 
+Snt No.  100  Incorrect...
+Error Snt>>>  <s> not only many books here so is the people . </s>
+Crrct Snt>>>  --- --- ---- ---- ----- ---- -- are --- ------ - ----
+Hypo Sent>>>  --- --- ---- ---- ----- ---- -- --- --- ------ - ----
+ 
+Snt No.  101  Incorrect...
+Error Snt>>>  <s> some are go to with his family ones are with his friends others are with his brother or sister . </s>
+Crrct Snt>>>  --- ---- --- -- -- ---- --- ------ some --- ---- --- ------- ------ --- ---- their ------- -- ------ - ----
+Hypo Sent>>>  --- ---- --- going -- ---- --- ------ ---- --- ---- --- ------- ------ --- ---- ----- ------- -- ------ - ----
+ 
+Snt No.  102  Incorrect...
+Error Snt>>>  <s> there are so many people at every places . </s>
+Crrct Snt>>>  --- ----- --- -- ---- ------ -- ----- place - ----
+Hypo Sent>>>  --- ----- --- -- ---- ------ -- ----- ----- - ----
+ 
+Snt No.  103  Incorrect...
+Error Snt>>>  <s> when the buyer come in the sellers smile and say what can I do for you ? </s>
+Crrct Snt>>>  --- ---- --- ----- comes -- --- ------- ----- --- --- ---- --- - -- --- --- - ----
+Hypo Sent>>>  --- ---- --- ----- came -- --- ------- ----- --- --- ---- --- - -- --- --- - ----
+ 
+Snt No.  104  Incorrect...
+Error Snt>>>  <s> she writes very good passage . </s>
+Crrct Snt>>>  --- --- ------ ---- ---- passages - ----
+Hypo Sent>>>  --- --- ------ ---- ---- -------- - ----
+ 
+Snt No.  105  Correct!
+Error Snt>>>  <s> my father is a bussisman . </s>
+Crrct Snt>>>  --- -- ------ -- - businessman - ----
+Hypo Sent>>>  --- -- ------ -- - businessman - ----
+ 
+Snt No.  106  Incorrect...
+Error Snt>>>  <s> because Chinese people are very like Chinese new year so they are much buy new clother to spend this holidays . </s>
+Crrct Snt>>>  --- ------- ------- ------ --- ---- ---- ------- --- ---- -- ---- --- ---- --- --- clothes -- ----- ---- -------- - ----
+Hypo Sent>>>  --- ------- ------- ------ --- ---- ---- ------- --- ---- -- ---- --- ---- --- --- clothe -- ----- ---- -------- - ----
+ 
+Snt No.  107  Incorrect...
+Error Snt>>>  <s> I want to ask some questions in can I help you ? but I had heard some people say he is taller than me . </s>
+Crrct Snt>>>  --- - ---- -- --- ---- ---------  --- - ---- --- - --- - have ----- ---- ------ --- -- -- ------ ---- -- - ----
+Hypo Sent>>>  --- - ---- -- --- ---- ---------  --- - ---- --- - --- - ---- ----- ---- ------ --- -- -- ------ ---- -- - ----
+ 
+Snt No.  108  Incorrect...
+Error Snt>>>  <s> The second I want to know the words further and farther isn't it useing and main was same or have some defenet ? </s>
+Crrct Snt>>>  ---  ------ - ---- -- ---- --- ----- ------- --- ------- ----- -- using --- ---- --- ---- -- ---- something different - ----
+Hypo Sent>>>  ---  ------ - ---- -- ---- --- ----- ------- --- ------- ----- -- using --- ---- --- ---- -- ---- --------- defenestrate - ----
+ 
+Snt No.  109  Incorrect...
+Error Snt>>>  <s> Beijing NO1 middle school Great three </s>
+Crrct Snt>>>  --- ------- --- ------ ------ Grade ----- ----
+Hypo Sent>>>  --- ------- --- ------ ------ ----- ----- ----
+ 
+Snt No.  110  Incorrect...
+Error Snt>>>  <s> I went to ask you two problems please help me . 1 my teacher told us that he is taller than I or he is taller than me . </s>
+Crrct Snt>>>  --- - want -- --- --- --- -------- ------ ---- -- - - -- ------- ---- -- ---- -- -- ------ ---- - -- -- -- ------ ---- -- - ----
+Hypo Sent>>>  --- - ---- -- --- --- --- -------- ------ ---- -- - - -- ------- ---- -- ---- -- -- ------ ---- - -- -- -- ------ ---- -- - ----
+ 
+Snt No.  111  Incorrect...
+Error Snt>>>  <s> I done know which was right please answer me . 2 can you tell me the further and farther the different I went to know the answer too . </s>
+Crrct Snt>>>  --- - don't ---- ----- is ----- ------ ------ -- - - --- --- ---- -- --- ------- --- ------- --- difference - want -- ---- --- ------ --- - ----
+Hypo Sent>>>  --- - ----- ---- ----- is ----- ------ ------ -- - - --- --- ---- -- --- ------- --- ------- --- ---------- - ---- -- ---- --- ------ --- - ----
+ 
+Snt No.  112  Incorrect...
+Error Snt>>>  <s> Think you . </s>
+Crrct Snt>>>  --- Thank --- - ----
+Hypo Sent>>>  --- ----- --- - ----
+ 
+Snt No.  113  Incorrect...
+Error Snt>>>  <s> NO1 . Midd school BeiJing </s>
+Crrct Snt>>>  --- --- - Middle ------ ------- ----
+Hypo Sent>>>  --- --- - ------ ------ ------- ----
+ 
+Snt No.  114  Correct!
+Error Snt>>>  <s> but I heard someon say he is taller than me . </s>
+Crrct Snt>>>  --- --- - ----- someone --- -- -- ------ ---- -- - ----
+Hypo Sent>>>  --- --- - ----- someone --- -- -- ------ ---- -- - ----
+ 
+Snt No.  115  Incorrect...
+Error Snt>>>  <s> the second question further and farther these two words' means and their useing are the same or have something different . </s>
+Crrct Snt>>>  --- --- ------ -------- ------- --- ------- ----- --- ------ meanings --- ----- usage --- --- ---- -- ---- --------- --------- - ----
+Hypo Sent>>>  --- --- ------ -------- ------- --- ------- ----- --- word's -------- --- ----- using --- --- ---- -- ---- --------- --------- - ----
+ 
+Snt No.  116  Incorrect...
+Error Snt>>>  <s> in the English lesson my teacher said that the sentence he is taller tha me is right . </s>
+Crrct Snt>>>  --- -- --- ------- ------ -- ------- ---- ---- --- -------- -- -- ------ than -- -- ----- - ----
+Hypo Sent>>>  --- -- --- ------- ------ -- ------- ---- ---- --- -------- -- -- ------ ha -- -- ----- - ----
+ 
+Snt No.  117  Incorrect...
+Error Snt>>>  <s> and I want to know what is the different between further and farther in grammar . </s>
+Crrct Snt>>>  --- --- - ---- -- ---- ---- -- --- difference ------- ------- --- ------- -- ------- - ----
+Hypo Sent>>>  --- --- - ---- -- ---- ---- -- --- ---------- ------- ------- --- ------- -- ------- - ----
+ 
+Snt No.  118  Incorrect...
+Error Snt>>>  <s> I hope you cam answer my questions . </s>
+Crrct Snt>>>  --- - ---- --- can ------ -- --------- - ----
+Hypo Sent>>>  --- - ---- --- --- ------ -- --------- - ----
+ 
+Snt No.  119  Incorrect...
+Error Snt>>>  <s> my name is Li Hua I am the first middle school studend . </s>
+Crrct Snt>>>  --- -- ---- -- -- --- - -- --- ----- ------ ------ student - ----
+Hypo Sent>>>  --- -- ---- -- -- --- - -- --- ----- ------ ------ students - ----
+ 
+Snt No.  120  Incorrect...
+Error Snt>>>  <s> I hawe two questions . </s>
+Crrct Snt>>>  --- - have --- --------- - ----
+Hypo Sent>>>  --- - awe --- --------- - ----
+ 
+Snt No.  121  Incorrect...
+Error Snt>>>  <s> I listened people said he is taller than me . </s>
+Crrct Snt>>>  --- - heard ------ ---- -- -- ------ ---- -- - ----
+Hypo Sent>>>  --- - ----- ------ ---- -- -- ------ ---- -- - ----
+ 
+Snt No.  122  Incorrect...
+Error Snt>>>  <s> but I also head somebody said that he is taller than me . </s>
+Crrct Snt>>>  --- --- - ---- heard -------- ---- ---- -- -- ------ ---- -- - ----
+Hypo Sent>>>  --- --- - ---- ----- -------- ---- ---- -- -- ------ ---- -- - ----
+ 
+Snt No.  123  Incorrect...
+Error Snt>>>  <s> the second is is it the further and father being used in the same xay or what is the difference bewteen these two wards . </s>
+Crrct Snt>>>  --- --- ------ -- -- -- --- ------- --- ------ ----- ---- -- --- ---- way -- ---- -- --- ---------- between ----- --- ----- - ----
+Hypo Sent>>>  --- --- ------ -- -- -- --- ------- --- ------ ----- ---- -- --- ---- say -- ---- -- --- ---------- between ----- --- ----- - ----
+ 
+Snt No.  124  Correct!
+Error Snt>>>  <s> I am BBC ENGLISH's reader my name is Lihua I am a beijin no . 1 middle school's studen I have two question to ask you . </s>
+Crrct Snt>>>  --- - -- --- --------- ------ -- ---- -- ----- - -- - Beijing -- - - ------ -------- student - ---- --- questions -- --- --- - ----
+Hypo Sent>>>  --- - -- --- --------- ------ -- ---- -- ----- - -- - Beijing -- - - ------ -------- student - ---- --- questions -- --- --- - ----
+ 
+Snt No.  125  Correct!
+Error Snt>>>  <s> the frist question is he is taller than I . </s>
+Crrct Snt>>>  --- --- first -------- -- -- -- ------ ---- - - ----
+Hypo Sent>>>  --- --- first -------- -- -- -- ------ ---- - - ----
+ 
+Snt No.  126  Incorrect...
+Error Snt>>>  <s> and he is taller than me this two word who is right I hear my teacher said the frist but the other said was the second I don't know who is right can you help me ? </s>
+Crrct Snt>>>  --- --- -- -- ------ ---- -- these --- words --- -- ----- - ---- -- ------- says --- first --- some ----- ---- --- --- ------ - ----- ---- --- -- ----- --- --- ---- -- - ----
+Hypo Sent>>>  --- --- -- -- ------ ---- -- ----- --- ----- --- -- ----- - ---- -- ------- ---- --- first --- ---- ----- ---- --- --- ------ - ----- ---- --- -- ----- --- --- ---- -- - ----
+ 
+Snt No.  127  Incorrect...
+Error Snt>>>  <s> and the second question is I don't know ' further ad farther how to use and what they have different . </s>
+Crrct Snt>>>  --- --- --- ------ -------- -- - ----- ---- - ------- and ------- --- -- --- --- ---- ---- ---- --------- - ----
+Hypo Sent>>>  --- --- --- ------ -------- -- - ----- ---- - ------- --- ------- --- -- --- --- ---- ---- ---- --------- - ----
+ 
+Snt No.  128  Incorrect...
+Error Snt>>>  <s> please answer me . the no . 1 question my teaher say he is taller than I . </s>
+Crrct Snt>>>  --- ------ ------ -- - --- -- - - -------- -- teacher says -- -- ------ ---- - - ----
+Hypo Sent>>>  --- ------ ------ -- - --- -- - - -------- -- heater ---- -- -- ------ ---- - - ----
+ 
+Snt No.  129  Correct!
+Error Snt>>>  <s> when do we use the one and when do we use the orther ? </s>
+Crrct Snt>>>  --- ---- -- -- --- --- --- --- ---- -- -- --- --- other - ----
+Hypo Sent>>>  --- ---- -- -- --- --- --- --- ---- -- -- --- --- other - ----
+ 
+Snt No.  130  Correct!
+Error Snt>>>  <s> so I have two question in my English study . </s>
+Crrct Snt>>>  --- -- - ---- --- questions -- -- ------- ----- - ----
+Hypo Sent>>>  --- -- - ---- --- questions -- -- ------- ----- - ----
+ 
+Snt No.  131  Incorrect...
+Error Snt>>>  <s> I like football because the football game bring to me exciting and heath body . </s>
+Crrct Snt>>>  --- - ---- -------- ------- --- -------- ---- brings -- -- excitement --- healthy ---- - ----
+Hypo Sent>>>  --- - ---- -------- ------- --- -------- ---- ------ -- -- ---------- --- ------- ---- - ----
+ 
+Snt No.  132  Incorrect...
+Error Snt>>>  <s> Roberto Baggio is a great football sperts plaier he is my idow . dear Maling thank you for your letter . </s>
+Crrct Snt>>>  --- ------- ------ -- - ----- -------- sport player -- -- -- idol - ---- ------ ----- --- --- ---- ------ - ----
+Hypo Sent>>>  --- ------- ------ -- - ----- -------- sports plainer -- -- -- widow - ---- ------ ----- --- --- ---- ------ - ----
+ 
+Snt No.  133  Correct!
+Error Snt>>>  <s> it is wrong of the other stundents to make fun of you you must make friends with some good students . </s>
+Crrct Snt>>>  --- -- -- ----- -- --- ----- students -- ---- --- -- --- --- ---- ---- ------- ---- ---- ---- -------- - ----
+Hypo Sent>>>  --- -- -- ----- -- --- ----- students -- ---- --- -- --- --- ---- ---- ------- ---- ---- ---- -------- - ----
+ 
+Snt No.  134  Incorrect...
+Error Snt>>>  <s> I think you should not eat much meat sweat food suger with tea milk perridege . </s>
+Crrct Snt>>>  --- - ----- --- ------ --- --- ---- ---- ----- ---- sugar ---- --- ---- porridge - ----
+Hypo Sent>>>  --- - ----- --- ------ --- --- ---- ---- ----- ---- ----- ---- --- ---- override - ----
+ 
+Snt No.  135  Correct!
+Error Snt>>>  <s> for example running swimming playing football . . . . . . because sports can make you losting weight quickly . </s>
+Crrct Snt>>>  --- --- ------- ------- -------- ------- -------- - - - - - - ------- ------ --- ---- --- losing ------ ------- - ----
+Hypo Sent>>>  --- --- ------- ------- -------- ------- -------- - - - - - - ------- ------ --- ---- --- losing ------ ------- - ----
+ 
+Snt No.  136  Incorrect...
+Error Snt>>>  <s> I hope to you lost weight as quickly as possible . </s>
+Crrct Snt>>>  --- - ---- -- --- lose ------ -- ------- -- -------- - ----
+Hypo Sent>>>  --- - ---- -- --- ---- ------ -- ------- -- -------- - ----
+ 
+Snt No.  137  Incorrect...
+Error Snt>>>  <s> perhaps it take about more than half a year to complete the trip . </s>
+Crrct Snt>>>  --- ------- -- takes ----- ---- ---- ---- - ---- -- -------- --- ---- - ----
+Hypo Sent>>>  --- ------- -- ----- ----- ---- ---- ---- - ---- -- -------- --- ---- - ----
+ 
+Snt No.  138  Incorrect...
+Error Snt>>>  <s> once they'd been invited to a ball at the palace so Mathilde borrowed some jewellery from Jeanne . </s>
+Crrct Snt>>>  --- ---- ------ ---- ------- -- - ---- -- --- ------ -- -------- -------- ---- jewel ---- ------ - ----
+Hypo Sent>>>  --- ---- ------ ---- ------- -- - ---- -- --- ------ -- -------- -------- ---- ----- ---- ------ - ----
+ 
+Snt No.  139  Incorrect...
+Error Snt>>>  <s> they had to borrowed the money and bought the necklace to return Jeanne . </s>
+Crrct Snt>>>  --- ---- --- -- borrow --- ----- --- ------ --- -------- -- ------ ------ - ----
+Hypo Sent>>>  --- ---- --- -- ------ --- ----- --- ------ --- -------- -- ------ ------ - ----
+ 
+Snt No.  140  Incorrect...
+Error Snt>>>  <s> they are very carefully . </s>
+Crrct Snt>>>  --- ---- --- ---- careful - ----
+Hypo Sent>>>  --- ---- --- ---- ------- - ----
+ 
+Snt No.  141  Incorrect...
+Error Snt>>>  <s> but the man are not carefully . </s>
+Crrct Snt>>>  --- --- --- --- is --- careful - ----
+Hypo Sent>>>  --- --- --- men -- --- careful - ----
+ 
+Snt No.  142  Correct!
+Error Snt>>>  <s> I think the women and men are imporant for the world . </s>
+Crrct Snt>>>  --- - ----- --- ----- --- --- --- important --- --- ----- - ----
+Hypo Sent>>>  --- - ----- --- ----- --- --- --- important --- --- ----- - ----
+ 
+Snt No.  143  Incorrect...
+Error Snt>>>  <s> Decemember 30th Monday . </s>
+Crrct Snt>>>  --- December ---- ------ - ----
+Hypo Sent>>>  --- -------- ---- ------ - ----
+ 
+Snt No.  144  Incorrect...
+Error Snt>>>  <s> I am sorry that you are unhappy by your weight . </s>
+Crrct Snt>>>  --- - -- ----- ---- --- --- ------- with ---- ------ - ----
+Hypo Sent>>>  --- - -- ----- ---- --- --- ------- ---- ---- ------ - ----
+ 
+Snt No.  145  Incorrect...
+Error Snt>>>  <s> it is wrong of the other students to make fun of you and unfriendly to you . </s>
+Crrct Snt>>>  --- -- -- ----- -- --- ----- -------- -- ---- --- -- --- or ---------- -- --- - ----
+Hypo Sent>>>  --- -- -- ----- -- --- ----- -------- -- ---- --- -- --- -- ---------- -- --- - ----
+ 
+Snt No.  146  Incorrect...
+Error Snt>>>  <s> and everyday morning you must have sports . </s>
+Crrct Snt>>>  --- --- every ------- --- ---- ---- ------ - ----
+Hypo Sent>>>  --- --- ----- ------- --- ---- ---- ------ - ----
+ 
+Snt No.  147  Incorrect...
+Error Snt>>>  <s> 19th march Wednesday ten years ago Mathilde Loisel borrow a necklace of Jeanne . </s>
+Crrct Snt>>>  --- ---- ----- --------- --- ----- --- -------- ------ borrowed - -------- from ------ - ----
+Hypo Sent>>>  --- ---- ----- --------- --- ----- --- -------- ------ -------- - -------- ---- ------ - ----
+ 
+Snt No.  148  Incorrect...
+Error Snt>>>  <s> they must use ten years and worked day and night to pay back the money . </s>
+Crrct Snt>>>  --- ---- had to --- --- ----- --- ------ --- --- ----- -- --- ---- --- ----- - ----
+Hypo Sent>>>  --- ---- ------ --- --- ----- --- ------ --- --- ----- -- --- ---- --- ----- - ----
+ 
+Snt No.  149  Incorrect...
+Error Snt>>>  <s> Jeanne told her a thing too but it was sady -- the necklace wasn't a real diamond necklace . </s>
+Crrct Snt>>>  --- ------ ---- --- - ----- --- --- -- --- sad -- --- -------- ------ - ---- ------- -------- - ----
+Hypo Sent>>>  --- ------ ---- --- - ----- --- --- -- --- say -- --- -------- ------ - ---- ------- -------- - ----
+ 
+Snt No.  150  Incorrect...
+Error Snt>>>  <s> for example In our area all the girls can go to school women gets job as easily as man and so on . </s>
+Crrct Snt>>>  --- --- ------- in --- ---- --- --- ----- --- -- -- ------ ----- get --- -- ------ -- men --- -- -- - ----
+Hypo Sent>>>  --- --- ------- -- --- ---- --- --- ----- --- -- -- ------ ----- --- --- -- easy -- --- --- -- -- - ----
+ 
+Snt No.  151  Correct!
+Error Snt>>>  <s> at persent haven't many persons that still prefer having boys . </s>
+Crrct Snt>>>  --- -- present ------- ---- ------- ---- ----- ------ ------ ---- - ----
+Hypo Sent>>>  --- -- present ------- ---- ------- ---- ----- ------ ------ ---- - ----
+ 
+Snt No.  152  Correct!
+Error Snt>>>  <s> but one day one of my friend lost one hundred yuan . </s>
+Crrct Snt>>>  --- --- --- --- --- -- -- friends ---- --- ------- ---- - ----
+Hypo Sent>>>  --- --- --- --- --- -- -- friends ---- --- ------- ---- - ----
+ 
+Snt No.  153  Incorrect...
+Error Snt>>>  <s> he though that it was taken by me and he told to the other friends about it . </s>
+Crrct Snt>>>  --- -- thought ---- -- --- ----- -- -- --- -- ---- -- --- ----- ------- ----- -- - ----
+Hypo Sent>>>  --- -- ------- ---- -- --- ----- -- -- --- -- ---- -- --- ----- ------- ----- -- - ----
+ 
+Snt No.  154  Incorrect...
+Error Snt>>>  <s> sun Huilin peter Lynnis Gary is form Chinese Australia Greece and Britain . </s>
+Crrct Snt>>>  --- --- ------ ----- ------ ---- are from China --------- ------ --- ------- - ----
+Hypo Sent>>>  --- --- ------ ----- ------ ---- --- ---- ----- --------- ------ --- ------- - ----
+ 
+Snt No.  155  Incorrect...
+Error Snt>>>  <s> that's a long trip about 20000 kilometress and lost more them a year . </s>
+Crrct Snt>>>  --- ------ - ---- ---- ----- ----- kilometres --- ---- ---- than - ---- - ----
+Hypo Sent>>>  --- ------ - ---- ---- ----- ----- kilometres --- ---- ---- ---- - ---- - ----
+ 
+Snt No.  156  Incorrect...
+Error Snt>>>  <s> one day Mathilde see Jeanne in the park but Jeanne can't recognize her because Mathilde look older than Jeanne's age now . </s>
+Crrct Snt>>>  --- --- --- -------- saw ------ -- --- ---- --- ------ ----- --------- --- ------- -------- looked ----- ---- -------- --- --- - ----
+Hypo Sent>>>  --- --- --- -------- --- ------ -- --- ---- --- ------ ----- --------- --- ------- -------- ------ ----- ---- -------- --- --- - ----
+ 
+Snt No.  157  Incorrect...
+Error Snt>>>  <s> but unlucky thing was happened . </s>
+Crrct Snt>>>  --- --- unluckily ----- --- -------- - ----
+Hypo Sent>>>  --- --- --------- ----- --- -------- - ----
+ 
+Snt No.  158  Incorrect...
+Error Snt>>>  <s> and the money was borrowed form her friend . </s>
+Crrct Snt>>>  --- --- --- ----- --- -------- from --- ------ - ----
+Hypo Sent>>>  --- --- --- ----- --- -------- ---- --- ------ - ----
+ 
+Snt No.  159  Incorrect...
+Error Snt>>>  <s> so Mathilde and Pierre have to work every day to paid back all the money . </s>
+Crrct Snt>>>  --- -- -------- --- ------ had -- ---- ----- --- -- pay ---- --- --- ----- - ----
+Hypo Sent>>>  --- -- -------- --- ------ --- -- ---- ----- --- -- --- ---- --- --- ----- - ----
+ 
+Snt No.  160  Incorrect...
+Error Snt>>>  <s> suddenly he heard somebody cried fire . </s>
+Crrct Snt>>>  --- -------- -- ----- -------- crying ---- - ----
+Hypo Sent>>>  --- -------- -- ----- -------- ------ ---- - ----
+ 
+Snt No.  161  Incorrect...
+Error Snt>>>  <s> there are a lot of market . </s>
+Crrct Snt>>>  --- ----- --- - --- -- markets - ----
+Hypo Sent>>>  --- ----- --- - --- -- ------- - ----
+ 
+Snt No.  162  Incorrect...
+Error Snt>>>  <s> in china new year's day is one of the famous festival . </s>
+Crrct Snt>>>  --- -- ----- --- ------ --- -- --- -- --- ------ festivals - ----
+Hypo Sent>>>  --- -- ----- --- ------ --- -- --- -- --- ------ --------- - ----
+ 
+Snt No.  163  Incorrect...
+Error Snt>>>  <s> it is held in the all part of china . </s>
+Crrct Snt>>>  --- -- -- ---- --  --- parts -- ----- - ----
+Hypo Sent>>>  --- -- -- ---- --  --- parts -- ----- - ----
+ 
+Snt No.  164  Incorrect...
+Error Snt>>>  <s> people often make the food NIAn Gao in the festival . </s>
+Crrct Snt>>>  --- ------ ----- ---- --- ---- Nian --- -- --- -------- - ----
+Hypo Sent>>>  --- ------ ----- ---- --- ---- ---- --- -- --- -------- - ----
+ 
+Snt No.  165  Correct!
+Error Snt>>>  <s> in these day people often go to other people's home and go to the flower street . one day people were sleeping in bed . </s>
+Crrct Snt>>>  --- -- ----- days ------ ----- -- -- ----- -------- ---- --- -- -- --- ------ ------ - --- --- ------ ---- -------- -- --- - ----
+Hypo Sent>>>  --- -- ----- days ------ ----- -- -- ----- -------- ---- --- -- -- --- ------ ------ - --- --- ------ ---- -------- -- --- - ----
+ 
+Snt No.  166  Incorrect...
+Error Snt>>>  <s> Xiao Ming suddly heard some noise and heard somebody said fire help . </s>
+Crrct Snt>>>  --- ---- ---- suddenly ----- ---- ----- --- ----- -------- saying ---- ---- - ----
+Hypo Sent>>>  --- ---- ---- cuddly ----- ---- ----- --- ----- -------- ------ ---- ---- - ----
+ 
+Snt No.  167  Incorrect...
+Error Snt>>>  <s> at last the house owner thank to Xiao Ming and the fire fighters . </s>
+Crrct Snt>>>  --- -- ---- --- ----- ----- thanked  ---- ---- --- --- ---- -------- - ----
+Hypo Sent>>>  --- -- ---- --- ----- ----- -------  ---- ---- --- --- ---- -------- - ----
+ 
+Snt No.  168  Incorrect...
+Error Snt>>>  <s> he look out from the window he saw his eighbour's home was on fire . </s>
+Crrct Snt>>>  --- -- looked  ---- --- ------ -- --- --- neighbour's ---- --- -- ---- - ----
+Hypo Sent>>>  --- -- looked  ---- --- ------ -- --- --- neighbour's ---- --- -- ---- - ----
+ 
+Snt No.  169  Incorrect...
+Error Snt>>>  <s> he call 119 to the operator and say where the fire is at once . </s>
+Crrct Snt>>>  --- -- called --- -- --- -------- --- said ----- --- ---- -- -- ---- - ----
+Hypo Sent>>>  --- -- ------ --- -- --- -------- --- ---- ----- --- ---- -- -- ---- - ----
+ 
+Snt No.  170  Incorrect...
+Error Snt>>>  <s> then leave his home and water the fire with his eighbour . </s>
+Crrct Snt>>>  --- ---- ----- --- ---- --- ----- --- ---- ---- --- neighbour - ----
+Hypo Sent>>>  --- ---- left --- ---- --- ----- --- ---- ---- --- neighbour - ----
+ 
+Snt No.  171  Incorrect...
+Error Snt>>>  <s> when the firefighters reach . </s>
+Crrct Snt>>>  --- ---- --- ------------ reached - ----
+Hypo Sent>>>  --- ---- --- fire-fighters ------- - ----
+ 
+Snt No.  172  Correct!
+Error Snt>>>  <s> the fire had been controled . </s>
+Crrct Snt>>>  --- --- ---- --- ---- controlled - ----
+Hypo Sent>>>  --- --- ---- --- ---- controlled - ----
+ 
+Snt No.  173  Correct!
+Error Snt>>>  <s> jack's eighbour thanks to jack and fire fighters . </s>
+Crrct Snt>>>  --- ------ neighbour ------ -- ---- --- ---- -------- - ----
+Hypo Sent>>>  --- ------ neighbour ------ -- ---- --- ---- -------- - ----
+ 
+Snt No.  174  Correct!
+Error Snt>>>  <s> so I uaually go swimming in the lake in summer . </s>
+Crrct Snt>>>  --- -- - usually -- -------- -- --- ---- -- ------ - ----
+Hypo Sent>>>  --- -- - usually -- -------- -- --- ---- -- ------ - ----
+ 
+Snt No.  175  Incorrect...
+Error Snt>>>  <s> one day liming was going to bed suddly he heard somebody sounded loudly fire . </s>
+Crrct Snt>>>  --- --- --- ------ --- ----- -- --- suddenly -- ----- -------- shouted ------ ---- - ----
+Hypo Sent>>>  --- --- --- ------ --- ----- -- --- cuddly -- ----- -------- ------- ------ ---- - ----
+ 
+Snt No.  176  Incorrect...
+Error Snt>>>  <s> at the end of this fire nobody hurt and nothing destroyed except the wall was burnt black . </s>
+Crrct Snt>>>  --- -- --- --- -- ---- ---- ------ got hurt --- ------- --------- ------ --- ---- --- ----- ----- - ----
+Hypo Sent>>>  --- -- --- --- -- ---- ---- ------ -------- --- ------- --------- ------ --- ---- --- ----- ----- - ----
+ 
+Snt No.  177  Correct!
+Error Snt>>>  <s> lost a red T- shirt with a big bule diamond left in the room 503 of the hotel . </s>
+Crrct Snt>>>  --- ---- - --- -- ----- ---- - --- blue ------- ---- -- --- ---- --- -- --- ----- - ----
+Hypo Sent>>>  --- ---- - --- -- ----- ---- - --- blue ------- ---- -- --- ---- --- -- --- ----- - ----
+ 
+Snt No.  178  Correct!
+Error Snt>>>  <s> the Mr Pattis told me that I could stay in the company and I was one of the best engineer in the company . </s>
+Crrct Snt>>>  --- --- -- ------ ---- -- ---- - ----- ---- -- --- ------- --- - --- --- -- --- ---- engineers -- --- ------- - ----
+Hypo Sent>>>  --- --- -- ------ ---- -- ---- - ----- ---- -- --- ------- --- - --- --- -- --- ---- engineers -- --- ------- - ----
+ 
+Snt No.  179  Incorrect...
+Error Snt>>>  <s> he learned English Franch Russian all his life . </s>
+Crrct Snt>>>  --- -- ------- ------- French ------- --- --- ---- - ----
+Hypo Sent>>>  --- -- ------- ------- ------ ------- --- --- ---- - ----
+ 
+Snt No.  180  Correct!
+Error Snt>>>  <s> his father was a unhealth man so Mr Lu wanted to be a good doctor . </s>
+Crrct Snt>>>  --- --- ------ --- - unhealthy --- -- -- -- ------ -- -- - ---- ------ - ----
+Hypo Sent>>>  --- --- ------ --- - unhealthy --- -- -- -- ------ -- -- - ---- ------ - ----
+ 
+Snt No.  181  Incorrect...
+Error Snt>>>  <s> in his life Mr Lu wrote many articles books and leters . </s>
+Crrct Snt>>>  --- -- --- ---- -- -- ----- ---- -------- ----- --- letters - ----
+Hypo Sent>>>  --- -- --- ---- -- -- ----- ---- -------- ----- --- leers - ----
+ 
+Snt No.  182  Correct!
+Error Snt>>>  <s> Lu Xun is a great revoluiotnary people in china . </s>
+Crrct Snt>>>  --- -- --- -- - ----- revolutionary ------ -- ----- - ----
+Hypo Sent>>>  --- -- --- -- - ----- revolutionary ------ -- ----- - ----
+ 
+Snt No.  183  Incorrect...
+Error Snt>>>  <s> if you saw seed at the correct time of year your work will be less and the results will be better . </s>
+Crrct Snt>>>  --- -- --- see ---- -- --- ------- ---- -- ---- ---- ---- ---- -- ---- --- --- ------- ---- -- ------ - ----
+Hypo Sent>>>  --- -- --- --- ---- -- --- ------- ---- -- ---- ---- ---- ---- -- ---- --- --- ------- ---- -- ------ - ----
+ 
+Snt No.  184  Incorrect...
+Error Snt>>>  <s> fifth the last turn the soil over with a fork then put the seeds on it . </s>
+Crrct Snt>>>  --- ----- --- ---- ---- --- ---- ---- ---- - ---- ---- --- --- ----- in -- - ----
+Hypo Sent>>>  --- ----- --- ---- ---- --- ---- ---- ---- - ---- ---- --- --- ----- -- -- - ----
+ 
+Snt No.  185  Incorrect...
+Error Snt>>>  <s> he also gave advises to make wine . </s>
+Crrct Snt>>>  --- -- ---- ---- advices -- ---- ---- - ----
+Hypo Sent>>>  --- -- ---- ---- ------- -- ---- ---- - ----
+ 
+Snt No.  186  Incorrect...
+Error Snt>>>  <s> on that day the festival would be held all over the china people would prepare the mooncake and some friuts . </s>
+Crrct Snt>>>  --- -- ---- --- --- -------- ----- -- ---- --- ---- --- ----- ------ ----- ------- --- -------- --- ---- fruits - ----
+Hypo Sent>>>  --- -- ---- --- --- -------- ----- -- ---- --- ---- --- ----- ------ ----- ------- --- moon cake --- ---- fruits - ----
+ 
+Snt No.  187  Incorrect...
+Error Snt>>>  <s> At the middle autumn day evening all the people would wear usually clothes to dancing and singing . </s>
+Crrct Snt>>>  --- In --- ------ ------ --- ------- --- --- ------ ----- ---- usual ------- -- ------- --- ------- - ----
+Hypo Sent>>>  --- -- --- ------ ------ --- ------- --- --- ------ ----- ---- ----- ------- -- ------- --- ------- - ----
+ 
+Snt No.  188  Correct!
+Error Snt>>>  <s> let me give you some suggestion . </s>
+Crrct Snt>>>  --- --- -- ---- --- ---- suggestions - ----
+Hypo Sent>>>  --- --- -- ---- --- ---- suggestions - ----
+ 
+Snt No.  189  Incorrect...
+Error Snt>>>  <s> he had studied in may universies and recieved his doctor's degree in April 1841 . </s>
+Crrct Snt>>>  --- -- --- ------- -- many universities --- received --- -------- ------ -- ----- ---- - ----
+Hypo Sent>>>  --- -- --- ------- -- ---- universes --- received --- -------- ------ -- ----- ---- - ----
+ 
+Snt No.  190  Incorrect...
+Error Snt>>>  <s> he learned it such well that could worte books in English . </s>
+Crrct Snt>>>  --- -- ------- -- so ---- ---- ----- write ----- -- ------- - ----
+Hypo Sent>>>  --- -- ------- -- -- ---- ---- ----- wrote ----- -- ------- - ----
+ 
+Snt No.  191  Incorrect...
+Error Snt>>>  <s> after 1853 Karl Marx worte his first books called the civil war in France . </s>
+Crrct Snt>>>  --- ----- ---- ---- ---- wrote --- ----- book ------ --- ----- --- -- ------ - ----
+Hypo Sent>>>  --- ----- ---- ---- ---- wrote --- ----- ---- ------ --- ----- --- -- ------ - ----
+ 
+Snt No.  192  Incorrect...
+Error Snt>>>  <s> he leeded us to build a free and great country for all the people . </s>
+Crrct Snt>>>  --- -- led -- -- ----- - ---- --- ----- ------- --- --- --- ------ - ----
+Hypo Sent>>>  --- -- seeded -- -- ----- - ---- --- ----- ------- --- --- --- ------ - ----
+ 
+Snt No.  193  Incorrect...
+Error Snt>>>  <s> it brings in over millon every year . </s>
+Crrct Snt>>>  --- -- ------ -- ---- millions ----- ---- - ----
+Hypo Sent>>>  --- -- ------ -- ---- million ----- ---- - ----
+ 
+Snt No.  194  Incorrect...
+Error Snt>>>  <s> in 533~ 544 ad he wrote a book which included advice on improving the condition of sool growing gree vegetables and furit trees keeping cows and sheep and keeping fish in lakes . </s>
+Crrct Snt>>>  --- -- ---- --- -- -- ----- - ---- ----- -------- ------ -- --------- --- --------- -- soil ------- green ---------- --- fruit ----- ------- ---- --- ----- --- ------- ---- -- ----- - ----
+Hypo Sent>>>  --- -- ---- --- -- -- ----- - ---- ----- -------- ------ -- --------- --- --------- -- solo ------- gee ---------- --- fruit ----- ------- ---- --- ----- --- ------- ---- -- ----- - ----
+ 
+Snt No.  195  Incorrect...
+Error Snt>>>  <s> then I spent two hours doing homework and spend one hour to do the housework . </s>
+Crrct Snt>>>  --- ---- - ----- --- ----- ----- -------- --- spent --- ---- -- -- --- --------- - ----
+Hypo Sent>>>  --- ---- - ----- --- ----- ----- -------- --- ----- --- ---- -- -- --- --------- - ----
+ 
+Snt No.  196  Incorrect...
+Error Snt>>>  <s> most afternoon my friends and I went to swim in the Guangzhi swimming pool . </s>
+Crrct Snt>>>  --- ---- afternoons -- ------- --- - ---- -- ---- -- --- -------- -------- ---- - ----
+Hypo Sent>>>  --- ---- ---------- -- ------- --- - ---- -- ---- -- --- -------- -------- ---- - ----
+ 
+Snt No.  197  Incorrect...
+Error Snt>>>  <s> we can buy different kind of fruit fish vegetable and so on . </s>
+Crrct Snt>>>  --- -- --- --- --------- kinds -- ----- ---- --------- --- -- -- - ----
+Hypo Sent>>>  --- -- --- --- --------- ----- -- ----- ---- --------- --- -- -- - ----
+ 
+Snt No.  198  Incorrect...
+Error Snt>>>  <s> there is a lot of cars buses bikes on the road . </s>
+Crrct Snt>>>  --- ----- are - --- -- ---- ----- ----- -- --- ---- - ----
+Hypo Sent>>>  --- ----- --- - --- -- ---- ----- ----- -- --- ---- - ----
+ 
+Snt No.  199  Incorrect...
+Error Snt>>>  <s> Guangdong has many interest visitors go to visit on their holidays . </s>
+Crrct Snt>>>  --- --------- --- ---- interests -------- -- -- ----- -- ----- -------- - ----
+Hypo Sent>>>  --- --------- --- ---- --------- -------- -- -- ----- -- ----- -------- - ----
+ 
+Snt No.  200  Correct!
+Error Snt>>>  <s> Gangdon has a very good coast to move everthing to another part . </s>
+Crrct Snt>>>  --- ------- --- - ---- ---- ----- -- ---- everything -- ------- ---- - ----
+Hypo Sent>>>  --- ------- --- - ---- ---- ----- -- ---- everything -- ------- ---- - ----
+ 
+Snt No.  201  Incorrect...
+Error Snt>>>  <s> you said you cought a cold . </s>
+Crrct Snt>>>  --- --- ---- --- caught - ---- - ----
+Hypo Sent>>>  --- --- ---- --- ought - ---- - ----
+ 
+Snt No.  202  Correct!
+Error Snt>>>  <s> I suggest you wear enough lothes and take some exercise and food . </s>
+Crrct Snt>>>  --- - ------- --- ---- ------ clothes --- ---- ---- -------- --- ---- - ----
+Hypo Sent>>>  --- - ------- --- ---- ------ clothes --- ---- ---- -------- --- ---- - ----
+ 
+Snt No.  203  Incorrect...
+Error Snt>>>  <s> he study at high school and university . </s>
+Crrct Snt>>>  --- -- studies -- ---- ------ --- ---------- - ----
+Hypo Sent>>>  --- -- studied -- ---- ------ --- ---------- - ----
+ 
+Snt No.  204  Incorrect...
+Error Snt>>>  <s> he had lived in Germany Belgium Franch and London ever . </s>
+Crrct Snt>>>  --- -- --- ----- -- ------- ------- French --- ------ ---- - ----
+Hypo Sent>>>  --- -- --- ----- -- ------- ------- ------ --- ------ ---- - ----
+ 
+Snt No.  205  Incorrect...
+Error Snt>>>  <s> Marx had learnt and mastered English French and Russion . </s>
+Crrct Snt>>>  --- ---- --- ------ --- -------- ------- ------ --- Russian - ----
+Hypo Sent>>>  --- ---- --- ------ --- -------- ------- ------ --- ------- - ----
+ 
+Snt No.  206  Incorrect...
+Error Snt>>>  <s> he started a new political idea call communism . </s>
+Crrct Snt>>>  --- -- ------- - --- --------- ---- called --------- - ----
+Hypo Sent>>>  --- -- ------- - --- --------- ---- ------ --------- - ----
+ 
+Snt No.  207  Correct!
+Error Snt>>>  <s> there are many factory in Guangdong . </s>
+Crrct Snt>>>  --- ----- --- ---- factories -- --------- - ----
+Hypo Sent>>>  --- ----- --- ---- factories -- --------- - ----
+ 
+Snt No.  208  Incorrect...
+Error Snt>>>  <s> they cut down the trees and built some tall building to sell at a high price . </s>
+Crrct Snt>>>  --- ---- --- ---- --- ----- --- ----- ---- ---- buildings -- ---- -- - ---- ----- - ----
+Hypo Sent>>>  --- ---- --- ---- --- ----- --- ----- ---- ---- --------- -- ---- -- - ---- ----- - ----
+ 
+Snt No.  209  Correct!
+Error Snt>>>  <s> in the party they will do their best to sing dnce or eat . </s>
+Crrct Snt>>>  --- -- --- ----- ---- ---- -- ----- ---- -- ---- dance -- --- - ----
+Hypo Sent>>>  --- -- --- ----- ---- ---- -- ----- ---- -- ---- dance -- --- - ----
+ 
+Snt No.  210  Correct!
+Error Snt>>>  <s> and the soil can easily be destroied the burning and by the cows . </s>
+Crrct Snt>>>  --- --- --- ---- --- ------ -- destroyed --- ------- --- -- --- ---- - ----
+Hypo Sent>>>  --- --- --- ---- --- ------ -- destroyed --- ------- --- -- --- ---- - ----
+ 
+Snt No.  211  Incorrect...
+Error Snt>>>  <s> uncle was said he had been to shanghai over twenty year and he came back today it was because of missing us very much and he also wanted to see Gangzhou's change . </s>
+Crrct Snt>>>  --- -----  ---- -- --- ---- -- -------- ---- ------ years --- -- ---- ---- ----- -- --- ------- -- ------- -- ---- ---- --- -- ---- ------ -- --- ---------- ------ - ----
+Hypo Sent>>>  --- -----  ---- -- --- ---- -- -------- ---- ------ years --- -- ---- ---- ----- -- is ------- -- ------- -- ---- ---- --- -- ---- ------ -- --- ---------- ------ - ----
+ 
+Correct: 50 Total: 211 Accuracy: 0.236967 
+Precision: 0.548780 Recall: 0.368852 F1: 0.441176
+Finished

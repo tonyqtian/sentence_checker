@@ -33,7 +33,27 @@ class confusionSet:
                 self.overlap[word[0]] = []
                 for i in range(1,wordLen -1):
                     self.overlap[word[0]].append(word[i])
-                    
+
+#        for line in conf_input:
+#            word = line.split('|')
+#            wordLen = len(word)
+#            flag = word[wordLen - 1]
+#            
+#            if flag == '0\n':
+#                self.distinct[word[0]] = []
+#                for i in range(1,wordLen -1):
+#                    self.distinct[word[0]].append(word[i])
+#                    
+#            elif flag == '1\n':
+#                self.match[word[0]] = []
+#                for i in range(1,wordLen -1):
+#                    self.match[word[0]].append(word[i])
+#                    
+#            elif flag == '2\n':
+#                self.overlap[word[0]] = []
+#                for i in range(1,wordLen -1):
+#                    self.overlap[word[0]].append(word[i])
+                                        
     def inDict(self, word):
         if self.distinct.has_key(word):
             return True
