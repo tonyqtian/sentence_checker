@@ -189,7 +189,6 @@ class SpellCorrect:
                 sentence[i] = argmax_w # restores sentence to original state before moving on
                 argmax[argmax_i] = argmax_w # correct it
         return argmax  
-    
         
     def syntaxCorrection(self, sentence):
         """Takes a list of words, returns a corrected list of words."""
